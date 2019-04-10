@@ -6,9 +6,15 @@
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <UserSecretsId>db188bd9-4081-4c69-ba50-417f2a7c5dc5</UserSecretsId>
     <DockerComposeProjectPath>..\ListeningPostApiServer-Docker\docker-compose.dcproj</DockerComposeProjectPath>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <Authors>SheepReaper</Authors>
+    <Company>SheepReaper</Company>
+    <PackageReleaseNotes>NOT FOR RELEASE</PackageReleaseNotes>
+    <NeutralLanguage>en-US</NeutralLanguage>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="JetBrains.Annotations" Version="2019.1.1" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.3" />

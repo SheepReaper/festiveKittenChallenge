@@ -1,4 +1,3 @@
-using System;
 using Xunit;
 
 namespace ListeningPostApiServerTest
@@ -8,7 +7,6 @@ namespace ListeningPostApiServerTest
         [Fact]
         public void Test1()
         {
-
         }
     }
 }
