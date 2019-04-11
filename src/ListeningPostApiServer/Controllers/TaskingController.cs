@@ -11,6 +11,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Cors;
 
 namespace ListeningPostApiServer.Controllers
 {
@@ -24,6 +25,7 @@ namespace ListeningPostApiServer.Controllers
     /// <remarks>This controller provides both agent access and UI access.</remarks>
     [Produces("application/json")]
     [Route("[controller]")]
+    [EnableCors("AllowAll")]
     [ApiController]
     [ProducesErrorResponseType(typeof(NotFoundResult))]
     public class TaskingController : ControllerBase

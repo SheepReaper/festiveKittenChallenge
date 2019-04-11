@@ -18,7 +18,7 @@ namespace ListeningPostApiServer
         /// This is the "Name" of the CORS policy. Arbitrary, but required.
         /// </summary>
         /// <remarks>I've yet to see it actually referenced anywhere besides the constructor.</remarks>
-        private const string MyAllowSpecificOrigins = "CORS Policy Name";
+        private const string MyAllowSpecificOrigins = "AllowAll";
 
         #endregion Fields
 

@@ -5,6 +5,7 @@ using ListeningPostApiServer.Models;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Cors;
 
 namespace ListeningPostApiServer.Controllers
 {
@@ -16,6 +17,7 @@ namespace ListeningPostApiServer.Controllers
     /// </summary>
     /// <seealso cref="T:Microsoft.AspNetCore.Mvc.ControllerBase" />
     [ApiController]
+    [EnableCors("AllowAll")]
     [Route("[Controller]")]
     [Produces("application/json")]
     [ProducesErrorResponseType(typeof(NotFoundResult))]

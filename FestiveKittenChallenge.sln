@@ -5,6 +5,7 @@ VisualStudioVersion = 16.0.28729.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{03AC5613-AF78-47B7-8A05-2A0BF23D63B6}"
 	ProjectSection(SolutionItems) = preProject
+		dockerHostLocalDevCert.pfx = dockerHostLocalDevCert.pfx
 		LICENSE = LICENSE
 		README.md = README.md
 		specifications.md = specifications.md
