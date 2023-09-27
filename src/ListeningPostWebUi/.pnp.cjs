@@ -30,7 +30,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@babel/eslint-parser", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:7.11.0"],\
             ["@ckeditor/ckeditor5-build-classic", "npm:39.0.2"],\
-            ["@ckeditor/ckeditor5-vue", "npm:1.0.3"],\
+            ["@ckeditor/ckeditor5-vue", "npm:5.1.0"],\
             ["autoprefixer", "npm:7.2.6"],\
             ["axios", "npm:0.18.1"],\
             ["babel-core", "npm:6.26.3"],\
@@ -741,10 +741,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["@ckeditor/ckeditor5-vue", [\
-        ["npm:1.0.3", {\
-          "packageLocation": "./.yarn/cache/@ckeditor-ckeditor5-vue-npm-1.0.3-9a7b8968fb-bfd0760923.zip/node_modules/@ckeditor/ckeditor5-vue/",\
+        ["npm:5.1.0", {\
+          "packageLocation": "./.yarn/unplugged/@ckeditor-ckeditor5-vue-npm-5.1.0-30baf5573c/node_modules/@ckeditor/ckeditor5-vue/",\
           "packageDependencies": [\
-            ["@ckeditor/ckeditor5-vue", "npm:1.0.3"]\
+            ["@ckeditor/ckeditor5-vue", "npm:5.1.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -7421,7 +7421,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["listeningpostwebui", "workspace:."],\
             ["@babel/eslint-parser", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:7.11.0"],\
             ["@ckeditor/ckeditor5-build-classic", "npm:39.0.2"],\
-            ["@ckeditor/ckeditor5-vue", "npm:1.0.3"],\
+            ["@ckeditor/ckeditor5-vue", "npm:5.1.0"],\
             ["autoprefixer", "npm:7.2.6"],\
             ["axios", "npm:0.18.1"],\
             ["babel-core", "npm:6.26.3"],\
