@@ -12,3 +12,15 @@ yarn-error.log*
 *.ntvs*
 *.njsproj
 *.sln
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Yarn 2 files
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+
+!.yarn/cache
+# .pnp.*
