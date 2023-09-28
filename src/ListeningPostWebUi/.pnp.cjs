@@ -41,7 +41,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["babel-plugin-transform-vue-jsx", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:3.7.0"],\
             ["babel-preset-env", "npm:1.7.0"],\
             ["babel-preset-stage-2", "npm:6.24.1"],\
-            ["bootstrap", "virtual:5ae4cc4fb17efe2d4473997df5a390805b3837671a8d4a191729ab0825c99c91f6dfb910f8f687276c4445353d57b1ddaad77e65f28204b617ac68261ea27a7c#npm:4.6.2"],\
+            ["bootstrap", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:5.3.2"],\
             ["bootstrap-vue", "npm:2.23.1"],\
             ["chalk", "npm:2.4.2"],\
             ["copy-webpack-plugin", "npm:4.6.0"],\
@@ -3034,6 +3034,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["bootstrap", "npm:4.6.2"]\
           ],\
           "linkType": "SOFT"\
+        }],\
+        ["npm:5.3.2", {\
+          "packageLocation": "./.yarn/cache/bootstrap-npm-5.3.2-20b391b636-d5580b253d.zip/node_modules/bootstrap/",\
+          "packageDependencies": [\
+            ["bootstrap", "npm:5.3.2"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:5.3.2", {\
+          "packageLocation": "./.yarn/__virtual__/bootstrap-virtual-b6621cb7d8/0/cache/bootstrap-npm-5.3.2-20b391b636-d5580b253d.zip/node_modules/bootstrap/",\
+          "packageDependencies": [\
+            ["bootstrap", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:5.3.2"],\
+            ["@popperjs/core", null],\
+            ["@types/popperjs__core", null],\
+            ["jquery", "npm:3.7.1"],\
+            ["popper.js", "npm:1.16.1"]\
+          ],\
+          "packagePeers": [\
+            "@popperjs/core",\
+            "@types/popperjs__core"\
+          ],\
+          "linkType": "HARD"\
         }],\
         ["virtual:5ae4cc4fb17efe2d4473997df5a390805b3837671a8d4a191729ab0825c99c91f6dfb910f8f687276c4445353d57b1ddaad77e65f28204b617ac68261ea27a7c#npm:4.6.2", {\
           "packageLocation": "./.yarn/__virtual__/bootstrap-virtual-f184ccd996/0/cache/bootstrap-npm-4.6.2-35720e9601-3f4e7768ff.zip/node_modules/bootstrap/",\
@@ -7455,7 +7477,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["babel-plugin-transform-vue-jsx", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:3.7.0"],\
             ["babel-preset-env", "npm:1.7.0"],\
             ["babel-preset-stage-2", "npm:6.24.1"],\
-            ["bootstrap", "virtual:5ae4cc4fb17efe2d4473997df5a390805b3837671a8d4a191729ab0825c99c91f6dfb910f8f687276c4445353d57b1ddaad77e65f28204b617ac68261ea27a7c#npm:4.6.2"],\
+            ["bootstrap", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:5.3.2"],\
             ["bootstrap-vue", "npm:2.23.1"],\
             ["chalk", "npm:2.4.2"],\
             ["copy-webpack-plugin", "npm:4.6.0"],\
