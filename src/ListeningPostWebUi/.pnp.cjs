@@ -31,7 +31,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/eslint-parser", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:7.11.0"],\
             ["@ckeditor/ckeditor5-build-classic", "npm:39.0.2"],\
             ["@ckeditor/ckeditor5-vue", "npm:5.1.0"],\
-            ["autoprefixer", "npm:7.2.6"],\
+            ["autoprefixer", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.4.16"],\
             ["axios", "npm:0.18.1"],\
             ["babel-core", "npm:6.26.3"],\
             ["babel-helper-vue-jsx-merge-props", "npm:2.0.3"],\
@@ -1951,6 +1951,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["autoprefixer", [\
+        ["npm:10.4.16", {\
+          "packageLocation": "./.yarn/cache/autoprefixer-npm-10.4.16-e5a0ee424d-45fad70864.zip/node_modules/autoprefixer/",\
+          "packageDependencies": [\
+            ["autoprefixer", "npm:10.4.16"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
         ["npm:6.7.7", {\
           "packageLocation": "./.yarn/cache/autoprefixer-npm-6.7.7-15e15c36dc-5b05015a50.zip/node_modules/autoprefixer/",\
           "packageDependencies": [\
@@ -1964,16 +1971,22 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:7.2.6", {\
-          "packageLocation": "./.yarn/cache/autoprefixer-npm-7.2.6-457cd7b5ed-7ad12a58ca.zip/node_modules/autoprefixer/",\
+        ["virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.4.16", {\
+          "packageLocation": "./.yarn/__virtual__/autoprefixer-virtual-e169c5f2b5/0/cache/autoprefixer-npm-10.4.16-e5a0ee424d-45fad70864.zip/node_modules/autoprefixer/",\
           "packageDependencies": [\
-            ["autoprefixer", "npm:7.2.6"],\
-            ["browserslist", "npm:2.11.3"],\
-            ["caniuse-lite", "npm:1.0.30001539"],\
+            ["autoprefixer", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.4.16"],\
+            ["@types/postcss", null],\
+            ["browserslist", "npm:4.22.0"],\
+            ["caniuse-lite", "npm:1.0.30001540"],\
+            ["fraction.js", "npm:4.3.6"],\
             ["normalize-range", "npm:0.1.2"],\
-            ["num2fraction", "npm:1.2.2"],\
-            ["postcss", "npm:6.0.23"],\
-            ["postcss-value-parser", "npm:3.3.1"]\
+            ["picocolors", "npm:1.0.0"],\
+            ["postcss", null],\
+            ["postcss-value-parser", "npm:4.2.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/postcss",\
+            "postcss"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3082,15 +3095,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
-        ["npm:2.11.3", {\
-          "packageLocation": "./.yarn/cache/browserslist-npm-2.11.3-cfa3de4e74-2ff9081626.zip/node_modules/browserslist/",\
-          "packageDependencies": [\
-            ["browserslist", "npm:2.11.3"],\
-            ["caniuse-lite", "npm:1.0.30001539"],\
-            ["electron-to-chromium", "npm:1.4.531"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:3.2.8", {\
           "packageLocation": "./.yarn/cache/browserslist-npm-3.2.8-a4a77e08ac-74d9ab1089.zip/node_modules/browserslist/",\
           "packageDependencies": [\
@@ -3282,6 +3286,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/caniuse-lite-npm-1.0.30001539-4a835d9986-8595905d6c.zip/node_modules/caniuse-lite/",\
           "packageDependencies": [\
             ["caniuse-lite", "npm:1.0.30001539"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:1.0.30001540", {\
+          "packageLocation": "./.yarn/cache/caniuse-lite-npm-1.0.30001540-46ed103772-95b9203a85.zip/node_modules/caniuse-lite/",\
+          "packageDependencies": [\
+            ["caniuse-lite", "npm:1.0.30001540"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -5908,6 +5919,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["fraction.js", [\
+        ["npm:4.3.6", {\
+          "packageLocation": "./.yarn/cache/fraction.js-npm-4.3.6-233f81170c-e96ae77e64.zip/node_modules/fraction.js/",\
+          "packageDependencies": [\
+            ["fraction.js", "npm:4.3.6"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["fresh", [\
         ["npm:0.5.2", {\
           "packageLocation": "./.yarn/cache/fresh-npm-0.5.2-ad2bb4c0a2-13ea8b08f9.zip/node_modules/fresh/",\
@@ -7422,7 +7442,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@babel/eslint-parser", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:7.11.0"],\
             ["@ckeditor/ckeditor5-build-classic", "npm:39.0.2"],\
             ["@ckeditor/ckeditor5-vue", "npm:5.1.0"],\
-            ["autoprefixer", "npm:7.2.6"],\
+            ["autoprefixer", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.4.16"],\
             ["axios", "npm:0.18.1"],\
             ["babel-core", "npm:6.26.3"],\
             ["babel-helper-vue-jsx-merge-props", "npm:2.0.3"],\
