@@ -1600,19 +1600,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"autoprefixer@npm:7.2.6":
-  version: 7.2.6
-  resolution: "autoprefixer@npm:7.2.6"
+"autoprefixer@npm:10.4.16":
+  version: 10.4.16
+  resolution: "autoprefixer@npm:10.4.16"
   dependencies:
-    browserslist: ^2.11.3
-    caniuse-lite: ^1.0.30000805
+    browserslist: ^4.21.10
+    caniuse-lite: ^1.0.30001538
+    fraction.js: ^4.3.6
     normalize-range: ^0.1.2
-    num2fraction: ^1.2.2
-    postcss: ^6.0.17
-    postcss-value-parser: ^3.2.3
+    picocolors: ^1.0.0
+    postcss-value-parser: ^4.2.0
+  peerDependencies:
+    postcss: ^8.1.0
   bin:
-    autoprefixer-info: ./bin/autoprefixer-info
-  checksum: 7ad12a58ca128d3e6b6dc5e4b3d83f2a12151216d30bcea1f1f2f8a91d2a019c58dd62fd039a6c1cf218f2ab557b03224703a4396c1b4f01b5c0818bc6ba4dd9
+    autoprefixer: bin/autoprefixer
+  checksum: 45fad7086495048dacb14bb7b00313e70e135b5d8e8751dcc60548889400763705ab16fc2d99ea628b44c3472698fb0e39598f595ba28409c965ab159035afde
   languageName: node
   linkType: hard
 
@@ -2597,18 +2599,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"browserslist@npm:^2.11.3":
-  version: 2.11.3
-  resolution: "browserslist@npm:2.11.3"
-  dependencies:
-    caniuse-lite: ^1.0.30000792
-    electron-to-chromium: ^1.3.30
-  bin:
-    browserslist: ./cli.js
-  checksum: 2ff908162669461e881bad516885b703fd594a0b7a139bf150c1952a74fe4ed8668ac46367a0d136d39a717de65e51c867316951e9fe0f92664c65b205eb9d93
-  languageName: node
-  linkType: hard
-
 "browserslist@npm:^3.2.6":
   version: 3.2.8
   resolution: "browserslist@npm:3.2.8"
@@ -2621,7 +2611,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"browserslist@npm:^4.0.0, browserslist@npm:^4.14.5, browserslist@npm:^4.21.9":
+"browserslist@npm:^4.0.0, browserslist@npm:^4.14.5, browserslist@npm:^4.21.10, browserslist@npm:^4.21.9":
   version: 4.22.0
   resolution: "browserslist@npm:4.22.0"
   dependencies:
@@ -2789,10 +2779,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"caniuse-lite@npm:^1.0.0, caniuse-lite@npm:^1.0.30000792, caniuse-lite@npm:^1.0.30000805, caniuse-lite@npm:^1.0.30000844, caniuse-lite@npm:^1.0.30001539":
+"caniuse-lite@npm:^1.0.0, caniuse-lite@npm:^1.0.30000844, caniuse-lite@npm:^1.0.30001539":
   version: 1.0.30001539
   resolution: "caniuse-lite@npm:1.0.30001539"
   checksum: 8595905d6c7234173a4915439fdd69fa2c06b0272d56af63aee0df6114e1ee4727758af160c0db9844055f778e0ea27ed4714facf2e472a2e74d9f567f111f41
+  languageName: node
+  linkType: hard
+
+"caniuse-lite@npm:^1.0.30001538":
+  version: 1.0.30001540
+  resolution: "caniuse-lite@npm:1.0.30001540"
+  checksum: 95b9203a85ad0187a2480c341bfff6f32d61b9eb9cc323d2942025cd29fbe3f9c3dd056646996d303a0a42c968954f32994f97250e931b2ea5b9531099d6ba2d
   languageName: node
   linkType: hard
 
@@ -3980,7 +3977,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"electron-to-chromium@npm:^1.2.7, electron-to-chromium@npm:^1.3.30, electron-to-chromium@npm:^1.3.47, electron-to-chromium@npm:^1.4.530":
+"electron-to-chromium@npm:^1.2.7, electron-to-chromium@npm:^1.3.47, electron-to-chromium@npm:^1.4.530":
   version: 1.4.531
   resolution: "electron-to-chromium@npm:1.4.531"
   checksum: a9e21d767ea6705ce2374d8e2a75b975271a9f1ce0eb9eda36c85783fbd5af6b10f9d56469f4ff313202631db5c27f24b9730149e32c01eca7a65d497c1c1df4
@@ -4803,6 +4800,13 @@ __metadata:
   version: 0.2.0
   resolution: "forwarded@npm:0.2.0"
   checksum: fd27e2394d8887ebd16a66ffc889dc983fbbd797d5d3f01087c020283c0f019a7d05ee85669383d8e0d216b116d720fc0cef2f6e9b7eb9f4c90c6e0bc7fd28e6
+  languageName: node
+  linkType: hard
+
+"fraction.js@npm:^4.3.6":
+  version: 4.3.6
+  resolution: "fraction.js@npm:4.3.6"
+  checksum: e96ae77e64ebfd442d3a5a01a3f0637b0663fc2440bcf2841b3ad9341ba24c81fb2e3e7142e43ef7d088558c6b3f8609df135b201adc7a1c674aea6a71384162
   languageName: node
   linkType: hard
 
@@ -6148,7 +6152,7 @@ __metadata:
     "@babel/eslint-parser": 7.11.0
     "@ckeditor/ckeditor5-build-classic": ^39.0.0
     "@ckeditor/ckeditor5-vue": ^5.0.0
-    autoprefixer: 7.2.6
+    autoprefixer: 10.4.16
     axios: ^0.18.0
     babel-core: 6.26.3
     babel-helper-vue-jsx-merge-props: 2.0.3
@@ -8151,7 +8155,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-value-parser@npm:^4.0.2":
+"postcss-value-parser@npm:^4.0.2, postcss-value-parser@npm:^4.2.0":
   version: 4.2.0
   resolution: "postcss-value-parser@npm:4.2.0"
   checksum: 819ffab0c9d51cf0acbabf8996dffbfafbafa57afc0e4c98db88b67f2094cb44488758f06e5da95d7036f19556a4a732525e84289a425f4f6fd8e412a9d7442f
@@ -8181,7 +8185,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^6.0.0, postcss@npm:^6.0.1, postcss@npm:^6.0.17, postcss@npm:^6.0.8":
+"postcss@npm:^6.0.0, postcss@npm:^6.0.1, postcss@npm:^6.0.8":
   version: 6.0.23
   resolution: "postcss@npm:6.0.23"
   dependencies:
