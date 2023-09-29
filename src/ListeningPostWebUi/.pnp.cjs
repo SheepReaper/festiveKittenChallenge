@@ -48,7 +48,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["css-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:6.8.1"],\
             ["eslint", "npm:8.50.0"],\
             ["eslint-config-standard", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:17.1.0"],\
-            ["eslint-friendly-formatter", "npm:3.0.0"],\
+            ["eslint-friendly-formatter", "npm:4.0.1"],\
             ["eslint-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:1.9.0"],\
             ["eslint-plugin-import", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:2.16.0"],\
             ["eslint-plugin-node", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:5.2.1"],\
@@ -1870,6 +1870,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/ansi-regex-npm-2.1.1-ddd24d102b-190abd03e4.zip/node_modules/ansi-regex/",\
           "packageDependencies": [\
             ["ansi-regex", "npm:2.1.1"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:3.0.1", {\
+          "packageLocation": "./.yarn/cache/ansi-regex-npm-3.0.1-01f44078a3-09daf180c5.zip/node_modules/ansi-regex/",\
+          "packageDependencies": [\
+            ["ansi-regex", "npm:3.0.1"]\
           ],\
           "linkType": "HARD"\
         }],\
@@ -5020,14 +5027,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["eslint-friendly-formatter", [\
-        ["npm:3.0.0", {\
-          "packageLocation": "./.yarn/cache/eslint-friendly-formatter-npm-3.0.0-6980fb4243-490fa54af7.zip/node_modules/eslint-friendly-formatter/",\
+        ["npm:4.0.1", {\
+          "packageLocation": "./.yarn/cache/eslint-friendly-formatter-npm-4.0.1-114c6ed79a-23fb376691.zip/node_modules/eslint-friendly-formatter/",\
           "packageDependencies": [\
-            ["eslint-friendly-formatter", "npm:3.0.0"],\
-            ["chalk", "npm:1.1.3"],\
+            ["eslint-friendly-formatter", "npm:4.0.1"],\
+            ["chalk", "npm:2.4.2"],\
             ["coalescy", "npm:1.0.0"],\
             ["extend", "npm:3.0.2"],\
             ["minimist", "npm:1.2.8"],\
+            ["strip-ansi", "npm:4.0.0"],\
             ["text-table", "npm:0.2.0"]\
           ],\
           "linkType": "HARD"\
@@ -7244,7 +7252,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["css-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:6.8.1"],\
             ["eslint", "npm:8.50.0"],\
             ["eslint-config-standard", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:17.1.0"],\
-            ["eslint-friendly-formatter", "npm:3.0.0"],\
+            ["eslint-friendly-formatter", "npm:4.0.1"],\
             ["eslint-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:1.9.0"],\
             ["eslint-plugin-import", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:2.16.0"],\
             ["eslint-plugin-node", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:5.2.1"],\
@@ -10369,6 +10377,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["strip-ansi", "npm:3.0.1"],\
             ["ansi-regex", "npm:2.1.1"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:4.0.0", {\
+          "packageLocation": "./.yarn/cache/strip-ansi-npm-4.0.0-d4de985014-d9186e6c0c.zip/node_modules/strip-ansi/",\
+          "packageDependencies": [\
+            ["strip-ansi", "npm:4.0.0"],\
+            ["ansi-regex", "npm:3.0.1"]\
           ],\
           "linkType": "HARD"\
         }],\
