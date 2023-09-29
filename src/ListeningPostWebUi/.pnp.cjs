@@ -57,7 +57,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-vue", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:4.7.1"],\
             ["file-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:6.2.0"],\
             ["html-webpack-plugin", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:5.5.3"],\
-            ["node-notifier", "npm:5.4.5"],\
+            ["node-notifier", "npm:8.0.1"],\
             ["optimize-css-assets-webpack-plugin", "npm:3.2.1"],\
             ["ora", "npm:1.4.0"],\
             ["portfinder", "npm:1.0.32"],\
@@ -6986,13 +6986,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["is-wsl", [\
-        ["npm:1.1.0", {\
-          "packageLocation": "./.yarn/cache/is-wsl-npm-1.1.0-136e2b7c74-ea157d2323.zip/node_modules/is-wsl/",\
-          "packageDependencies": [\
-            ["is-wsl", "npm:1.1.0"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:2.2.0", {\
           "packageLocation": "./.yarn/cache/is-wsl-npm-2.2.0-2ba10d6393-20849846ae.zip/node_modules/is-wsl/",\
           "packageDependencies": [\
@@ -7287,7 +7280,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-vue", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:4.7.1"],\
             ["file-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:6.2.0"],\
             ["html-webpack-plugin", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:5.5.3"],\
-            ["node-notifier", "npm:5.4.5"],\
+            ["node-notifier", "npm:8.0.1"],\
             ["optimize-css-assets-webpack-plugin", "npm:3.2.1"],\
             ["ora", "npm:1.4.0"],\
             ["portfinder", "npm:1.0.32"],\
@@ -7955,15 +7948,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["node-notifier", [\
-        ["npm:5.4.5", {\
-          "packageLocation": "./.yarn/unplugged/node-notifier-npm-5.4.5-0ff6280985/node_modules/node-notifier/",\
+        ["npm:8.0.1", {\
+          "packageLocation": "./.yarn/unplugged/node-notifier-npm-8.0.1-73aeb2995e/node_modules/node-notifier/",\
           "packageDependencies": [\
-            ["node-notifier", "npm:5.4.5"],\
+            ["node-notifier", "npm:8.0.1"],\
             ["growly", "npm:1.3.0"],\
-            ["is-wsl", "npm:1.1.0"],\
-            ["semver", "npm:5.7.2"],\
+            ["is-wsl", "npm:2.2.0"],\
+            ["semver", "npm:7.5.4"],\
             ["shellwords", "npm:0.1.1"],\
-            ["which", "npm:1.3.1"]\
+            ["uuid", "npm:8.3.2"],\
+            ["which", "npm:2.0.2"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -11460,14 +11454,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["which", [\
-        ["npm:1.3.1", {\
-          "packageLocation": "./.yarn/cache/which-npm-1.3.1-f0ebb8bdd8-f2e185c624.zip/node_modules/which/",\
-          "packageDependencies": [\
-            ["which", "npm:1.3.1"],\
-            ["isexe", "npm:2.0.0"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:2.0.2", {\
           "packageLocation": "./.yarn/cache/which-npm-2.0.2-320ddf72f7-1a5c563d3c.zip/node_modules/which/",\
           "packageDependencies": [\
