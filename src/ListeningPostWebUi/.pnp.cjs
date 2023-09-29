@@ -43,7 +43,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["babel-preset-stage-2", "npm:6.24.1"],\
             ["bootstrap", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:5.3.2"],\
             ["bootstrap-vue", "npm:2.23.1"],\
-            ["chalk", "npm:2.4.2"],\
+            ["chalk", "npm:5.3.0"],\
             ["copy-webpack-plugin", "npm:4.6.0"],\
             ["css-loader", "npm:0.28.11"],\
             ["eslint", "npm:4.19.1"],\
@@ -3358,6 +3358,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["chalk", "npm:4.1.2"],\
             ["ansi-styles", "npm:4.3.0"],\
             ["supports-color", "npm:7.2.0"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:5.3.0", {\
+          "packageLocation": "./.yarn/cache/chalk-npm-5.3.0-d181999efb-623922e077.zip/node_modules/chalk/",\
+          "packageDependencies": [\
+            ["chalk", "npm:5.3.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -7479,7 +7486,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["babel-preset-stage-2", "npm:6.24.1"],\
             ["bootstrap", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:5.3.2"],\
             ["bootstrap-vue", "npm:2.23.1"],\
-            ["chalk", "npm:2.4.2"],\
+            ["chalk", "npm:5.3.0"],\
             ["copy-webpack-plugin", "npm:4.6.0"],\
             ["css-loader", "npm:0.28.11"],\
             ["eslint", "npm:4.19.1"],\
