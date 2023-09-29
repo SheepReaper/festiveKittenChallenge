@@ -3965,16 +3965,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-standard@npm:10.2.1":
-  version: 10.2.1
-  resolution: "eslint-config-standard@npm:10.2.1"
+"eslint-config-standard@npm:17.1.0":
+  version: 17.1.0
+  resolution: "eslint-config-standard@npm:17.1.0"
   peerDependencies:
-    eslint: ">=3.19.0"
-    eslint-plugin-import: ">=2.2.0"
-    eslint-plugin-node: ">=4.2.2"
-    eslint-plugin-promise: ">=3.5.0"
-    eslint-plugin-standard: ">=3.0.0"
-  checksum: 8ba90940cca93e31aec85f3f802ebaa4da1103b0b1ed4d08d2d7e6b8776299ed62cf733f99e563736896aa59cf510e177a5071dd35dad4565b50e71aef1b2a1b
+    eslint: ^8.0.1
+    eslint-plugin-import: ^2.25.2
+    eslint-plugin-n: "^15.0.0 || ^16.0.0 "
+    eslint-plugin-promise: ^6.0.0
+  checksum: 8ed14ffe424b8a7e67b85e44f75c46dc4c6954f7c474c871c56fb0daf40b6b2a7af2db55102b12a440158b2be898e1fb8333b05e3dbeaeaef066fdbc863eaa88
   languageName: node
   linkType: hard
 
@@ -5914,7 +5913,7 @@ __metadata:
     copy-webpack-plugin: 11.0.0
     css-loader: 6.8.1
     eslint: 8.50.0
-    eslint-config-standard: 10.2.1
+    eslint-config-standard: 17.1.0
     eslint-friendly-formatter: 3.0.0
     eslint-loader: 1.9.0
     eslint-plugin-import: 2.16.0
