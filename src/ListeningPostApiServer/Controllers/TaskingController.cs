@@ -35,7 +35,7 @@ namespace ListeningPostApiServer.Controllers
         /// <summary>
         /// Provides an interface to the hosting environment's configuration for use by controller methods.
         /// </summary>
-        private readonly IHostingEnvironment _env;
+        private readonly IWebHostEnvironment _env;
 
         /// <summary>
         /// Provides an interface to the implant repository implementation to controller methods.
@@ -61,7 +61,7 @@ namespace ListeningPostApiServer.Controllers
         /// Interfaces or implementations of 2 Repositories and access to the hosting environment
         /// configuration are required and are provided by dependency injection.
         /// </remarks>
-        public TaskingController(IRepository<TaskBase> taskRepository, IRepository<Implant> implantRepository, IHostingEnvironment env)
+        public TaskingController(IRepository<TaskBase> taskRepository, IRepository<Implant> implantRepository, IWebHostEnvironment env)
         {
             _taskRepository = taskRepository;
             _implantRepository = (ImplantRepository)implantRepository;

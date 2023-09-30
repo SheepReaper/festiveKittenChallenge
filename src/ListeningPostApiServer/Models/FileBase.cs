@@ -1,5 +1,6 @@
 ﻿using Newtonsoft.Json;
 using System;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ListeningPostApiServer.Models
 {
@@ -9,6 +10,7 @@ namespace ListeningPostApiServer.Models
     /// cref="T:ListeningPostApiServer.Models.EntityBase" />
     /// </summary>
     /// <seealso cref="T:ListeningPostApiServer.Models.EntityBase" />
+    [Table("Files")]
     public abstract class FileBase : EntityBase
     {
         #region Constructors

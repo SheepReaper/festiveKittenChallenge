@@ -94,11 +94,11 @@ namespace ListeningPostApiServer.Data
         /// </remarks>
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<TaskBase>().ToTable("Tasks")
+            modelBuilder.Entity<TaskBase>()
                 .HasOne(t => t.Result)
                 .WithOne(r => r.TaskBase)
                 .HasForeignKey<Result>(r => r.TaskId);
-            modelBuilder.Entity<FileBase>().ToTable("Files");
+            modelBuilder.Entity<FileBase>();
         }
 
         #endregion Methods

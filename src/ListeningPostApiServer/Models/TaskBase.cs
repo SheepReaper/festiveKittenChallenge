@@ -1,4 +1,6 @@
-﻿namespace ListeningPostApiServer.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace ListeningPostApiServer.Models
 {
     /// <inheritdoc />
     /// <summary>
@@ -6,6 +8,7 @@
     /// cref="T:ListeningPostApiServer.Models.EntityBase" />
     /// </summary>
     /// <seealso cref="T:ListeningPostApiServer.Models.EntityBase" />
+    [Table("Tasks")]
     public class TaskBase : EntityBase
     {
         #region Properties

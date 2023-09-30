@@ -3,6 +3,8 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using Newtonsoft.Json;
 
 namespace ListeningPostApiServer
 {
@@ -59,7 +61,7 @@ namespace ListeningPostApiServer
         /// <remarks>
         /// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         /// </remarks>
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
             {
@@ -92,7 +94,9 @@ namespace ListeningPostApiServer
         /// </remarks>
         public void ConfigureServices(IServiceCollection services)
         {
-            services.ConfigureMvc();
+            services
+                .AddMvc(options => options.EnableEndpointRouting = false)
+                .AddNewtonsoftJson(o => o.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore);
 
             services
                 .ConfigureAppDbContext()
