@@ -57,7 +57,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-vue", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:9.17.0"],\
             ["file-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:6.2.0"],\
             ["html-webpack-plugin", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:5.5.3"],\
-            ["node-notifier", "npm:8.0.1"],\
+            ["node-notifier", "npm:10.0.1"],\
             ["optimize-css-assets-webpack-plugin", "npm:3.2.1"],\
             ["ora", "npm:1.4.0"],\
             ["portfinder", "npm:1.0.32"],\
@@ -7314,7 +7314,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint-plugin-vue", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:9.17.0"],\
             ["file-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:6.2.0"],\
             ["html-webpack-plugin", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:5.5.3"],\
-            ["node-notifier", "npm:8.0.1"],\
+            ["node-notifier", "npm:10.0.1"],\
             ["optimize-css-assets-webpack-plugin", "npm:3.2.1"],\
             ["ora", "npm:1.4.0"],\
             ["portfinder", "npm:1.0.32"],\
@@ -7982,10 +7982,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["node-notifier", [\
-        ["npm:8.0.1", {\
-          "packageLocation": "./.yarn/unplugged/node-notifier-npm-8.0.1-73aeb2995e/node_modules/node-notifier/",\
+        ["npm:10.0.1", {\
+          "packageLocation": "./.yarn/unplugged/node-notifier-npm-10.0.1-7a3f9a97c4/node_modules/node-notifier/",\
           "packageDependencies": [\
-            ["node-notifier", "npm:8.0.1"],\
+            ["node-notifier", "npm:10.0.1"],\
             ["growly", "npm:1.3.0"],\
             ["is-wsl", "npm:2.2.0"],\
             ["semver", "npm:7.5.4"],\
