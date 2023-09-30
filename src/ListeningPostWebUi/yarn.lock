@@ -4111,12 +4111,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-standard@npm:3.1.0":
-  version: 3.1.0
-  resolution: "eslint-plugin-standard@npm:3.1.0"
+"eslint-plugin-standard@npm:4.1.0":
+  version: 4.1.0
+  resolution: "eslint-plugin-standard@npm:4.1.0"
   peerDependencies:
-    eslint: ">=3.19.0"
-  checksum: 5448e5ae93a8d0a735c6d42927faf0edb64f0ced7962311fdd0a5c165b4e90ec1c03b8f602013a5543154ed6f7b18383dccc29af46bfff8153040a7ce953a7b7
+    eslint: ">=5.0.0"
+  checksum: d9c1943ebbbd64e4541f4362d4dccda252d3f3164b763499233382cce2050f89f5f65bae42342700d6b252e2688a16864d80e7557671fd0671863808aae3e0c3
   languageName: node
   linkType: hard
 
@@ -5986,7 +5986,7 @@ __metadata:
     eslint-plugin-import: 2.16.0
     eslint-plugin-node: 11.1.0
     eslint-plugin-promise: 6.1.1
-    eslint-plugin-standard: 3.1.0
+    eslint-plugin-standard: 4.1.0
     eslint-plugin-vue: 4.7.1
     file-loader: 6.2.0
     html-webpack-plugin: 5.5.3
