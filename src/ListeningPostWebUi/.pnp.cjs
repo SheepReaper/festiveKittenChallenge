@@ -63,7 +63,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["portfinder", "npm:1.0.32"],\
             ["postcss-import", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:15.1.0"],\
             ["postcss-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:7.3.3"],\
-            ["postcss-url", "npm:7.3.2"],\
+            ["postcss-url", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.1.3"],\
             ["rimraf", "npm:2.6.3"],\
             ["sass", "npm:1.68.0"],\
             ["sass-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:13.3.2"],\
@@ -6825,7 +6825,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["portfinder", "npm:1.0.32"],\
             ["postcss-import", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:15.1.0"],\
             ["postcss-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:7.3.3"],\
-            ["postcss-url", "npm:7.3.2"],\
+            ["postcss-url", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.1.3"],\
             ["rimraf", "npm:2.6.3"],\
             ["sass", "npm:1.68.0"],\
             ["sass-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:13.3.2"],\
@@ -7169,6 +7169,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["mime", "npm:1.6.0"]\
           ],\
           "linkType": "HARD"\
+        }],\
+        ["npm:2.5.2", {\
+          "packageLocation": "./.yarn/cache/mime-npm-2.5.2-d3335c8166-dd3c93d433.zip/node_modules/mime/",\
+          "packageDependencies": [\
+            ["mime", "npm:2.5.2"]\
+          ],\
+          "linkType": "HARD"\
         }]\
       ]],\
       ["mime-db", [\
@@ -7209,6 +7216,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["minimatch", [\
+        ["npm:3.0.8", {\
+          "packageLocation": "./.yarn/cache/minimatch-npm-3.0.8-f3deb724b2-850cca179c.zip/node_modules/minimatch/",\
+          "packageDependencies": [\
+            ["minimatch", "npm:3.0.8"],\
+            ["brace-expansion", "npm:1.1.11"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
         ["npm:3.1.2", {\
           "packageLocation": "./.yarn/cache/minimatch-npm-3.1.2-9405269906-c154e56640.zip/node_modules/minimatch/",\
           "packageDependencies": [\
@@ -8970,15 +8985,27 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["postcss-url", [\
-        ["npm:7.3.2", {\
-          "packageLocation": "./.yarn/cache/postcss-url-npm-7.3.2-fcbb28ae3c-89aa485ba1.zip/node_modules/postcss-url/",\
+        ["npm:10.1.3", {\
+          "packageLocation": "./.yarn/cache/postcss-url-npm-10.1.3-1c99e6b8ad-5983dbd20e.zip/node_modules/postcss-url/",\
           "packageDependencies": [\
-            ["postcss-url", "npm:7.3.2"],\
-            ["mime", "npm:1.6.0"],\
-            ["minimatch", "npm:3.1.2"],\
-            ["mkdirp", "npm:0.5.6"],\
-            ["postcss", "npm:6.0.23"],\
+            ["postcss-url", "npm:10.1.3"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.1.3", {\
+          "packageLocation": "./.yarn/__virtual__/postcss-url-virtual-4f12fc8768/0/cache/postcss-url-npm-10.1.3-1c99e6b8ad-5983dbd20e.zip/node_modules/postcss-url/",\
+          "packageDependencies": [\
+            ["postcss-url", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.1.3"],\
+            ["@types/postcss", null],\
+            ["make-dir", "npm:3.1.0"],\
+            ["mime", "npm:2.5.2"],\
+            ["minimatch", "npm:3.0.8"],\
+            ["postcss", null],\
             ["xxhashjs", "npm:0.2.2"]\
+          ],\
+          "packagePeers": [\
+            "@types/postcss",\
+            "postcss"\
           ],\
           "linkType": "HARD"\
         }]\
