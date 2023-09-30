@@ -5462,7 +5462,7 @@ __metadata:
     portfinder: 1.0.32
     postcss-import: 15.1.0
     postcss-loader: 7.3.3
-    postcss-url: 7.3.2
+    postcss-url: 10.1.3
     rimraf: 2.6.3
     sass: 1.68.0
     sass-loader: 13.3.2
@@ -5677,7 +5677,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"make-dir@npm:^3.0.2":
+"make-dir@npm:^3.0.2, make-dir@npm:~3.1.0":
   version: 3.1.0
   resolution: "make-dir@npm:3.1.0"
   dependencies:
@@ -5795,6 +5795,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"mime@npm:~2.5.2":
+  version: 2.5.2
+  resolution: "mime@npm:2.5.2"
+  bin:
+    mime: cli.js
+  checksum: dd3c93d433d41a09f6a1cfa969b653b769899f3bd573e7bfcea33bdc8b0cc4eba57daa2f95937369c2bd2b6d39d62389b11a4309fe40d1d3a1b736afdedad0ff
+  languageName: node
+  linkType: hard
+
 "mimic-fn@npm:^2.1.0":
   version: 2.1.0
   resolution: "mimic-fn@npm:2.1.0"
@@ -5824,6 +5833,15 @@ __metadata:
   dependencies:
     brace-expansion: ^2.0.1
   checksum: 253487976bf485b612f16bf57463520a14f512662e592e95c571afdab1442a6a6864b6c88f248ce6fc4ff0b6de04ac7aa6c8bb51e868e99d1d65eb0658a708b5
+  languageName: node
+  linkType: hard
+
+"minimatch@npm:~3.0.4":
+  version: 3.0.8
+  resolution: "minimatch@npm:3.0.8"
+  dependencies:
+    brace-expansion: ^1.1.7
+  checksum: 850cca179cad715133132693e6963b0db64ab0988c4d211415b087fc23a3e46321e2c5376a01bf5623d8782aba8bdf43c571e2e902e51fdce7175c7215c29f8b
   languageName: node
   linkType: hard
 
@@ -5918,7 +5936,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mkdirp@npm:^0.5.0, mkdirp@npm:^0.5.1, mkdirp@npm:^0.5.6":
+"mkdirp@npm:^0.5.1, mkdirp@npm:^0.5.6":
   version: 0.5.6
   resolution: "mkdirp@npm:0.5.6"
   dependencies:
@@ -7027,16 +7045,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-url@npm:7.3.2":
-  version: 7.3.2
-  resolution: "postcss-url@npm:7.3.2"
+"postcss-url@npm:10.1.3":
+  version: 10.1.3
+  resolution: "postcss-url@npm:10.1.3"
   dependencies:
-    mime: ^1.4.1
-    minimatch: ^3.0.4
-    mkdirp: ^0.5.0
-    postcss: ^6.0.1
-    xxhashjs: ^0.2.1
-  checksum: 89aa485ba13c79c7c88856134f530f137c28bc0098cac65fb146f9e98762d616bd27ea430d0c2e7f7bb8507e5e64bbcc93dc0b4358fa8cec5783a511653378ae
+    make-dir: ~3.1.0
+    mime: ~2.5.2
+    minimatch: ~3.0.4
+    xxhashjs: ~0.2.2
+  peerDependencies:
+    postcss: ^8.0.0
+  checksum: 5983dbd20eabc0ba394a80aec14b6d6fdb986632ff6a4d3a6f0afc478d639f8a753a5c1e2bc7b9f6692befdb578372e7b288ab3d29bfa6b0d3ee06afca645f06
   languageName: node
   linkType: hard
 
@@ -7047,7 +7066,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^6.0.1, postcss@npm:^6.0.8":
+"postcss@npm:^6.0.8":
   version: 6.0.23
   resolution: "postcss@npm:6.0.23"
   dependencies:
@@ -8867,7 +8886,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"xxhashjs@npm:^0.2.1":
+"xxhashjs@npm:~0.2.2":
   version: 0.2.2
   resolution: "xxhashjs@npm:0.2.2"
   dependencies:
