@@ -5499,7 +5499,7 @@ __metadata:
     optimize-css-assets-webpack-plugin: 6.0.1
     ora: 7.0.1
     portfinder: 1.0.32
-    postcss-import: 11.1.0
+    postcss-import: 15.1.0
     postcss-loader: 2.1.6
     postcss-url: 7.3.2
     rimraf: 2.6.3
@@ -6709,15 +6709,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-import@npm:11.1.0":
-  version: 11.1.0
-  resolution: "postcss-import@npm:11.1.0"
+"postcss-import@npm:15.1.0":
+  version: 15.1.0
+  resolution: "postcss-import@npm:15.1.0"
   dependencies:
-    postcss: ^6.0.1
-    postcss-value-parser: ^3.2.3
+    postcss-value-parser: ^4.0.0
     read-cache: ^1.0.0
     resolve: ^1.1.7
-  checksum: 660e5761ca432c2ed112eb99e7e46d897630474bbe2a05365b6cdf0dcfc233a08d3cbcf1333c0842f54df9485fe325e4ebf959fa9ad013c3fb3b8bd860ced3ef
+  peerDependencies:
+    postcss: ^8.0.0
+  checksum: 7bd04bd8f0235429009d0022cbf00faebc885de1d017f6d12ccb1b021265882efc9302006ba700af6cab24c46bfa2f3bc590be3f9aee89d064944f171b04e2a3
   languageName: node
   linkType: hard
 
@@ -7084,14 +7085,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-value-parser@npm:^3.2.3":
-  version: 3.3.1
-  resolution: "postcss-value-parser@npm:3.3.1"
-  checksum: 62cd26e1cdbcf2dcc6bcedf3d9b409c9027bc57a367ae20d31dd99da4e206f730689471fd70a2abe866332af83f54dc1fa444c589e2381bf7f8054c46209ce16
-  languageName: node
-  linkType: hard
-
-"postcss-value-parser@npm:^4.1.0, postcss-value-parser@npm:^4.2.0":
+"postcss-value-parser@npm:^4.0.0, postcss-value-parser@npm:^4.1.0, postcss-value-parser@npm:^4.2.0":
   version: 4.2.0
   resolution: "postcss-value-parser@npm:4.2.0"
   checksum: 819ffab0c9d51cf0acbabf8996dffbfafbafa57afc0e4c98db88b67f2094cb44488758f06e5da95d7036f19556a4a732525e84289a425f4f6fd8e412a9d7442f
