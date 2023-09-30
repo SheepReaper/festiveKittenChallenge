@@ -64,7 +64,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["postcss-import", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:15.1.0"],\
             ["postcss-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:7.3.3"],\
             ["postcss-url", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.1.3"],\
-            ["rimraf", "npm:2.6.3"],\
+            ["rimraf", "npm:5.0.5"],\
             ["sass", "npm:1.68.0"],\
             ["sass-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:13.3.2"],\
             ["semver", "npm:5.7.0"],\
@@ -5733,6 +5733,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["glob", [\
+        ["npm:10.3.10", {\
+          "packageLocation": "./.yarn/cache/glob-npm-10.3.10-da1ef8b112-4f2fe2511e.zip/node_modules/glob/",\
+          "packageDependencies": [\
+            ["glob", "npm:10.3.10"],\
+            ["foreground-child", "npm:3.1.1"],\
+            ["jackspeak", "npm:2.3.5"],\
+            ["minimatch", "npm:9.0.3"],\
+            ["minipass", "npm:7.0.3"],\
+            ["path-scurry", "npm:1.10.1"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
         ["npm:10.3.9", {\
           "packageLocation": "./.yarn/cache/glob-npm-10.3.9-a41b2187b4-806a4ef571.zip/node_modules/glob/",\
           "packageDependencies": [\
@@ -6826,7 +6838,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["postcss-import", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:15.1.0"],\
             ["postcss-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:7.3.3"],\
             ["postcss-url", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.1.3"],\
-            ["rimraf", "npm:2.6.3"],\
+            ["rimraf", "npm:5.0.5"],\
             ["sass", "npm:1.68.0"],\
             ["sass-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:13.3.2"],\
             ["semver", "npm:5.7.0"],\
@@ -9431,19 +9443,19 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["rimraf", [\
-        ["npm:2.6.3", {\
-          "packageLocation": "./.yarn/cache/rimraf-npm-2.6.3-f34c6c72ec-3ea587b981.zip/node_modules/rimraf/",\
-          "packageDependencies": [\
-            ["rimraf", "npm:2.6.3"],\
-            ["glob", "npm:7.2.3"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:3.0.2", {\
           "packageLocation": "./.yarn/cache/rimraf-npm-3.0.2-2cb7dac69a-87f4164e39.zip/node_modules/rimraf/",\
           "packageDependencies": [\
             ["rimraf", "npm:3.0.2"],\
             ["glob", "npm:7.2.3"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:5.0.5", {\
+          "packageLocation": "./.yarn/cache/rimraf-npm-5.0.5-19228633fd-d66eef829b.zip/node_modules/rimraf/",\
+          "packageDependencies": [\
+            ["rimraf", "npm:5.0.5"],\
+            ["glob", "npm:10.3.10"]\
           ],\
           "linkType": "HARD"\
         }]\
