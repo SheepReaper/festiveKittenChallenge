@@ -1444,18 +1444,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ajv@npm:^5.0.0":
-  version: 5.5.2
-  resolution: "ajv@npm:5.5.2"
-  dependencies:
-    co: ^4.6.0
-    fast-deep-equal: ^1.0.0
-    fast-json-stable-stringify: ^2.0.0
-    json-schema-traverse: ^0.3.0
-  checksum: a69645c843e1676b0ae1c5192786e546427f808f386d26127c6585479378066c64341ceec0b127b6789d79628e71d2a732d402f575b98f9262db230d7b715a94
-  languageName: node
-  linkType: hard
-
 "ajv@npm:^6.12.4, ajv@npm:^6.12.5":
   version: 6.12.6
   resolution: "ajv@npm:6.12.6"
@@ -2902,13 +2890,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"co@npm:^4.6.0":
-  version: 4.6.0
-  resolution: "co@npm:4.6.0"
-  checksum: 5210d9223010eb95b29df06a91116f2cf7c8e0748a9013ed853b53f362ea0e822f1e5bb054fb3cefc645239a4cf966af1f6133a3b43f40d591f3b68ed6cf0510
-  languageName: node
-  linkType: hard
-
 "coalescy@npm:1.0.0":
   version: 1.0.0
   resolution: "coalescy@npm:1.0.0"
@@ -4145,13 +4126,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-deep-equal@npm:^1.0.0":
-  version: 1.1.0
-  resolution: "fast-deep-equal@npm:1.1.0"
-  checksum: 69b4c9534d9805f13a341aa72f69641d0b9ae3cc8beb25c64e68a257241c7bb34370266db27ae4fc3c4da0518448c01a5f587a096a211471c86a38facd9a1486
-  languageName: node
-  linkType: hard
-
 "fast-deep-equal@npm:^3.1.1, fast-deep-equal@npm:^3.1.3":
   version: 3.1.3
   resolution: "fast-deep-equal@npm:3.1.3"
@@ -5316,13 +5290,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"json-schema-traverse@npm:^0.3.0":
-  version: 0.3.1
-  resolution: "json-schema-traverse@npm:0.3.1"
-  checksum: a685c36222023471c25c86cddcff506306ecb8f8941922fd356008419889c41c38e1c16d661d5499d0a561b34f417693e9bb9212ba2b2b2f8f8a345a49e4ec1a
-  languageName: node
-  linkType: hard
-
 "json-schema-traverse@npm:^0.4.1":
   version: 0.4.1
   resolution: "json-schema-traverse@npm:0.4.1"
@@ -5483,7 +5450,7 @@ __metadata:
     sass-loader: 13.3.2
     semver: 5.7.0
     shelljs: 0.8.5
-    url-loader: 0.6.2
+    url-loader: 4.1.1
     vue: ^2.6.10
     vue-loader: 13.7.3
     vue-router: ^3.0.1
@@ -5801,7 +5768,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"mime@npm:1.6.0, mime@npm:^1.4.1":
+"mime@npm:1.6.0":
   version: 1.6.0
   resolution: "mime@npm:1.6.0"
   bin:
@@ -7577,15 +7544,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"schema-utils@npm:^0.3.0":
-  version: 0.3.0
-  resolution: "schema-utils@npm:0.3.0"
-  dependencies:
-    ajv: ^5.0.0
-  checksum: 441fa4bd4900afb19eb9da1d8d6271056b71ce3d8b1b73bbece791de1d4c90ac7e97ffc9787607aa53611aaf2996711af7c18ba8669f06b084b218cab1e701e3
-  languageName: node
-  linkType: hard
-
 "schema-utils@npm:^2.6.5":
   version: 2.7.1
   resolution: "schema-utils@npm:2.7.1"
@@ -8422,16 +8380,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"url-loader@npm:0.6.2":
-  version: 0.6.2
-  resolution: "url-loader@npm:0.6.2"
+"url-loader@npm:4.1.1":
+  version: 4.1.1
+  resolution: "url-loader@npm:4.1.1"
   dependencies:
-    loader-utils: ^1.0.2
-    mime: ^1.4.1
-    schema-utils: ^0.3.0
+    loader-utils: ^2.0.0
+    mime-types: ^2.1.27
+    schema-utils: ^3.0.0
   peerDependencies:
     file-loader: "*"
-  checksum: e31c6e4a121b8e9b821c830e89c755ba1321c47d17539dea0caa42aadf17b0ba9ab8de061f6377277ede305ca90b5518931845e25fbb19175fff74c5572c7844
+    webpack: ^4.0.0 || ^5.0.0
+  peerDependenciesMeta:
+    file-loader:
+      optional: true
+  checksum: c1122a992c6cff70a7e56dfc2b7474534d48eb40b2cc75467cde0c6972e7597faf8e43acb4f45f93c2473645dfd803bcbc20960b57544dd1e4c96e77f72ba6fd
   languageName: node
   linkType: hard
 
