@@ -76,7 +76,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["vue-style-loader", "npm:4.1.3"],\
             ["vue-template-compiler", "npm:2.6.10"],\
             ["vue2-dropzone", "npm:3.6.0"],\
-            ["vuex", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:3.6.2"],\
+            ["vuex", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:4.1.0"],\
             ["webpack", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:5.88.2"],\
             ["webpack-bundle-analyzer", "npm:3.3.2"],\
             ["webpack-dev-server", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:4.15.1"],\
@@ -6524,7 +6524,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["vue-style-loader", "npm:4.1.3"],\
             ["vue-template-compiler", "npm:2.6.10"],\
             ["vue2-dropzone", "npm:3.6.0"],\
-            ["vuex", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:3.6.2"],\
+            ["vuex", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:4.1.0"],\
             ["webpack", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:5.88.2"],\
             ["webpack-bundle-analyzer", "npm:3.3.2"],\
             ["webpack-dev-server", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:4.15.1"],\
@@ -10305,18 +10305,19 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["vuex", [\
-        ["npm:3.6.2", {\
-          "packageLocation": "./.yarn/cache/vuex-npm-3.6.2-82badaae22-37915741ba.zip/node_modules/vuex/",\
+        ["npm:4.1.0", {\
+          "packageLocation": "./.yarn/cache/vuex-npm-4.1.0-c1d51099be-f5e375a9c1.zip/node_modules/vuex/",\
           "packageDependencies": [\
-            ["vuex", "npm:3.6.2"]\
+            ["vuex", "npm:4.1.0"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:3.6.2", {\
-          "packageLocation": "./.yarn/__virtual__/vuex-virtual-bbedfa4983/0/cache/vuex-npm-3.6.2-82badaae22-37915741ba.zip/node_modules/vuex/",\
+        ["virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:4.1.0", {\
+          "packageLocation": "./.yarn/__virtual__/vuex-virtual-c9c9986df7/0/cache/vuex-npm-4.1.0-c1d51099be-f5e375a9c1.zip/node_modules/vuex/",\
           "packageDependencies": [\
-            ["vuex", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:3.6.2"],\
+            ["vuex", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:4.1.0"],\
             ["@types/vue", null],\
+            ["@vue/devtools-api", "npm:6.5.0"],\
             ["vue", "npm:3.3.4"]\
           ],\
           "packagePeers": [\
