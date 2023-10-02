@@ -1084,6 +1084,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@vue/devtools-api@npm:^6.5.0":
+  version: 6.5.0
+  resolution: "@vue/devtools-api@npm:6.5.0"
+  checksum: ec819ef3a426e91d09e9cfefd2827e9ed8ec9d62bb3b3e0674f3da8c7e92a4b879c3b777dc7329172ca6fe2670b62dd5580d23160339208f0f5ae038f2e504ad
+  languageName: node
+  linkType: hard
+
 "@vue/reactivity-transform@npm:3.3.4":
   version: 3.3.4
   resolution: "@vue/reactivity-transform@npm:3.3.4"
@@ -5373,7 +5380,7 @@ __metadata:
     url-loader: 4.1.1
     vue: ^3.0.0
     vue-loader: 17.2.2
-    vue-router: ^3.0.1
+    vue-router: ^4.0.0
     vue-style-loader: 3.1.2
     vue-template-compiler: 2.6.10
     vue2-dropzone: ^3.5.8
@@ -8305,10 +8312,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue-router@npm:^3.0.1":
-  version: 3.6.5
-  resolution: "vue-router@npm:3.6.5"
-  checksum: b014ba4cba6838a4a6b7a2352b18982c2fd8bbbd6287e09c510845895d28f1c141fefb88369d1875c0cb6c7336c8536f614c8d1f5ac1c8709d60b4f945c486fb
+"vue-router@npm:^4.0.0":
+  version: 4.2.5
+  resolution: "vue-router@npm:4.2.5"
+  dependencies:
+    "@vue/devtools-api": ^6.5.0
+  peerDependencies:
+    vue: ^3.2.0
+  checksum: 2449db4f3a1b3f0ccd16a3788000e47f0e26ca7035b6adf48ebd51d189eb2bad6c39664476cfad9c2ca22988032f5190c99970718495aa2a5c5595d50c8f71b9
   languageName: node
   linkType: hard
 
