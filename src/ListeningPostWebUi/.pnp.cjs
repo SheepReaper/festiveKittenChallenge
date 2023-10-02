@@ -73,7 +73,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["vue", "npm:3.3.4"],\
             ["vue-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:17.2.2"],\
             ["vue-router", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:4.2.5"],\
-            ["vue-style-loader", "npm:3.1.2"],\
+            ["vue-style-loader", "npm:4.1.3"],\
             ["vue-template-compiler", "npm:2.6.10"],\
             ["vue2-dropzone", "npm:3.6.0"],\
             ["vuex", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:3.6.2"],\
@@ -6521,7 +6521,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["vue", "npm:3.3.4"],\
             ["vue-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:17.2.2"],\
             ["vue-router", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:4.2.5"],\
-            ["vue-style-loader", "npm:3.1.2"],\
+            ["vue-style-loader", "npm:4.1.3"],\
             ["vue-template-compiler", "npm:2.6.10"],\
             ["vue2-dropzone", "npm:3.6.0"],\
             ["vuex", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:3.6.2"],\
@@ -10273,10 +10273,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["vue-style-loader", [\
-        ["npm:3.1.2", {\
-          "packageLocation": "./.yarn/cache/vue-style-loader-npm-3.1.2-8242964c04-a01bf52c1c.zip/node_modules/vue-style-loader/",\
+        ["npm:4.1.3", {\
+          "packageLocation": "./.yarn/cache/vue-style-loader-npm-4.1.3-878b169e65-ef79d0c632.zip/node_modules/vue-style-loader/",\
           "packageDependencies": [\
-            ["vue-style-loader", "npm:3.1.2"],\
+            ["vue-style-loader", "npm:4.1.3"],\
             ["hash-sum", "npm:1.0.2"],\
             ["loader-utils", "npm:1.4.2"]\
           ],\
