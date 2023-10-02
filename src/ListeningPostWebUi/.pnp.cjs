@@ -72,7 +72,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["url-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:4.1.1"],\
             ["vue", "npm:3.3.4"],\
             ["vue-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:17.2.2"],\
-            ["vue-router", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:3.6.5"],\
+            ["vue-router", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:4.2.5"],\
             ["vue-style-loader", "npm:3.1.2"],\
             ["vue-template-compiler", "npm:2.6.10"],\
             ["vue2-dropzone", "npm:3.6.0"],\
@@ -1338,6 +1338,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@vue/compiler-ssr", "npm:3.3.4"],\
             ["@vue/compiler-dom", "npm:3.3.4"],\
             ["@vue/shared", "npm:3.3.4"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["@vue/devtools-api", [\
+        ["npm:6.5.0", {\
+          "packageLocation": "./.yarn/cache/@vue-devtools-api-npm-6.5.0-0dc0468299-ec819ef3a4.zip/node_modules/@vue/devtools-api/",\
+          "packageDependencies": [\
+            ["@vue/devtools-api", "npm:6.5.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -6511,7 +6520,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["url-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:4.1.1"],\
             ["vue", "npm:3.3.4"],\
             ["vue-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:17.2.2"],\
-            ["vue-router", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:3.6.5"],\
+            ["vue-router", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:4.2.5"],\
             ["vue-style-loader", "npm:3.1.2"],\
             ["vue-template-compiler", "npm:2.6.10"],\
             ["vue2-dropzone", "npm:3.6.0"],\
@@ -10241,18 +10250,19 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["vue-router", [\
-        ["npm:3.6.5", {\
-          "packageLocation": "./.yarn/cache/vue-router-npm-3.6.5-715b5dd93b-b014ba4cba.zip/node_modules/vue-router/",\
+        ["npm:4.2.5", {\
+          "packageLocation": "./.yarn/cache/vue-router-npm-4.2.5-3479f41e41-2449db4f3a.zip/node_modules/vue-router/",\
           "packageDependencies": [\
-            ["vue-router", "npm:3.6.5"]\
+            ["vue-router", "npm:4.2.5"]\
           ],\
           "linkType": "SOFT"\
         }],\
-        ["virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:3.6.5", {\
-          "packageLocation": "./.yarn/__virtual__/vue-router-virtual-ca99f20f06/0/cache/vue-router-npm-3.6.5-715b5dd93b-b014ba4cba.zip/node_modules/vue-router/",\
+        ["virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:4.2.5", {\
+          "packageLocation": "./.yarn/__virtual__/vue-router-virtual-e941bea167/0/cache/vue-router-npm-4.2.5-3479f41e41-2449db4f3a.zip/node_modules/vue-router/",\
           "packageDependencies": [\
-            ["vue-router", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:3.6.5"],\
+            ["vue-router", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:4.2.5"],\
             ["@types/vue", null],\
+            ["@vue/devtools-api", "npm:6.5.0"],\
             ["vue", "npm:3.3.4"]\
           ],\
           "packagePeers": [\
