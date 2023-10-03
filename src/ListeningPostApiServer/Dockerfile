@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/core/aspnet:2.2-stretch-slim@sha256:ae9a94a778b4c4656f036e1dd858d6c972f6ad4423bdf9c5022e16f28fee5cf9 AS base
+FROM mcr.microsoft.com/dotnet/core/aspnet:3.0-stretch-slim@sha256:3e789ab1ababf846fbfb07521f7b3e8fe351d1e2b63d0192624b150e0acce25d AS base
 WORKDIR /app
 EXPOSE 80
 EXPOSE 443
