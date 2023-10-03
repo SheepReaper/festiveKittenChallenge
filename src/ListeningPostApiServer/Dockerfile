@@ -3,7 +3,7 @@ WORKDIR /app
 EXPOSE 80
 EXPOSE 443
 
-FROM mcr.microsoft.com/dotnet/core/sdk:2.2-stretch@sha256:db9b38d066fdbdd5ac5ce862076c27e4ae17f2b57cbacd03bdc3b24e06696ae8 AS build-env
+FROM mcr.microsoft.com/dotnet/core/sdk:3.0-stretch@sha256:1978e63c64bce8830283cdcba2150c333cb4d8e3d1d56d32669c55b00ab4580b AS build-env
 WORKDIR /app
 COPY ListeningPostApiServer.csproj ./
 RUN dotnet restore
