@@ -4868,7 +4868,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"he@npm:^1.1.0, he@npm:^1.2.0":
+"he@npm:^1.2.0":
   version: 1.2.0
   resolution: "he@npm:1.2.0"
   bin:
@@ -5767,7 +5767,7 @@ __metadata:
     vue-loader: 17.2.2
     vue-router: ^4.0.0
     vue-style-loader: 4.1.3
-    vue-template-compiler: 2.6.10
+    vue-template-compiler: 2.7.14
     vue2-dropzone: ^3.5.8
     vuex: ^4.0.0
     webpack: 5.88.2
@@ -8824,13 +8824,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vue-template-compiler@npm:2.6.10":
-  version: 2.6.10
-  resolution: "vue-template-compiler@npm:2.6.10"
+"vue-template-compiler@npm:2.7.14":
+  version: 2.7.14
+  resolution: "vue-template-compiler@npm:2.7.14"
   dependencies:
     de-indent: ^1.0.2
-    he: ^1.1.0
-  checksum: 9cec9364c5fe289269754e01b171d8fb5cc8fb21a6a864be6647a1aaf0f8505cb1385333c3fe6bf65433913d93d4fc7c45e6d6af91ec84ea4730cff8847fddde
+    he: ^1.2.0
+  checksum: eba9d2eed6b7110c963bc356b47bdd11d4023d25148abb7e5f7826db2fefe7ad8a575787ee0d8fa47701d44a6f54bde475279b1319f44e1049271eb2419f93a7
   languageName: node
   linkType: hard
 
