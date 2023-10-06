@@ -65,7 +65,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["postcss-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:7.3.3"],\
             ["postcss-url", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.1.3"],\
             ["rimraf", "npm:5.0.5"],\
-            ["sass", "npm:1.68.0"],\
+            ["sass", "npm:1.69.0"],\
             ["sass-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:13.3.2"],\
             ["semver", "npm:7.5.4"],\
             ["shelljs", "npm:0.8.5"],\
@@ -6939,7 +6939,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["postcss-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:7.3.3"],\
             ["postcss-url", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.1.3"],\
             ["rimraf", "npm:5.0.5"],\
-            ["sass", "npm:1.68.0"],\
+            ["sass", "npm:1.69.0"],\
             ["sass-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:13.3.2"],\
             ["semver", "npm:7.5.4"],\
             ["shelljs", "npm:0.8.5"],\
@@ -9546,10 +9546,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["sass", [\
-        ["npm:1.68.0", {\
-          "packageLocation": "./.yarn/cache/sass-npm-1.68.0-960a5fc7e0-65ccede83c.zip/node_modules/sass/",\
+        ["npm:1.69.0", {\
+          "packageLocation": "./.yarn/cache/sass-npm-1.69.0-b7f282719b-eabea31ea3.zip/node_modules/sass/",\
           "packageDependencies": [\
-            ["sass", "npm:1.68.0"],\
+            ["sass", "npm:1.69.0"],\
             ["chokidar", "npm:3.5.3"],\
             ["immutable", "npm:4.3.4"],\
             ["source-map-js", "npm:1.0.2"]\
@@ -9577,7 +9577,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["fibers", null],\
             ["neo-async", "npm:2.6.2"],\
             ["node-sass", null],\
-            ["sass", "npm:1.68.0"],\
+            ["sass", "npm:1.69.0"],\
             ["sass-embedded", null],\
             ["webpack", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:5.88.2"]\
           ],\
