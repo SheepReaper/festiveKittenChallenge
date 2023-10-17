@@ -80,7 +80,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["webpack", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:5.89.0"],\
             ["webpack-bundle-analyzer", "npm:4.9.1"],\
             ["webpack-dev-server", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:4.15.1"],\
-            ["webpack-merge", "npm:5.9.0"]\
+            ["webpack-merge", "npm:5.10.0"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -5361,6 +5361,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["flat", [\
+        ["npm:5.0.2", {\
+          "packageLocation": "./.yarn/cache/flat-npm-5.0.2-12748102a5-12a1536ac7.zip/node_modules/flat/",\
+          "packageDependencies": [\
+            ["flat", "npm:5.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["flat-cache", [\
         ["npm:3.1.1", {\
           "packageLocation": "./.yarn/cache/flat-cache-npm-3.1.1-b79e22b54f-4958cfe0f4.zip/node_modules/flat-cache/",\
@@ -6910,7 +6919,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["webpack", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:5.89.0"],\
             ["webpack-bundle-analyzer", "npm:4.9.1"],\
             ["webpack-dev-server", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:4.15.1"],\
-            ["webpack-merge", "npm:5.9.0"]\
+            ["webpack-merge", "npm:5.10.0"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -11016,11 +11025,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["webpack-merge", [\
-        ["npm:5.9.0", {\
-          "packageLocation": "./.yarn/cache/webpack-merge-npm-5.9.0-9110e650de-64fe2c23aa.zip/node_modules/webpack-merge/",\
+        ["npm:5.10.0", {\
+          "packageLocation": "./.yarn/cache/webpack-merge-npm-5.10.0-c2d9fd1f83-1fe8bf5309.zip/node_modules/webpack-merge/",\
           "packageDependencies": [\
-            ["webpack-merge", "npm:5.9.0"],\
+            ["webpack-merge", "npm:5.10.0"],\
             ["clone-deep", "npm:4.0.1"],\
+            ["flat", "npm:5.0.2"],\
             ["wildcard", "npm:2.0.1"]\
           ],\
           "linkType": "HARD"\
