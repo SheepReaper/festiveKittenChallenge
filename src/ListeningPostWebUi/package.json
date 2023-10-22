@@ -76,5 +76,5 @@
     "last 2 versions",
     "not ie <= 8"
   ],
-  "packageManager": "yarn@3.6.4"
+  "packageManager": "yarn@4.0.0"
 }
