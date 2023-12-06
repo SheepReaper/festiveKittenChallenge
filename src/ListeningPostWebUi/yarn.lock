@@ -4858,9 +4858,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"html-webpack-plugin@npm:5.5.3":
-  version: 5.5.3
-  resolution: "html-webpack-plugin@npm:5.5.3"
+"html-webpack-plugin@npm:5.5.4":
+  version: 5.5.4
+  resolution: "html-webpack-plugin@npm:5.5.4"
   dependencies:
     "@types/html-minifier-terser": "npm:^6.0.0"
     html-minifier-terser: "npm:^6.0.2"
@@ -4869,7 +4869,7 @@ __metadata:
     tapable: "npm:^2.0.0"
   peerDependencies:
     webpack: ^5.20.0
-  checksum: 7ba0d0f87d08f5c4c51f821842d736ec1762940bc39798932528adaec1e9cca8f52944987b88789007f5706d15110edbdfa30df445d61c6628b02ebe163c4f42
+  checksum: fd7b9882a7b44b78711d3489fd571308372a915924c2e619ad8a08d9100a17ae8899a3d3bb1934c326d45bf942330a693206088ba80f292dd6574d9e33c67a43
   languageName: node
   linkType: hard
 
@@ -5681,7 +5681,7 @@ __metadata:
     eslint-plugin-standard: "npm:4.1.0"
     eslint-plugin-vue: "npm:9.19.2"
     file-loader: "npm:6.2.0"
-    html-webpack-plugin: "npm:5.5.3"
+    html-webpack-plugin: "npm:5.5.4"
     node-notifier: "npm:10.0.1"
     optimize-css-assets-webpack-plugin: "npm:6.0.1"
     ora: "npm:7.0.1"
