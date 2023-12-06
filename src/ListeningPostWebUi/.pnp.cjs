@@ -54,7 +54,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-standard", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:4.1.0"],\
           ["eslint-plugin-vue", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:9.19.2"],\
           ["file-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:6.2.0"],\
-          ["html-webpack-plugin", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:5.5.3"],\
+          ["html-webpack-plugin", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:5.5.4"],\
           ["node-notifier", "npm:10.0.1"],\
           ["optimize-css-assets-webpack-plugin", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:6.0.1"],\
           ["ora", "npm:7.0.1"],\
@@ -5915,17 +5915,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["html-webpack-plugin", [\
-      ["npm:5.5.3", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/html-webpack-plugin-npm-5.5.3-b4f14786eb-10c0.zip/node_modules/html-webpack-plugin/",\
+      ["npm:5.5.4", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/html-webpack-plugin-npm-5.5.4-48ed927da2-10c0.zip/node_modules/html-webpack-plugin/",\
         "packageDependencies": [\
-          ["html-webpack-plugin", "npm:5.5.3"]\
+          ["html-webpack-plugin", "npm:5.5.4"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:5.5.3", {\
-        "packageLocation": "./.yarn/__virtual__/html-webpack-plugin-virtual-8f2be3ce33/7/cache/others/berry/cache/html-webpack-plugin-npm-5.5.3-b4f14786eb-10c0.zip/node_modules/html-webpack-plugin/",\
+      ["virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:5.5.4", {\
+        "packageLocation": "./.yarn/__virtual__/html-webpack-plugin-virtual-7e61b129a0/7/cache/others/berry/cache/html-webpack-plugin-npm-5.5.4-48ed927da2-10c0.zip/node_modules/html-webpack-plugin/",\
         "packageDependencies": [\
-          ["html-webpack-plugin", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:5.5.3"],\
+          ["html-webpack-plugin", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:5.5.4"],\
           ["@types/html-minifier-terser", "npm:6.1.0"],\
           ["@types/webpack", null],\
           ["html-minifier-terser", "npm:6.1.0"],\
@@ -6861,7 +6861,7 @@ const RAW_RUNTIME_STATE =
           ["eslint-plugin-standard", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:4.1.0"],\
           ["eslint-plugin-vue", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:9.19.2"],\
           ["file-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:6.2.0"],\
-          ["html-webpack-plugin", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:5.5.3"],\
+          ["html-webpack-plugin", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:5.5.4"],\
           ["node-notifier", "npm:10.0.1"],\
           ["optimize-css-assets-webpack-plugin", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:6.0.1"],\
           ["ora", "npm:7.0.1"],\
