@@ -72,7 +72,7 @@ const RAW_RUNTIME_STATE =
           ["vue-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:17.3.1"],\
           ["vue-router", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:4.2.5"],\
           ["vue-style-loader", "npm:4.1.3"],\
-          ["vue-template-compiler", "npm:2.7.15"],\
+          ["vue-template-compiler", "npm:2.7.16"],\
           ["vue2-dropzone", "npm:3.6.0"],\
           ["vuex", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:4.1.0"],\
           ["webpack", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:5.89.0"],\
@@ -6883,7 +6883,7 @@ const RAW_RUNTIME_STATE =
           ["vue-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:17.3.1"],\
           ["vue-router", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:4.2.5"],\
           ["vue-style-loader", "npm:4.1.3"],\
-          ["vue-template-compiler", "npm:2.7.15"],\
+          ["vue-template-compiler", "npm:2.7.16"],\
           ["vue2-dropzone", "npm:3.6.0"],\
           ["vuex", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:4.1.0"],\
           ["webpack", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:5.89.0"],\
@@ -10714,10 +10714,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["vue-template-compiler", [\
-      ["npm:2.7.15", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/vue-template-compiler-npm-2.7.15-28e79f8ad6-10c0.zip/node_modules/vue-template-compiler/",\
+      ["npm:2.7.16", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/vue-template-compiler-npm-2.7.16-f59aa20e7d-10c0.zip/node_modules/vue-template-compiler/",\
         "packageDependencies": [\
-          ["vue-template-compiler", "npm:2.7.15"],\
+          ["vue-template-compiler", "npm:2.7.16"],\
           ["de-indent", "npm:1.0.2"],\
           ["he", "npm:1.2.0"]\
         ],\
