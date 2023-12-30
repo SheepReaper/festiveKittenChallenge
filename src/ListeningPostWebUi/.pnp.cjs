@@ -57,7 +57,7 @@ const RAW_RUNTIME_STATE =
           ["html-webpack-plugin", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:5.6.0"],\
           ["node-notifier", "npm:10.0.1"],\
           ["optimize-css-assets-webpack-plugin", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:6.0.1"],\
-          ["ora", "npm:7.0.1"],\
+          ["ora", "npm:8.0.1"],\
           ["portfinder", "npm:1.0.32"],\
           ["postcss-import", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:15.1.0"],\
           ["postcss-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:7.3.4"],\
@@ -3037,15 +3037,6 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
-    ["base64-js", [\
-      ["npm:1.5.1", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/base64-js-npm-1.5.1-b2f7275641-10c0.zip/node_modules/base64-js/",\
-        "packageDependencies": [\
-          ["base64-js", "npm:1.5.1"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
     ["batch", [\
       ["npm:0.6.1", {\
         "packageLocation": "../../../../../../cache/others/berry/cache/batch-npm-0.6.1-70e2e81169-10c0.zip/node_modules/batch/",\
@@ -3069,18 +3060,6 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../../cache/others/berry/cache/binary-extensions-npm-2.2.0-180c33fec7-10c0.zip/node_modules/binary-extensions/",\
         "packageDependencies": [\
           ["binary-extensions", "npm:2.2.0"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["bl", [\
-      ["npm:5.1.0", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/bl-npm-5.1.0-872d13e4d1-10c0.zip/node_modules/bl/",\
-        "packageDependencies": [\
-          ["bl", "npm:5.1.0"],\
-          ["buffer", "npm:6.0.3"],\
-          ["inherits", "npm:2.0.4"],\
-          ["readable-stream", "npm:3.6.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3245,17 +3224,6 @@ const RAW_RUNTIME_STATE =
           ["electron-to-chromium", "npm:1.4.616"],\
           ["node-releases", "npm:2.0.14"],\
           ["update-browserslist-db", "virtual:87e70d802146e5a0e8f2a12b5ab64004040c6640441dba54229a7db766cb1b88edabd3d3c814ce33d6ba839c4e517b12e9b0a7febfca22ac2a64177042bf3ee6#npm:1.0.13"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["buffer", [\
-      ["npm:6.0.3", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/buffer-npm-6.0.3-cd90dfedfe-10c0.zip/node_modules/buffer/",\
-        "packageDependencies": [\
-          ["buffer", "npm:6.0.3"],\
-          ["base64-js", "npm:1.5.1"],\
-          ["ieee754", "npm:1.2.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5557,6 +5525,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["get-east-asian-width", [\
+      ["npm:1.2.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/get-east-asian-width-npm-1.2.0-6cd8491dbe-10c0.zip/node_modules/get-east-asian-width/",\
+        "packageDependencies": [\
+          ["get-east-asian-width", "npm:1.2.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["get-intrinsic", [\
       ["npm:1.2.2", {\
         "packageLocation": "../../../../../../cache/others/berry/cache/get-intrinsic-npm-1.2.2-3f446d8847-10c0.zip/node_modules/get-intrinsic/",\
@@ -6118,15 +6095,6 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
-    ["ieee754", [\
-      ["npm:1.2.1", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/ieee754-npm-1.2.1-fb63b3caeb-10c0.zip/node_modules/ieee754/",\
-        "packageDependencies": [\
-          ["ieee754", "npm:1.2.1"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
     ["ignore", [\
       ["npm:5.3.0", {\
         "packageLocation": "../../../../../../cache/others/berry/cache/ignore-npm-5.3.0-fb0f5fa062-10c0.zip/node_modules/ignore/",\
@@ -6532,6 +6500,13 @@ const RAW_RUNTIME_STATE =
           ["is-unicode-supported", "npm:1.3.0"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:2.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/is-unicode-supported-npm-2.0.0-7daaafc111-10c0.zip/node_modules/is-unicode-supported/",\
+        "packageDependencies": [\
+          ["is-unicode-supported", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["is-weakref", [\
@@ -6868,7 +6843,7 @@ const RAW_RUNTIME_STATE =
           ["html-webpack-plugin", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:5.6.0"],\
           ["node-notifier", "npm:10.0.1"],\
           ["optimize-css-assets-webpack-plugin", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:6.0.1"],\
-          ["ora", "npm:7.0.1"],\
+          ["ora", "npm:8.0.1"],\
           ["portfinder", "npm:1.0.32"],\
           ["postcss-import", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:15.1.0"],\
           ["postcss-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:7.3.4"],\
@@ -6997,10 +6972,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["log-symbols", [\
-      ["npm:5.1.0", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/log-symbols-npm-5.1.0-75864cfeb4-10c0.zip/node_modules/log-symbols/",\
+      ["npm:6.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/log-symbols-npm-6.0.0-126324bed0-10c0.zip/node_modules/log-symbols/",\
         "packageDependencies": [\
-          ["log-symbols", "npm:5.1.0"],\
+          ["log-symbols", "npm:6.0.0"],\
           ["chalk", "npm:5.3.0"],\
           ["is-unicode-supported", "npm:1.3.0"]\
         ],\
@@ -7769,18 +7744,18 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["ora", [\
-      ["npm:7.0.1", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/ora-npm-7.0.1-3fd939d926-10c0.zip/node_modules/ora/",\
+      ["npm:8.0.1", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/ora-npm-8.0.1-d9010b6b37-10c0.zip/node_modules/ora/",\
         "packageDependencies": [\
-          ["ora", "npm:7.0.1"],\
+          ["ora", "npm:8.0.1"],\
           ["chalk", "npm:5.3.0"],\
           ["cli-cursor", "npm:4.0.0"],\
           ["cli-spinners", "npm:2.9.2"],\
           ["is-interactive", "npm:2.0.0"],\
-          ["is-unicode-supported", "npm:1.3.0"],\
-          ["log-symbols", "npm:5.1.0"],\
-          ["stdin-discarder", "npm:0.1.0"],\
-          ["string-width", "npm:6.1.0"],\
+          ["is-unicode-supported", "npm:2.0.0"],\
+          ["log-symbols", "npm:6.0.0"],\
+          ["stdin-discarder", "npm:0.2.1"],\
+          ["string-width", "npm:7.0.0"],\
           ["strip-ansi", "npm:7.1.0"]\
         ],\
         "linkType": "HARD"\
@@ -9907,11 +9882,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["stdin-discarder", [\
-      ["npm:0.1.0", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/stdin-discarder-npm-0.1.0-8402cb893f-10c0.zip/node_modules/stdin-discarder/",\
+      ["npm:0.2.1", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/stdin-discarder-npm-0.2.1-f782a696b4-10c0.zip/node_modules/stdin-discarder/",\
         "packageDependencies": [\
-          ["stdin-discarder", "npm:0.1.0"],\
-          ["bl", "npm:5.1.0"]\
+          ["stdin-discarder", "npm:0.2.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -9937,12 +9911,12 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:6.1.0", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/string-width-npm-6.1.0-fc6478ccec-10c0.zip/node_modules/string-width/",\
+      ["npm:7.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/string-width-npm-7.0.0-1bcc0b3bce-10c0.zip/node_modules/string-width/",\
         "packageDependencies": [\
-          ["string-width", "npm:6.1.0"],\
-          ["eastasianwidth", "npm:0.2.0"],\
+          ["string-width", "npm:7.0.0"],\
           ["emoji-regex", "npm:10.3.0"],\
+          ["get-east-asian-width", "npm:1.2.0"],\
           ["strip-ansi", "npm:7.1.0"]\
         ],\
         "linkType": "HARD"\
