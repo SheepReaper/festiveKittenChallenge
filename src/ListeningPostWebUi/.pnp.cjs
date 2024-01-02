@@ -63,7 +63,7 @@ const RAW_RUNTIME_STATE =
           ["postcss-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:7.3.4"],\
           ["postcss-url", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.1.3"],\
           ["rimraf", "npm:5.0.5"],\
-          ["sass", "npm:1.69.6"],\
+          ["sass", "npm:1.69.7"],\
           ["sass-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:13.3.3"],\
           ["semver", "npm:7.5.4"],\
           ["shelljs", "npm:0.8.5"],\
@@ -6842,7 +6842,7 @@ const RAW_RUNTIME_STATE =
           ["postcss-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:7.3.4"],\
           ["postcss-url", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.1.3"],\
           ["rimraf", "npm:5.0.5"],\
-          ["sass", "npm:1.69.6"],\
+          ["sass", "npm:1.69.7"],\
           ["sass-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:13.3.3"],\
           ["semver", "npm:7.5.4"],\
           ["shelljs", "npm:0.8.5"],\
@@ -9369,10 +9369,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["sass", [\
-      ["npm:1.69.6", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/sass-npm-1.69.6-734850663f-10c0.zip/node_modules/sass/",\
+      ["npm:1.69.7", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/sass-npm-1.69.7-ac434a094c-10c0.zip/node_modules/sass/",\
         "packageDependencies": [\
-          ["sass", "npm:1.69.6"],\
+          ["sass", "npm:1.69.7"],\
           ["chokidar", "npm:3.5.3"],\
           ["immutable", "npm:4.3.4"],\
           ["source-map-js", "npm:1.0.2"]\
@@ -9400,7 +9400,7 @@ const RAW_RUNTIME_STATE =
           ["fibers", null],\
           ["neo-async", "npm:2.6.2"],\
           ["node-sass", null],\
-          ["sass", "npm:1.69.6"],\
+          ["sass", "npm:1.69.7"],\
           ["sass-embedded", null],\
           ["webpack", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:5.89.0"]\
         ],\
