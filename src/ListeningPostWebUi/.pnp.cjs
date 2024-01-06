@@ -30,7 +30,7 @@ const RAW_RUNTIME_STATE =
           ["@ckeditor/ckeditor5-build-classic", "npm:40.2.0"],\
           ["@ckeditor/ckeditor5-vue", "npm:5.1.0"],\
           ["autoprefixer", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.4.16"],\
-          ["axios", "npm:1.6.4"],\
+          ["axios", "npm:1.6.5"],\
           ["babel-core", "npm:6.26.3"],\
           ["babel-helper-vue-jsx-merge-props", "npm:2.0.3"],\
           ["babel-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:9.1.3"],\
@@ -2104,11 +2104,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["axios", [\
-      ["npm:1.6.4", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/axios-npm-1.6.4-27c7f05730-10c0.zip/node_modules/axios/",\
+      ["npm:1.6.5", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/axios-npm-1.6.5-87404a12d6-10c0.zip/node_modules/axios/",\
         "packageDependencies": [\
-          ["axios", "npm:1.6.4"],\
-          ["follow-redirects", "virtual:27c7f05730106654135928f3127b1630b42850fc1970cfbbd4f84a3e27fac87c73bfdd899eb2d41f55c61fe416a3330b56ed1e56aec4be1e3b4a2982f32f3909#npm:1.15.4"],\
+          ["axios", "npm:1.6.5"],\
+          ["follow-redirects", "virtual:87404a12d617a0f284f46fa368966665b2913bbd41d7ad24d282540aefa3360d8754e9717ae9b8aa4b57d1893372657e94658e9e39b9d068bbcf6ea38c2ceb2f#npm:1.15.4"],\
           ["form-data", "npm:4.0.0"],\
           ["proxy-from-env", "npm:1.1.0"]\
         ],\
@@ -5346,10 +5346,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:27c7f05730106654135928f3127b1630b42850fc1970cfbbd4f84a3e27fac87c73bfdd899eb2d41f55c61fe416a3330b56ed1e56aec4be1e3b4a2982f32f3909#npm:1.15.4", {\
-        "packageLocation": "./.yarn/__virtual__/follow-redirects-virtual-8db6281d15/7/cache/others/berry/cache/follow-redirects-npm-1.15.4-3384d6a415-10c0.zip/node_modules/follow-redirects/",\
+      ["virtual:87404a12d617a0f284f46fa368966665b2913bbd41d7ad24d282540aefa3360d8754e9717ae9b8aa4b57d1893372657e94658e9e39b9d068bbcf6ea38c2ceb2f#npm:1.15.4", {\
+        "packageLocation": "./.yarn/__virtual__/follow-redirects-virtual-74c4962fb5/7/cache/others/berry/cache/follow-redirects-npm-1.15.4-3384d6a415-10c0.zip/node_modules/follow-redirects/",\
         "packageDependencies": [\
-          ["follow-redirects", "virtual:27c7f05730106654135928f3127b1630b42850fc1970cfbbd4f84a3e27fac87c73bfdd899eb2d41f55c61fe416a3330b56ed1e56aec4be1e3b4a2982f32f3909#npm:1.15.4"],\
+          ["follow-redirects", "virtual:87404a12d617a0f284f46fa368966665b2913bbd41d7ad24d282540aefa3360d8754e9717ae9b8aa4b57d1893372657e94658e9e39b9d068bbcf6ea38c2ceb2f#npm:1.15.4"],\
           ["@types/debug", null],\
           ["debug", null]\
         ],\
@@ -5986,7 +5986,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["http-proxy", "npm:1.18.1"],\
           ["eventemitter3", "npm:4.0.7"],\
-          ["follow-redirects", "virtual:27c7f05730106654135928f3127b1630b42850fc1970cfbbd4f84a3e27fac87c73bfdd899eb2d41f55c61fe416a3330b56ed1e56aec4be1e3b4a2982f32f3909#npm:1.15.4"],\
+          ["follow-redirects", "virtual:87404a12d617a0f284f46fa368966665b2913bbd41d7ad24d282540aefa3360d8754e9717ae9b8aa4b57d1893372657e94658e9e39b9d068bbcf6ea38c2ceb2f#npm:1.15.4"],\
           ["requires-port", "npm:1.0.0"]\
         ],\
         "linkType": "HARD"\
@@ -6809,7 +6809,7 @@ const RAW_RUNTIME_STATE =
           ["@ckeditor/ckeditor5-build-classic", "npm:40.2.0"],\
           ["@ckeditor/ckeditor5-vue", "npm:5.1.0"],\
           ["autoprefixer", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.4.16"],\
-          ["axios", "npm:1.6.4"],\
+          ["axios", "npm:1.6.5"],\
           ["babel-core", "npm:6.26.3"],\
           ["babel-helper-vue-jsx-merge-props", "npm:2.0.3"],\
           ["babel-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:9.1.3"],\
