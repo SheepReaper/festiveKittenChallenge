@@ -29,7 +29,7 @@ const RAW_RUNTIME_STATE =
           ["@babel/eslint-parser", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:7.23.3"],\
           ["@ckeditor/ckeditor5-build-classic", "npm:40.2.0"],\
           ["@ckeditor/ckeditor5-vue", "npm:5.1.0"],\
-          ["autoprefixer", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.4.16"],\
+          ["autoprefixer", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.4.17"],\
           ["axios", "npm:1.6.5"],\
           ["babel-core", "npm:6.26.3"],\
           ["babel-helper-vue-jsx-merge-props", "npm:2.0.3"],\
@@ -2060,20 +2060,20 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["autoprefixer", [\
-      ["npm:10.4.16", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/autoprefixer-npm-10.4.16-e5a0ee424d-10c0.zip/node_modules/autoprefixer/",\
+      ["npm:10.4.17", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/autoprefixer-npm-10.4.17-8379be1d95-10c0.zip/node_modules/autoprefixer/",\
         "packageDependencies": [\
-          ["autoprefixer", "npm:10.4.16"]\
+          ["autoprefixer", "npm:10.4.17"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.4.16", {\
-        "packageLocation": "./.yarn/__virtual__/autoprefixer-virtual-e169c5f2b5/7/cache/others/berry/cache/autoprefixer-npm-10.4.16-e5a0ee424d-10c0.zip/node_modules/autoprefixer/",\
+      ["virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.4.17", {\
+        "packageLocation": "./.yarn/__virtual__/autoprefixer-virtual-4653039d6f/7/cache/others/berry/cache/autoprefixer-npm-10.4.17-8379be1d95-10c0.zip/node_modules/autoprefixer/",\
         "packageDependencies": [\
-          ["autoprefixer", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.4.16"],\
+          ["autoprefixer", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.4.17"],\
           ["@types/postcss", null],\
           ["browserslist", "npm:4.22.2"],\
-          ["caniuse-lite", "npm:1.0.30001576"],\
+          ["caniuse-lite", "npm:1.0.30001578"],\
           ["fraction.js", "npm:4.3.7"],\
           ["normalize-range", "npm:0.1.2"],\
           ["picocolors", "npm:1.0.0"],\
@@ -3301,6 +3301,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../../cache/others/berry/cache/caniuse-lite-npm-1.0.30001576-3d0983cdce-10c0.zip/node_modules/caniuse-lite/",\
         "packageDependencies": [\
           ["caniuse-lite", "npm:1.0.30001576"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:1.0.30001578", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/caniuse-lite-npm-1.0.30001578-8f4556e845-10c0.zip/node_modules/caniuse-lite/",\
+        "packageDependencies": [\
+          ["caniuse-lite", "npm:1.0.30001578"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -6790,7 +6797,7 @@ const RAW_RUNTIME_STATE =
           ["@babel/eslint-parser", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:7.23.3"],\
           ["@ckeditor/ckeditor5-build-classic", "npm:40.2.0"],\
           ["@ckeditor/ckeditor5-vue", "npm:5.1.0"],\
-          ["autoprefixer", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.4.16"],\
+          ["autoprefixer", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.4.17"],\
           ["axios", "npm:1.6.5"],\
           ["babel-core", "npm:6.26.3"],\
           ["babel-helper-vue-jsx-merge-props", "npm:2.0.3"],\
