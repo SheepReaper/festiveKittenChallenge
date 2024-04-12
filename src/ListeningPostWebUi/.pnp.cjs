@@ -76,7 +76,7 @@ const RAW_RUNTIME_STATE =
           ["vue2-dropzone", "npm:3.6.0"],\
           ["vuex", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:4.1.0"],\
           ["webpack", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:5.91.0"],\
-          ["webpack-bundle-analyzer", "npm:4.10.1"],\
+          ["webpack-bundle-analyzer", "npm:4.10.2"],\
           ["webpack-dev-server", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:4.15.2"],\
           ["webpack-merge", "npm:5.10.0"]\
         ],\
@@ -6489,13 +6489,6 @@ const RAW_RUNTIME_STATE =
           ["isobject", "npm:3.0.1"]\
         ],\
         "linkType": "HARD"\
-      }],\
-      ["npm:5.0.0", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/is-plain-object-npm-5.0.0-285b70faa3-10c0.zip/node_modules/is-plain-object/",\
-        "packageDependencies": [\
-          ["is-plain-object", "npm:5.0.0"]\
-        ],\
-        "linkType": "HARD"\
       }]\
     ]],\
     ["is-regex", [\
@@ -6936,7 +6929,7 @@ const RAW_RUNTIME_STATE =
           ["vue2-dropzone", "npm:3.6.0"],\
           ["vuex", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:4.1.0"],\
           ["webpack", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:5.91.0"],\
-          ["webpack-bundle-analyzer", "npm:4.10.1"],\
+          ["webpack-bundle-analyzer", "npm:4.10.2"],\
           ["webpack-dev-server", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:4.15.2"],\
           ["webpack-merge", "npm:5.10.0"]\
         ],\
@@ -10911,10 +10904,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["webpack-bundle-analyzer", [\
-      ["npm:4.10.1", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/webpack-bundle-analyzer-npm-4.10.1-57768ac46c-10c0.zip/node_modules/webpack-bundle-analyzer/",\
+      ["npm:4.10.2", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/webpack-bundle-analyzer-npm-4.10.2-970f80a648-10c0.zip/node_modules/webpack-bundle-analyzer/",\
         "packageDependencies": [\
-          ["webpack-bundle-analyzer", "npm:4.10.1"],\
+          ["webpack-bundle-analyzer", "npm:4.10.2"],\
           ["@discoveryjs/json-ext", "npm:0.5.7"],\
           ["acorn", "npm:8.11.3"],\
           ["acorn-walk", "npm:8.3.2"],\
@@ -10923,11 +10916,10 @@ const RAW_RUNTIME_STATE =
           ["escape-string-regexp", "npm:4.0.0"],\
           ["gzip-size", "npm:6.0.0"],\
           ["html-escaper", "npm:2.0.2"],\
-          ["is-plain-object", "npm:5.0.0"],\
           ["opener", "npm:1.5.2"],\
           ["picocolors", "npm:1.0.0"],\
           ["sirv", "npm:2.0.4"],\
-          ["ws", "virtual:57768ac46c56f84ed2602a325a7058b7cd8bcbeca704995d8ca8dce47055cb63fd910c635e0fd2cb7ae48b70755c7adf2c18a98e9f57a1f1c8d707383a5fed10#npm:7.5.9"]\
+          ["ws", "virtual:970f80a64861d25f93dc52dd1b2fb0a34ded7a9f4f58a0c9d8413c85ae4a9db20b165343a80d1c5c543ecf1937f15675f0b2fda9e51458beef186489e54ecbb4#npm:7.5.9"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -11195,10 +11187,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["virtual:57768ac46c56f84ed2602a325a7058b7cd8bcbeca704995d8ca8dce47055cb63fd910c635e0fd2cb7ae48b70755c7adf2c18a98e9f57a1f1c8d707383a5fed10#npm:7.5.9", {\
-        "packageLocation": "./.yarn/__virtual__/ws-virtual-c933fba4a7/7/cache/others/berry/cache/ws-npm-7.5.9-26f12a5ed6-10c0.zip/node_modules/ws/",\
+      ["virtual:970f80a64861d25f93dc52dd1b2fb0a34ded7a9f4f58a0c9d8413c85ae4a9db20b165343a80d1c5c543ecf1937f15675f0b2fda9e51458beef186489e54ecbb4#npm:7.5.9", {\
+        "packageLocation": "./.yarn/__virtual__/ws-virtual-dec45c8b50/7/cache/others/berry/cache/ws-npm-7.5.9-26f12a5ed6-10c0.zip/node_modules/ws/",\
         "packageDependencies": [\
-          ["ws", "virtual:57768ac46c56f84ed2602a325a7058b7cd8bcbeca704995d8ca8dce47055cb63fd910c635e0fd2cb7ae48b70755c7adf2c18a98e9f57a1f1c8d707383a5fed10#npm:7.5.9"],\
+          ["ws", "virtual:970f80a64861d25f93dc52dd1b2fb0a34ded7a9f4f58a0c9d8413c85ae4a9db20b165343a80d1c5c543ecf1937f15675f0b2fda9e51458beef186489e54ecbb4#npm:7.5.9"],\
           ["@types/bufferutil", null],\
           ["@types/utf-8-validate", null],\
           ["bufferutil", null],\
