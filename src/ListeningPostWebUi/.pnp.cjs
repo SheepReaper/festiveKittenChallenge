@@ -65,7 +65,7 @@ const RAW_RUNTIME_STATE =
           ["postcss-url", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.1.3"],\
           ["rimraf", "npm:5.0.7"],\
           ["sass", "npm:1.77.6"],\
-          ["sass-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:13.3.3"],\
+          ["sass-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:14.2.1"],\
           ["semver", "npm:7.6.2"],\
           ["shelljs", "npm:0.8.5"],\
           ["url-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:4.1.1"],\
@@ -6935,7 +6935,7 @@ const RAW_RUNTIME_STATE =
           ["postcss-url", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.1.3"],\
           ["rimraf", "npm:5.0.7"],\
           ["sass", "npm:1.77.6"],\
-          ["sass-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:13.3.3"],\
+          ["sass-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:14.2.1"],\
           ["semver", "npm:7.6.2"],\
           ["shelljs", "npm:0.8.5"],\
           ["url-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:4.1.1"],\
@@ -9483,23 +9483,23 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["sass-loader", [\
-      ["npm:13.3.3", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/sass-loader-npm-13.3.3-f5ea4bd230-10c0.zip/node_modules/sass-loader/",\
+      ["npm:14.2.1", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/sass-loader-npm-14.2.1-dc50026ea1-10c0.zip/node_modules/sass-loader/",\
         "packageDependencies": [\
-          ["sass-loader", "npm:13.3.3"]\
+          ["sass-loader", "npm:14.2.1"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:13.3.3", {\
-        "packageLocation": "./.yarn/__virtual__/sass-loader-virtual-6635a6a89d/7/cache/others/berry/cache/sass-loader-npm-13.3.3-f5ea4bd230-10c0.zip/node_modules/sass-loader/",\
+      ["virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:14.2.1", {\
+        "packageLocation": "./.yarn/__virtual__/sass-loader-virtual-7807fc10f6/7/cache/others/berry/cache/sass-loader-npm-14.2.1-dc50026ea1-10c0.zip/node_modules/sass-loader/",\
         "packageDependencies": [\
-          ["sass-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:13.3.3"],\
-          ["@types/fibers", null],\
+          ["sass-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:14.2.1"],\
+          ["@rspack/core", null],\
           ["@types/node-sass", null],\
+          ["@types/rspack__core", null],\
           ["@types/sass", null],\
           ["@types/sass-embedded", null],\
           ["@types/webpack", null],\
-          ["fibers", null],\
           ["neo-async", "npm:2.6.2"],\
           ["node-sass", null],\
           ["sass", "npm:1.77.6"],\
@@ -9507,12 +9507,12 @@ const RAW_RUNTIME_STATE =
           ["webpack", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:5.92.1"]\
         ],\
         "packagePeers": [\
-          "@types/fibers",\
+          "@rspack/core",\
           "@types/node-sass",\
+          "@types/rspack__core",\
           "@types/sass-embedded",\
           "@types/sass",\
           "@types/webpack",\
-          "fibers",\
           "node-sass",\
           "sass-embedded",\
           "sass",\
