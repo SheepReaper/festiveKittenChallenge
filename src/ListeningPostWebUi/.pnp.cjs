@@ -63,7 +63,7 @@ const RAW_RUNTIME_STATE =
           ["postcss-import", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:16.1.0"],\
           ["postcss-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:7.3.4"],\
           ["postcss-url", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.1.3"],\
-          ["rimraf", "npm:5.0.7"],\
+          ["rimraf", "npm:5.0.9"],\
           ["sass", "npm:1.77.6"],\
           ["sass-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:13.3.3"],\
           ["semver", "npm:7.6.2"],\
@@ -6933,7 +6933,7 @@ const RAW_RUNTIME_STATE =
           ["postcss-import", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:16.1.0"],\
           ["postcss-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:7.3.4"],\
           ["postcss-url", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.1.3"],\
-          ["rimraf", "npm:5.0.7"],\
+          ["rimraf", "npm:5.0.9"],\
           ["sass", "npm:1.77.6"],\
           ["sass-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:13.3.3"],\
           ["semver", "npm:7.6.2"],\
@@ -9401,10 +9401,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:5.0.7", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/rimraf-npm-5.0.7-5c7aa1db5b-10c0.zip/node_modules/rimraf/",\
+      ["npm:5.0.9", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/rimraf-npm-5.0.9-a8231bd2f9-10c0.zip/node_modules/rimraf/",\
         "packageDependencies": [\
-          ["rimraf", "npm:5.0.7"],\
+          ["rimraf", "npm:5.0.9"],\
           ["glob", "npm:10.4.1"]\
         ],\
         "linkType": "HARD"\
