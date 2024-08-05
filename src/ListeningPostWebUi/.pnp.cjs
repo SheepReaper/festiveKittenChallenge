@@ -29,7 +29,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@babel/eslint-parser", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:7.24.8"],\
           ["@ckeditor/ckeditor5-build-classic", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-vue", "npm:5.1.0"],\
+          ["@ckeditor/ckeditor5-vue", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:6.0.0"],\
           ["autoprefixer", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.4.20"],\
           ["axios", "npm:1.7.3"],\
           ["babel-core", "npm:6.26.3"],\
@@ -744,10 +744,28 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@ckeditor/ckeditor5-vue", [\
-      ["npm:5.1.0", {\
-        "packageLocation": "./.yarn/unplugged/@ckeditor-ckeditor5-vue-npm-5.1.0-30baf5573c/node_modules/@ckeditor/ckeditor5-vue/",\
+      ["npm:6.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-vue-npm-6.0.0-93ae737b4e-10c0.zip/node_modules/@ckeditor/ckeditor5-vue/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-vue", "npm:5.1.0"]\
+          ["@ckeditor/ckeditor5-vue", "npm:6.0.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:6.0.0", {\
+        "packageLocation": "./.yarn/__virtual__/@ckeditor-ckeditor5-vue-virtual-a767be5dae/7/cache/others/berry/cache/@ckeditor-ckeditor5-vue-npm-6.0.0-93ae737b4e-10c0.zip/node_modules/@ckeditor/ckeditor5-vue/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-vue", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:6.0.0"],\
+          ["@types/ckeditor5", null],\
+          ["@types/vue", null],\
+          ["ckeditor5", null],\
+          ["lodash-es", "npm:4.17.21"],\
+          ["vue", "virtual:7741e250996770f47ea2ec439bbf8460fab3d2cbd6adafeb065b6da7b3c7a46a393fd0367aadb25010fca8f64490e54a303f74ce13a76a6e8d596e2299a04b0a#npm:3.4.35"]\
+        ],\
+        "packagePeers": [\
+          "@types/ckeditor5",\
+          "@types/vue",\
+          "ckeditor5",\
+          "vue"\
         ],\
         "linkType": "HARD"\
       }]\
@@ -6924,7 +6942,7 @@ const RAW_RUNTIME_STATE =
           ["listeningpostwebui", "workspace:."],\
           ["@babel/eslint-parser", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:7.24.8"],\
           ["@ckeditor/ckeditor5-build-classic", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-vue", "npm:5.1.0"],\
+          ["@ckeditor/ckeditor5-vue", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:6.0.0"],\
           ["autoprefixer", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.4.20"],\
           ["axios", "npm:1.7.3"],\
           ["babel-core", "npm:6.26.3"],\
