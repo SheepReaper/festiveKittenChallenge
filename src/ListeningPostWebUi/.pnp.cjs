@@ -28,7 +28,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@babel/eslint-parser", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:7.24.8"],\
-          ["@ckeditor/ckeditor5-build-classic", "npm:40.2.0"],\
+          ["@ckeditor/ckeditor5-build-classic", "npm:43.0.0"],\
           ["@ckeditor/ckeditor5-vue", "npm:5.1.0"],\
           ["autoprefixer", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.4.20"],\
           ["axios", "npm:1.7.3"],\
@@ -390,317 +390,750 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@ckeditor/ckeditor5-adapter-ckfinder", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-adapter-ckfinder-npm-40.2.0-83b0e552a6-10c0.zip/node_modules/@ckeditor/ckeditor5-adapter-ckfinder/",\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-adapter-ckfinder-npm-43.0.0-dd72245cff-10c0.zip/node_modules/@ckeditor/ckeditor5-adapter-ckfinder/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-adapter-ckfinder", "npm:40.2.0"],\
-          ["ckeditor5", "npm:40.2.0"]\
+          ["@ckeditor/ckeditor5-adapter-ckfinder", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-upload", "npm:43.0.0"],\
+          ["ckeditor5", "npm:43.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-alignment", [\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-alignment-npm-43.0.0-6f14cb6acd-10c0.zip/node_modules/@ckeditor/ckeditor5-alignment/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-alignment", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:43.0.0"],\
+          ["ckeditor5", "npm:43.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@ckeditor/ckeditor5-autoformat", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-autoformat-npm-40.2.0-a1ea7613c5-10c0.zip/node_modules/@ckeditor/ckeditor5-autoformat/",\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-autoformat-npm-43.0.0-906ee12bfa-10c0.zip/node_modules/@ckeditor/ckeditor5-autoformat/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-autoformat", "npm:40.2.0"],\
-          ["ckeditor5", "npm:40.2.0"]\
+          ["@ckeditor/ckeditor5-autoformat", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-typing", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:43.0.0"],\
+          ["ckeditor5", "npm:43.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-autosave", [\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-autosave-npm-43.0.0-c4303fc647-10c0.zip/node_modules/@ckeditor/ckeditor5-autosave/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-autosave", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:43.0.0"],\
+          ["ckeditor5", "npm:43.0.0"],\
+          ["lodash-es", "npm:4.17.21"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@ckeditor/ckeditor5-basic-styles", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-basic-styles-npm-40.2.0-bbafc7fbbf-10c0.zip/node_modules/@ckeditor/ckeditor5-basic-styles/",\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-basic-styles-npm-43.0.0-1464e1b45c-10c0.zip/node_modules/@ckeditor/ckeditor5-basic-styles/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-basic-styles", "npm:40.2.0"],\
-          ["ckeditor5", "npm:40.2.0"]\
+          ["@ckeditor/ckeditor5-basic-styles", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-typing", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:43.0.0"],\
+          ["ckeditor5", "npm:43.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@ckeditor/ckeditor5-block-quote", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-block-quote-npm-40.2.0-1c6b0a3540-10c0.zip/node_modules/@ckeditor/ckeditor5-block-quote/",\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-block-quote-npm-43.0.0-617110e8cc-10c0.zip/node_modules/@ckeditor/ckeditor5-block-quote/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-block-quote", "npm:40.2.0"],\
-          ["ckeditor5", "npm:40.2.0"]\
+          ["@ckeditor/ckeditor5-block-quote", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-enter", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-typing", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:43.0.0"],\
+          ["ckeditor5", "npm:43.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@ckeditor/ckeditor5-build-classic", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-build-classic-npm-40.2.0-73c9d1e171-10c0.zip/node_modules/@ckeditor/ckeditor5-build-classic/",\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-build-classic-npm-43.0.0-e2a2f4b855-10c0.zip/node_modules/@ckeditor/ckeditor5-build-classic/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-build-classic", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-adapter-ckfinder", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-autoformat", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-basic-styles", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-block-quote", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-ckbox", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-ckfinder", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-cloud-services", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-easy-image", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-editor-classic", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-essentials", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-heading", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-image", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-indent", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-link", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-list", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-media-embed", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-paragraph", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-paste-from-office", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-table", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-typing", "npm:40.2.0"]\
+          ["@ckeditor/ckeditor5-build-classic", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-adapter-ckfinder", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-autoformat", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-basic-styles", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-block-quote", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-ckbox", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-ckfinder", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-cloud-services", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-easy-image", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-editor-classic", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-essentials", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-heading", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-image", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-indent", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-link", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-list", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-media-embed", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-paragraph", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-paste-from-office", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-table", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-typing", "npm:43.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@ckeditor/ckeditor5-ckbox", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-ckbox-npm-40.2.0-17735b71c6-10c0.zip/node_modules/@ckeditor/ckeditor5-ckbox/",\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-ckbox-npm-43.0.0-908dab5090-10c0.zip/node_modules/@ckeditor/ckeditor5-ckbox/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-ckbox", "npm:40.2.0"],\
+          ["@ckeditor/ckeditor5-ckbox", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-upload", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:43.0.0"],\
           ["blurhash", "npm:2.0.5"],\
-          ["ckeditor5", "npm:40.2.0"],\
+          ["ckeditor5", "npm:43.0.0"],\
           ["lodash-es", "npm:4.17.21"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@ckeditor/ckeditor5-ckfinder", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-ckfinder-npm-40.2.0-e721546673-10c0.zip/node_modules/@ckeditor/ckeditor5-ckfinder/",\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-ckfinder-npm-43.0.0-70ffa5a6f7-10c0.zip/node_modules/@ckeditor/ckeditor5-ckfinder/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-ckfinder", "npm:40.2.0"],\
-          ["ckeditor5", "npm:40.2.0"]\
+          ["@ckeditor/ckeditor5-ckfinder", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:43.0.0"],\
+          ["ckeditor5", "npm:43.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@ckeditor/ckeditor5-clipboard", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-clipboard-npm-40.2.0-79573c64ee-10c0.zip/node_modules/@ckeditor/ckeditor5-clipboard/",\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-clipboard-npm-43.0.0-e7191d8d25-10c0.zip/node_modules/@ckeditor/ckeditor5-clipboard/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-clipboard", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-core", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-engine", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-ui", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-utils", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-widget", "npm:40.2.0"],\
+          ["@ckeditor/ckeditor5-clipboard", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-widget", "npm:43.0.0"],\
           ["lodash-es", "npm:4.17.21"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@ckeditor/ckeditor5-cloud-services", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-cloud-services-npm-40.2.0-5ce2a421e1-10c0.zip/node_modules/@ckeditor/ckeditor5-cloud-services/",\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-cloud-services-npm-43.0.0-e0eff24893-10c0.zip/node_modules/@ckeditor/ckeditor5-cloud-services/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-cloud-services", "npm:40.2.0"],\
-          ["ckeditor5", "npm:40.2.0"]\
+          ["@ckeditor/ckeditor5-cloud-services", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:43.0.0"],\
+          ["ckeditor5", "npm:43.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-code-block", [\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-code-block-npm-43.0.0-3d266f1907-10c0.zip/node_modules/@ckeditor/ckeditor5-code-block/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-code-block", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-clipboard", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-enter", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:43.0.0"],\
+          ["ckeditor5", "npm:43.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@ckeditor/ckeditor5-core", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-core-npm-40.2.0-8337750914-10c0.zip/node_modules/@ckeditor/ckeditor5-core/",\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-core-npm-43.0.0-897cdc6b16-10c0.zip/node_modules/@ckeditor/ckeditor5-core/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-core", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-engine", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-utils", "npm:40.2.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-watchdog", "npm:43.0.0"],\
           ["lodash-es", "npm:4.17.21"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@ckeditor/ckeditor5-easy-image", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-easy-image-npm-40.2.0-78dbe3305b-10c0.zip/node_modules/@ckeditor/ckeditor5-easy-image/",\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-easy-image-npm-43.0.0-f7c262aa56-10c0.zip/node_modules/@ckeditor/ckeditor5-easy-image/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-easy-image", "npm:40.2.0"],\
-          ["ckeditor5", "npm:40.2.0"]\
+          ["@ckeditor/ckeditor5-easy-image", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-upload", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:43.0.0"],\
+          ["ckeditor5", "npm:43.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-editor-balloon", [\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-editor-balloon-npm-43.0.0-b387768aa4-10c0.zip/node_modules/@ckeditor/ckeditor5-editor-balloon/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-editor-balloon", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:43.0.0"],\
+          ["ckeditor5", "npm:43.0.0"],\
+          ["lodash-es", "npm:4.17.21"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@ckeditor/ckeditor5-editor-classic", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-editor-classic-npm-40.2.0-0330a4b7b0-10c0.zip/node_modules/@ckeditor/ckeditor5-editor-classic/",\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-editor-classic-npm-43.0.0-52c732765a-10c0.zip/node_modules/@ckeditor/ckeditor5-editor-classic/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-editor-classic", "npm:40.2.0"],\
-          ["ckeditor5", "npm:40.2.0"],\
+          ["@ckeditor/ckeditor5-editor-classic", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:43.0.0"],\
+          ["ckeditor5", "npm:43.0.0"],\
+          ["lodash-es", "npm:4.17.21"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-editor-decoupled", [\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-editor-decoupled-npm-43.0.0-7ac99606c3-10c0.zip/node_modules/@ckeditor/ckeditor5-editor-decoupled/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-editor-decoupled", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:43.0.0"],\
+          ["ckeditor5", "npm:43.0.0"],\
+          ["lodash-es", "npm:4.17.21"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-editor-inline", [\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-editor-inline-npm-43.0.0-36ded3a895-10c0.zip/node_modules/@ckeditor/ckeditor5-editor-inline/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-editor-inline", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:43.0.0"],\
+          ["ckeditor5", "npm:43.0.0"],\
+          ["lodash-es", "npm:4.17.21"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-editor-multi-root", [\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-editor-multi-root-npm-43.0.0-a6b2694e06-10c0.zip/node_modules/@ckeditor/ckeditor5-editor-multi-root/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-editor-multi-root", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:43.0.0"],\
+          ["ckeditor5", "npm:43.0.0"],\
           ["lodash-es", "npm:4.17.21"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@ckeditor/ckeditor5-engine", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-engine-npm-40.2.0-090340dc14-10c0.zip/node_modules/@ckeditor/ckeditor5-engine/",\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-engine-npm-43.0.0-0a11184674-10c0.zip/node_modules/@ckeditor/ckeditor5-engine/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-engine", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-utils", "npm:40.2.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:43.0.0"],\
           ["lodash-es", "npm:4.17.21"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@ckeditor/ckeditor5-enter", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-enter-npm-40.2.0-ff065ca9d1-10c0.zip/node_modules/@ckeditor/ckeditor5-enter/",\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-enter-npm-43.0.0-1f97906402-10c0.zip/node_modules/@ckeditor/ckeditor5-enter/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-enter", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-core", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-engine", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-utils", "npm:40.2.0"]\
+          ["@ckeditor/ckeditor5-enter", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:43.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@ckeditor/ckeditor5-essentials", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-essentials-npm-40.2.0-cbb1d2ee5d-10c0.zip/node_modules/@ckeditor/ckeditor5-essentials/",\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-essentials-npm-43.0.0-0b0160bdc7-10c0.zip/node_modules/@ckeditor/ckeditor5-essentials/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-essentials", "npm:40.2.0"],\
-          ["ckeditor5", "npm:40.2.0"]\
+          ["@ckeditor/ckeditor5-essentials", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-clipboard", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-enter", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-select-all", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-typing", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-undo", "npm:43.0.0"],\
+          ["ckeditor5", "npm:43.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-find-and-replace", [\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-find-and-replace-npm-43.0.0-85f9e93f78-10c0.zip/node_modules/@ckeditor/ckeditor5-find-and-replace/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-find-and-replace", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:43.0.0"],\
+          ["ckeditor5", "npm:43.0.0"],\
+          ["lodash-es", "npm:4.17.21"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-font", [\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-font-npm-43.0.0-edb8d8ab27-10c0.zip/node_modules/@ckeditor/ckeditor5-font/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-font", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:43.0.0"],\
+          ["ckeditor5", "npm:43.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@ckeditor/ckeditor5-heading", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-heading-npm-40.2.0-87f71c5e85-10c0.zip/node_modules/@ckeditor/ckeditor5-heading/",\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-heading-npm-43.0.0-8b1d462cd5-10c0.zip/node_modules/@ckeditor/ckeditor5-heading/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-heading", "npm:40.2.0"],\
-          ["ckeditor5", "npm:40.2.0"]\
+          ["@ckeditor/ckeditor5-heading", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-paragraph", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:43.0.0"],\
+          ["ckeditor5", "npm:43.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-highlight", [\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-highlight-npm-43.0.0-617b63f806-10c0.zip/node_modules/@ckeditor/ckeditor5-highlight/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-highlight", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:43.0.0"],\
+          ["ckeditor5", "npm:43.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-horizontal-line", [\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-horizontal-line-npm-43.0.0-55923039fe-10c0.zip/node_modules/@ckeditor/ckeditor5-horizontal-line/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-horizontal-line", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-widget", "npm:43.0.0"],\
+          ["ckeditor5", "npm:43.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-html-embed", [\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-html-embed-npm-43.0.0-65befdf267-10c0.zip/node_modules/@ckeditor/ckeditor5-html-embed/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-html-embed", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-widget", "npm:43.0.0"],\
+          ["ckeditor5", "npm:43.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-html-support", [\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-html-support-npm-43.0.0-c31a89f127-10c0.zip/node_modules/@ckeditor/ckeditor5-html-support/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-html-support", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-enter", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-widget", "npm:43.0.0"],\
+          ["ckeditor5", "npm:43.0.0"],\
+          ["lodash-es", "npm:4.17.21"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@ckeditor/ckeditor5-image", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-image-npm-40.2.0-2f5a84dc50-10c0.zip/node_modules/@ckeditor/ckeditor5-image/",\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-image-npm-43.0.0-4b811b9c66-10c0.zip/node_modules/@ckeditor/ckeditor5-image/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-image", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-ui", "npm:40.2.0"],\
-          ["ckeditor5", "npm:40.2.0"],\
+          ["@ckeditor/ckeditor5-image", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-clipboard", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-typing", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-undo", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-upload", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-widget", "npm:43.0.0"],\
+          ["ckeditor5", "npm:43.0.0"],\
           ["lodash-es", "npm:4.17.21"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@ckeditor/ckeditor5-indent", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-indent-npm-40.2.0-f8c5848c06-10c0.zip/node_modules/@ckeditor/ckeditor5-indent/",\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-indent-npm-43.0.0-ae46384113-10c0.zip/node_modules/@ckeditor/ckeditor5-indent/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-indent", "npm:40.2.0"],\
-          ["ckeditor5", "npm:40.2.0"]\
+          ["@ckeditor/ckeditor5-indent", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:43.0.0"],\
+          ["ckeditor5", "npm:43.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-language", [\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-language-npm-43.0.0-30b305ae9e-10c0.zip/node_modules/@ckeditor/ckeditor5-language/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-language", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:43.0.0"],\
+          ["ckeditor5", "npm:43.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@ckeditor/ckeditor5-link", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-link-npm-40.2.0-e222ba7da0-10c0.zip/node_modules/@ckeditor/ckeditor5-link/",\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-link-npm-43.0.0-a3e9266072-10c0.zip/node_modules/@ckeditor/ckeditor5-link/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-link", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-ui", "npm:40.2.0"],\
-          ["ckeditor5", "npm:40.2.0"],\
+          ["@ckeditor/ckeditor5-link", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-clipboard", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-typing", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-widget", "npm:43.0.0"],\
+          ["ckeditor5", "npm:43.0.0"],\
           ["lodash-es", "npm:4.17.21"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@ckeditor/ckeditor5-list", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-list-npm-40.2.0-642e60cac4-10c0.zip/node_modules/@ckeditor/ckeditor5-list/",\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-list-npm-43.0.0-6a55258db9-10c0.zip/node_modules/@ckeditor/ckeditor5-list/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-list", "npm:40.2.0"],\
-          ["ckeditor5", "npm:40.2.0"]\
+          ["@ckeditor/ckeditor5-list", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-clipboard", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-enter", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-typing", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:43.0.0"],\
+          ["ckeditor5", "npm:43.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-markdown-gfm", [\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-markdown-gfm-npm-43.0.0-d075d68d85-10c0.zip/node_modules/@ckeditor/ckeditor5-markdown-gfm/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-markdown-gfm", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-clipboard", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:43.0.0"],\
+          ["ckeditor5", "npm:43.0.0"],\
+          ["marked", "npm:4.0.12"],\
+          ["turndown", "npm:7.2.0"],\
+          ["turndown-plugin-gfm", "npm:1.0.2"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@ckeditor/ckeditor5-media-embed", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-media-embed-npm-40.2.0-093dc041d1-10c0.zip/node_modules/@ckeditor/ckeditor5-media-embed/",\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-media-embed-npm-43.0.0-5f7ae23767-10c0.zip/node_modules/@ckeditor/ckeditor5-media-embed/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-media-embed", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-ui", "npm:40.2.0"],\
-          ["ckeditor5", "npm:40.2.0"]\
+          ["@ckeditor/ckeditor5-media-embed", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-clipboard", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-typing", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-undo", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-widget", "npm:43.0.0"],\
+          ["ckeditor5", "npm:43.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
-    ["@ckeditor/ckeditor5-paragraph", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-paragraph-npm-40.2.0-7c8079fda6-10c0.zip/node_modules/@ckeditor/ckeditor5-paragraph/",\
+    ["@ckeditor/ckeditor5-mention", [\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-mention-npm-43.0.0-3e9686d6c3-10c0.zip/node_modules/@ckeditor/ckeditor5-mention/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-paragraph", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-core", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-ui", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-utils", "npm:40.2.0"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@ckeditor/ckeditor5-paste-from-office", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-paste-from-office-npm-40.2.0-3ed9cdd578-10c0.zip/node_modules/@ckeditor/ckeditor5-paste-from-office/",\
-        "packageDependencies": [\
-          ["@ckeditor/ckeditor5-paste-from-office", "npm:40.2.0"],\
-          ["ckeditor5", "npm:40.2.0"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@ckeditor/ckeditor5-select-all", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-select-all-npm-40.2.0-01cf161884-10c0.zip/node_modules/@ckeditor/ckeditor5-select-all/",\
-        "packageDependencies": [\
-          ["@ckeditor/ckeditor5-select-all", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-core", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-ui", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-utils", "npm:40.2.0"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@ckeditor/ckeditor5-table", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-table-npm-40.2.0-b80eb414cc-10c0.zip/node_modules/@ckeditor/ckeditor5-table/",\
-        "packageDependencies": [\
-          ["@ckeditor/ckeditor5-table", "npm:40.2.0"],\
-          ["ckeditor5", "npm:40.2.0"],\
+          ["@ckeditor/ckeditor5-mention", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-typing", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:43.0.0"],\
+          ["ckeditor5", "npm:43.0.0"],\
           ["lodash-es", "npm:4.17.21"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
-    ["@ckeditor/ckeditor5-typing", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-typing-npm-40.2.0-97abc74176-10c0.zip/node_modules/@ckeditor/ckeditor5-typing/",\
+    ["@ckeditor/ckeditor5-minimap", [\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-minimap-npm-43.0.0-87d8f5532f-10c0.zip/node_modules/@ckeditor/ckeditor5-minimap/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-typing", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-core", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-engine", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-utils", "npm:40.2.0"],\
+          ["@ckeditor/ckeditor5-minimap", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:43.0.0"],\
+          ["ckeditor5", "npm:43.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-page-break", [\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-page-break-npm-43.0.0-9d89eb06a5-10c0.zip/node_modules/@ckeditor/ckeditor5-page-break/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-page-break", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-widget", "npm:43.0.0"],\
+          ["ckeditor5", "npm:43.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-paragraph", [\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-paragraph-npm-43.0.0-fba1f7b738-10c0.zip/node_modules/@ckeditor/ckeditor5-paragraph/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-paragraph", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:43.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-paste-from-office", [\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-paste-from-office-npm-43.0.0-e3cd242957-10c0.zip/node_modules/@ckeditor/ckeditor5-paste-from-office/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-paste-from-office", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-clipboard", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:43.0.0"],\
+          ["ckeditor5", "npm:43.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-remove-format", [\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-remove-format-npm-43.0.0-d3f2a860b2-10c0.zip/node_modules/@ckeditor/ckeditor5-remove-format/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-remove-format", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:43.0.0"],\
+          ["ckeditor5", "npm:43.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-restricted-editing", [\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-restricted-editing-npm-43.0.0-ab4a423b8f-10c0.zip/node_modules/@ckeditor/ckeditor5-restricted-editing/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-restricted-editing", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:43.0.0"],\
+          ["ckeditor5", "npm:43.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-select-all", [\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-select-all-npm-43.0.0-68fc1571ce-10c0.zip/node_modules/@ckeditor/ckeditor5-select-all/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-select-all", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:43.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-show-blocks", [\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-show-blocks-npm-43.0.0-ea3ac81c9c-10c0.zip/node_modules/@ckeditor/ckeditor5-show-blocks/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-show-blocks", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:43.0.0"],\
+          ["ckeditor5", "npm:43.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-source-editing", [\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-source-editing-npm-43.0.0-27078dbfaa-10c0.zip/node_modules/@ckeditor/ckeditor5-source-editing/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-source-editing", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-theme-lark", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:43.0.0"],\
+          ["ckeditor5", "npm:43.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-special-characters", [\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-special-characters-npm-43.0.0-9b53934205-10c0.zip/node_modules/@ckeditor/ckeditor5-special-characters/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-special-characters", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-typing", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:43.0.0"],\
+          ["ckeditor5", "npm:43.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-style", [\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-style-npm-43.0.0-a3276690bc-10c0.zip/node_modules/@ckeditor/ckeditor5-style/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-style", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-typing", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:43.0.0"],\
+          ["ckeditor5", "npm:43.0.0"],\
+          ["lodash-es", "npm:4.17.21"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-table", [\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-table-npm-43.0.0-66a85d25e7-10c0.zip/node_modules/@ckeditor/ckeditor5-table/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-table", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-clipboard", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-widget", "npm:43.0.0"],\
+          ["ckeditor5", "npm:43.0.0"],\
+          ["lodash-es", "npm:4.17.21"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-theme-lark", [\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-theme-lark-npm-43.0.0-5c5fecc7ca-10c0.zip/node_modules/@ckeditor/ckeditor5-theme-lark/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-theme-lark", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:43.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-typing", [\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-typing-npm-43.0.0-b84a7f2855-10c0.zip/node_modules/@ckeditor/ckeditor5-typing/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-typing", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:43.0.0"],\
           ["lodash-es", "npm:4.17.21"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@ckeditor/ckeditor5-ui", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-ui-npm-40.2.0-08d3407e42-10c0.zip/node_modules/@ckeditor/ckeditor5-ui/",\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-ui-npm-43.0.0-b6f9cbca5a-10c0.zip/node_modules/@ckeditor/ckeditor5-ui/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-ui", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-core", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-utils", "npm:40.2.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:43.0.0"],\
           ["color-convert", "npm:2.0.1"],\
           ["color-parse", "npm:1.4.2"],\
           ["lodash-es", "npm:4.17.21"],\
@@ -710,34 +1143,33 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@ckeditor/ckeditor5-undo", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-undo-npm-40.2.0-6dd035749d-10c0.zip/node_modules/@ckeditor/ckeditor5-undo/",\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-undo-npm-43.0.0-f62e2c6db0-10c0.zip/node_modules/@ckeditor/ckeditor5-undo/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-undo", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-core", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-engine", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-ui", "npm:40.2.0"]\
+          ["@ckeditor/ckeditor5-undo", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:43.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@ckeditor/ckeditor5-upload", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-upload-npm-40.2.0-a8065fd094-10c0.zip/node_modules/@ckeditor/ckeditor5-upload/",\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-upload-npm-43.0.0-683dfa7193-10c0.zip/node_modules/@ckeditor/ckeditor5-upload/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-upload", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-core", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-ui", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-utils", "npm:40.2.0"]\
+          ["@ckeditor/ckeditor5-upload", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:43.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@ckeditor/ckeditor5-utils", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-utils-npm-40.2.0-53d082b4f3-10c0.zip/node_modules/@ckeditor/ckeditor5-utils/",\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-utils-npm-43.0.0-031ce5fc48-10c0.zip/node_modules/@ckeditor/ckeditor5-utils/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-utils", "npm:40.2.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:43.0.0"],\
           ["lodash-es", "npm:4.17.21"]\
         ],\
         "linkType": "HARD"\
@@ -753,26 +1185,40 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@ckeditor/ckeditor5-watchdog", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-watchdog-npm-40.2.0-2679578ddf-10c0.zip/node_modules/@ckeditor/ckeditor5-watchdog/",\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-watchdog-npm-43.0.0-69adfd94b1-10c0.zip/node_modules/@ckeditor/ckeditor5-watchdog/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-watchdog", "npm:40.2.0"],\
+          ["@ckeditor/ckeditor5-watchdog", "npm:43.0.0"],\
           ["lodash-es", "npm:4.17.21"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@ckeditor/ckeditor5-widget", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-widget-npm-40.2.0-46bafbbf27-10c0.zip/node_modules/@ckeditor/ckeditor5-widget/",\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-widget-npm-43.0.0-e2d66f683d-10c0.zip/node_modules/@ckeditor/ckeditor5-widget/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-widget", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-core", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-engine", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-enter", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-typing", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-ui", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-utils", "npm:40.2.0"],\
+          ["@ckeditor/ckeditor5-widget", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-enter", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-typing", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:43.0.0"],\
+          ["lodash-es", "npm:4.17.21"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-word-count", [\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@ckeditor-ckeditor5-word-count-npm-43.0.0-bd080c901e-10c0.zip/node_modules/@ckeditor/ckeditor5-word-count/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-word-count", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:43.0.0"],\
+          ["ckeditor5", "npm:43.0.0"],\
           ["lodash-es", "npm:4.17.21"]\
         ],\
         "linkType": "HARD"\
@@ -966,6 +1412,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../../cache/others/berry/cache/@leichtgewicht-ip-codec-npm-2.0.5-23deb9e4c5-10c0.zip/node_modules/@leichtgewicht/ip-codec/",\
         "packageDependencies": [\
           ["@leichtgewicht/ip-codec", "npm:2.0.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@mixmark-io/domino", [\
+      ["npm:2.2.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@mixmark-io-domino-npm-2.2.0-4e1d58551b-10c0.zip/node_modules/@mixmark-io/domino/",\
+        "packageDependencies": [\
+          ["@mixmark-io/domino", "npm:2.2.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3394,23 +3849,67 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["ckeditor5", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/ckeditor5-npm-40.2.0-5adda6651d-10c0.zip/node_modules/ckeditor5/",\
+      ["npm:43.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/ckeditor5-npm-43.0.0-c951289b3e-10c0.zip/node_modules/ckeditor5/",\
         "packageDependencies": [\
-          ["ckeditor5", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-clipboard", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-core", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-engine", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-enter", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-paragraph", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-select-all", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-typing", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-ui", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-undo", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-upload", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-utils", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-watchdog", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-widget", "npm:40.2.0"]\
+          ["ckeditor5", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-adapter-ckfinder", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-alignment", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-autoformat", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-autosave", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-basic-styles", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-block-quote", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-ckbox", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-ckfinder", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-clipboard", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-cloud-services", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-code-block", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-easy-image", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-editor-balloon", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-editor-classic", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-editor-decoupled", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-editor-inline", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-editor-multi-root", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-enter", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-essentials", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-find-and-replace", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-font", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-heading", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-highlight", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-horizontal-line", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-html-embed", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-html-support", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-image", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-indent", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-language", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-link", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-list", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-markdown-gfm", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-media-embed", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-mention", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-minimap", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-page-break", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-paragraph", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-paste-from-office", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-remove-format", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-restricted-editing", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-select-all", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-show-blocks", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-source-editing", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-special-characters", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-style", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-table", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-theme-lark", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-typing", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-undo", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-upload", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-watchdog", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-widget", "npm:43.0.0"],\
+          ["@ckeditor/ckeditor5-word-count", "npm:43.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -6923,7 +7422,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["listeningpostwebui", "workspace:."],\
           ["@babel/eslint-parser", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:7.24.8"],\
-          ["@ckeditor/ckeditor5-build-classic", "npm:40.2.0"],\
+          ["@ckeditor/ckeditor5-build-classic", "npm:43.0.0"],\
           ["@ckeditor/ckeditor5-vue", "npm:5.1.0"],\
           ["autoprefixer", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.4.20"],\
           ["axios", "npm:1.7.3"],\
@@ -7166,6 +7665,15 @@ const RAW_RUNTIME_STATE =
           ["proc-log", "npm:4.2.0"],\
           ["promise-retry", "npm:2.0.1"],\
           ["ssri", "npm:10.0.6"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["marked", [\
+      ["npm:4.0.12", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/marked-npm-4.0.12-1fc6e0ed31-10c0.zip/node_modules/marked/",\
+        "packageDependencies": [\
+          ["marked", "npm:4.0.12"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -10454,6 +10962,25 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["turndown", [\
+      ["npm:7.2.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/turndown-npm-7.2.0-35c69df4d5-10c0.zip/node_modules/turndown/",\
+        "packageDependencies": [\
+          ["turndown", "npm:7.2.0"],\
+          ["@mixmark-io/domino", "npm:2.2.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["turndown-plugin-gfm", [\
+      ["npm:1.0.2", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/turndown-plugin-gfm-npm-1.0.2-73465b88af-10c0.zip/node_modules/turndown-plugin-gfm/",\
+        "packageDependencies": [\
+          ["turndown-plugin-gfm", "npm:1.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["type-check", [\
       ["npm:0.4.0", {\
         "packageLocation": "../../../../../../cache/others/berry/cache/type-check-npm-0.4.0-60565800ce-10c0.zip/node_modules/type-check/",\
@@ -11461,26 +11988,24 @@ function ERR_DIR_CLOSED() {
 
 const DEFAULT_MODE = S_IFREG | 420;
 class StatEntry {
-  constructor() {
-    this.uid = 0;
-    this.gid = 0;
-    this.size = 0;
-    this.blksize = 0;
-    this.atimeMs = 0;
-    this.mtimeMs = 0;
-    this.ctimeMs = 0;
-    this.birthtimeMs = 0;
-    this.atime = new Date(0);
-    this.mtime = new Date(0);
-    this.ctime = new Date(0);
-    this.birthtime = new Date(0);
-    this.dev = 0;
-    this.ino = 0;
-    this.mode = DEFAULT_MODE;
-    this.nlink = 1;
-    this.rdev = 0;
-    this.blocks = 1;
-  }
+  uid = 0;
+  gid = 0;
+  size = 0;
+  blksize = 0;
+  atimeMs = 0;
+  mtimeMs = 0;
+  ctimeMs = 0;
+  birthtimeMs = 0;
+  atime = /* @__PURE__ */ new Date(0);
+  mtime = /* @__PURE__ */ new Date(0);
+  ctime = /* @__PURE__ */ new Date(0);
+  birthtime = /* @__PURE__ */ new Date(0);
+  dev = 0;
+  ino = 0;
+  mode = DEFAULT_MODE;
+  nlink = 1;
+  rdev = 0;
+  blocks = 1;
   isBlockDevice() {
     return false;
   }
@@ -11504,30 +12029,28 @@ class StatEntry {
   }
 }
 class BigIntStatsEntry {
-  constructor() {
-    this.uid = BigInt(0);
-    this.gid = BigInt(0);
-    this.size = BigInt(0);
-    this.blksize = BigInt(0);
-    this.atimeMs = BigInt(0);
-    this.mtimeMs = BigInt(0);
-    this.ctimeMs = BigInt(0);
-    this.birthtimeMs = BigInt(0);
-    this.atimeNs = BigInt(0);
-    this.mtimeNs = BigInt(0);
-    this.ctimeNs = BigInt(0);
-    this.birthtimeNs = BigInt(0);
-    this.atime = new Date(0);
-    this.mtime = new Date(0);
-    this.ctime = new Date(0);
-    this.birthtime = new Date(0);
-    this.dev = BigInt(0);
-    this.ino = BigInt(0);
-    this.mode = BigInt(DEFAULT_MODE);
-    this.nlink = BigInt(1);
-    this.rdev = BigInt(0);
-    this.blocks = BigInt(1);
-  }
+  uid = BigInt(0);
+  gid = BigInt(0);
+  size = BigInt(0);
+  blksize = BigInt(0);
+  atimeMs = BigInt(0);
+  mtimeMs = BigInt(0);
+  ctimeMs = BigInt(0);
+  birthtimeMs = BigInt(0);
+  atimeNs = BigInt(0);
+  mtimeNs = BigInt(0);
+  ctimeNs = BigInt(0);
+  birthtimeNs = BigInt(0);
+  atime = /* @__PURE__ */ new Date(0);
+  mtime = /* @__PURE__ */ new Date(0);
+  ctime = /* @__PURE__ */ new Date(0);
+  birthtime = /* @__PURE__ */ new Date(0);
+  dev = BigInt(0);
+  ino = BigInt(0);
+  mode = BigInt(DEFAULT_MODE);
+  nlink = BigInt(1);
+  rdev = BigInt(0);
+  blocks = BigInt(1);
   isBlockDevice() {
     return false;
   }
@@ -11562,7 +12085,7 @@ function clearStats(stats) {
       } else if (typeof element === `bigint`) {
         stats[key] = BigInt(0);
       } else if (nodeUtils__namespace.types.isDate(element)) {
-        stats[key] = new Date(0);
+        stats[key] = /* @__PURE__ */ new Date(0);
       }
     }
   }
@@ -11653,6 +12176,9 @@ const Filename = {
   manifest: `package.json`,
   lockfile: `yarn.lock`,
   virtual: `__virtual__`,
+  /**
+   * @deprecated
+   */
   pnpJs: `.pnp.js`,
   pnpCjs: `.pnp.cjs`,
   pnpData: `.pnp.data.json`,
@@ -11934,8 +12460,8 @@ class CustomDir {
     this.path = path;
     this.nextDirent = nextDirent;
     this.opts = opts;
-    this.closed = false;
   }
+  closed = false;
   throwIfClosed() {
     if (this.closed) {
       throw ERR_DIR_CLOSED();
@@ -11993,20 +12519,24 @@ function assertStatus(current, expected) {
   }
 }
 class CustomStatWatcher extends events.EventEmitter {
-  constructor(fakeFs, path, { bigint = false } = {}) {
-    super();
-    this.status = "ready" /* Ready */;
-    this.changeListeners = /* @__PURE__ */ new Map();
-    this.startTimeout = null;
-    this.fakeFs = fakeFs;
-    this.path = path;
-    this.bigint = bigint;
-    this.lastStats = this.stat();
-  }
+  fakeFs;
+  path;
+  bigint;
+  status = "ready" /* Ready */;
+  changeListeners = /* @__PURE__ */ new Map();
+  lastStats;
+  startTimeout = null;
   static create(fakeFs, path, opts) {
     const statWatcher = new CustomStatWatcher(fakeFs, path, opts);
     statWatcher.start();
     return statWatcher;
+  }
+  constructor(fakeFs, path, { bigint = false } = {}) {
+    super();
+    this.fakeFs = fakeFs;
+    this.path = path;
+    this.bigint = bigint;
+    this.lastStats = this.stat();
   }
   start() {
     assertStatus(this.status, "ready" /* Ready */);
@@ -12035,6 +12565,11 @@ class CustomStatWatcher extends events.EventEmitter {
       return clearStats(statInstance);
     }
   }
+  /**
+   * Creates an interval whose callback compares the current stats with the previous stats and notifies all listeners in case of changes.
+   *
+   * @param opts.persistent Decides whether the interval should be immediately unref-ed.
+   */
   makeInterval(opts) {
     const interval = setInterval(() => {
       const currentStats = this.stat();
@@ -12046,10 +12581,16 @@ class CustomStatWatcher extends events.EventEmitter {
     }, opts.interval);
     return opts.persistent ? interval : interval.unref();
   }
+  /**
+   * Registers a listener and assigns it an interval.
+   */
   registerChangeListener(listener, opts) {
     this.addListener("change" /* Change */, listener);
     this.changeListeners.set(listener, this.makeInterval(opts));
   }
+  /**
+   * Unregisters the listener and clears the assigned interval.
+   */
   unregisterChangeListener(listener) {
     this.removeListener("change" /* Change */, listener);
     const interval = this.changeListeners.get(listener);
@@ -12057,6 +12598,9 @@ class CustomStatWatcher extends events.EventEmitter {
       clearInterval(interval);
     this.changeListeners.delete(listener);
   }
+  /**
+   * Unregisters all listeners and clears all assigned intervals.
+   */
   unregisterAllChangeListeners() {
     for (const listener of this.changeListeners.keys()) {
       this.unregisterChangeListener(listener);
@@ -12065,11 +12609,17 @@ class CustomStatWatcher extends events.EventEmitter {
   hasChangeListeners() {
     return this.changeListeners.size > 0;
   }
+  /**
+   * Refs all stored intervals.
+   */
   ref() {
     for (const interval of this.changeListeners.values())
       interval.ref();
     return this;
   }
+  /**
+   * Unrefs all stored intervals.
+   */
   unref() {
     for (const interval of this.changeListeners.values())
       interval.unref();
@@ -12140,6 +12690,7 @@ function unwatchAllFiles(fakeFs) {
 }
 
 class FakeFS {
+  pathUtils;
   constructor(pathUtils) {
     this.pathUtils = pathUtils;
   }
@@ -12748,6 +13299,7 @@ class ProxiedFS extends FakeFS {
   watch(p, a, b) {
     return this.baseFs.watch(
       this.mapToBase(p),
+      // @ts-expect-error
       a,
       b
     );
@@ -12755,6 +13307,7 @@ class ProxiedFS extends FakeFS {
   watchFile(p, a, b) {
     return this.baseFs.watchFile(
       this.mapToBase(p),
+      // @ts-expect-error
       a,
       b
     );
@@ -12778,6 +13331,7 @@ function direntToPortable(dirent) {
   return portableDirent;
 }
 class NodeFS extends BasePortableFakeFS {
+  realFs;
   constructor(realFs = fs__default.default) {
     super();
     this.realFs = realFs;
@@ -13173,6 +13727,7 @@ class NodeFS extends BasePortableFakeFS {
   watch(p, a, b) {
     return this.realFs.watch(
       npath.fromPortablePath(p),
+      // @ts-expect-error
       a,
       b
     );
@@ -13180,6 +13735,7 @@ class NodeFS extends BasePortableFakeFS {
   watchFile(p, a, b) {
     return this.realFs.watchFile(
       npath.fromPortablePath(p),
+      // @ts-expect-error
       a,
       b
     );
@@ -13200,16 +13756,25 @@ class NodeFS extends BasePortableFakeFS {
 
 const MOUNT_MASK = 4278190080;
 class MountFS extends BasePortableFakeFS {
+  baseFs;
+  mountInstances;
+  fdMap = /* @__PURE__ */ new Map();
+  nextFd = 3;
+  factoryPromise;
+  factorySync;
+  filter;
+  getMountPoint;
+  magic;
+  maxAge;
+  maxOpenFiles;
+  typeCheck;
+  isMount = /* @__PURE__ */ new Set();
+  notMount = /* @__PURE__ */ new Set();
+  realPaths = /* @__PURE__ */ new Map();
   constructor({ baseFs = new NodeFS(), filter = null, magicByte = 42, maxOpenFiles = Infinity, useCache = true, maxAge = 5e3, typeCheck = fs.constants.S_IFREG, getMountPoint, factoryPromise, factorySync }) {
     if (Math.floor(magicByte) !== magicByte || !(magicByte > 1 && magicByte <= 127))
       throw new Error(`The magic byte must be set to a round value between 1 and 127 included`);
     super();
-    this.fdMap = /* @__PURE__ */ new Map();
-    this.nextFd = 3;
-    this.isMount = /* @__PURE__ */ new Set();
-    this.notMount = /* @__PURE__ */ new Set();
-    this.realPaths = /* @__PURE__ */ new Map();
-    this.limitOpenFilesTimeout = null;
     this.baseFs = baseFs;
     this.mountInstances = useCache ? /* @__PURE__ */ new Map() : null;
     this.factoryPromise = factoryPromise;
@@ -13865,12 +14430,14 @@ class MountFS extends BasePortableFakeFS {
     return this.makeCallSync(p, () => {
       return this.baseFs.watch(
         p,
+        // @ts-expect-error
         a,
         b
       );
     }, (mountFs, { subPath }) => {
       return mountFs.watch(
         subPath,
+        // @ts-expect-error
         a,
         b
       );
@@ -13880,6 +14447,7 @@ class MountFS extends BasePortableFakeFS {
     return this.makeCallSync(p, () => {
       return this.baseFs.watchFile(
         p,
+        // @ts-expect-error
         a,
         b
       );
@@ -13945,6 +14513,7 @@ class MountFS extends BasePortableFakeFS {
       };
     }
   }
+  limitOpenFilesTimeout = null;
   limitOpenFiles(max) {
     if (this.mountInstances === null)
       return;
@@ -14034,6 +14603,7 @@ class MountFS extends BasePortableFakeFS {
 }
 
 class PosixFS extends ProxiedFS {
+  baseFs;
   constructor(baseFs) {
     super(npath);
     this.baseFs = baseFs;
@@ -14050,10 +14620,7 @@ const NUMBER_REGEXP = /^[0-9]+$/;
 const VIRTUAL_REGEXP = /^(\/(?:[^/]+\/)*?(?:\$\$virtual|__virtual__))((?:\/((?:[^/]+-)?[a-f0-9]+)(?:\/([^/]+))?)?((?:\/.*)?))$/;
 const VALID_COMPONENT = /^([^/]+-)?[a-f0-9]+$/;
 class VirtualFS extends ProxiedFS {
-  constructor({ baseFs = new NodeFS() } = {}) {
-    super(ppath);
-    this.baseFs = baseFs;
-  }
+  baseFs;
   static makeVirtualPath(base, component, to) {
     if (ppath.basename(base) !== `__virtual__`)
       throw new Error(`Assertion failed: Virtual folders must be named "__virtual__"`);
@@ -14082,6 +14649,10 @@ class VirtualFS extends ProxiedFS {
     const backstep = `../`.repeat(depth);
     const subpath = match[5] || `.`;
     return VirtualFS.resolveVirtual(ppath.join(target, backstep, subpath));
+  }
+  constructor({ baseFs = new NodeFS() } = {}) {
+    super(ppath);
+    this.baseFs = baseFs;
   }
   getExtractHint(hints) {
     return this.baseFs.getExtractHint(hints);
@@ -14124,6 +14695,7 @@ class VirtualFS extends ProxiedFS {
 const URL = Number(process.versions.node.split('.', 1)[0]) < 20 ? url.URL : globalThis.URL;
 
 class NodePathFS extends ProxiedFS {
+  baseFs;
   constructor(baseFs) {
     super(npath);
     this.baseFs = baseFs;
@@ -14151,7 +14723,6 @@ function isUtf8(buf, str) {
   return Buffer.byteLength(str) === buf.byteLength;
 }
 
-var _a, _b, _c, _d;
 const kBaseFs = Symbol(`kBaseFs`);
 const kFd = Symbol(`kFd`);
 const kClosePromise = Symbol(`kClosePromise`);
@@ -14161,11 +14732,13 @@ const kRefs = Symbol(`kRefs`);
 const kRef = Symbol(`kRef`);
 const kUnref = Symbol(`kUnref`);
 class FileHandle {
+  [kBaseFs];
+  [kFd];
+  [kRefs] = 1;
+  [kClosePromise] = void 0;
+  [kCloseResolve] = void 0;
+  [kCloseReject] = void 0;
   constructor(fd, baseFs) {
-    this[_a] = 1;
-    this[_b] = void 0;
-    this[_c] = void 0;
-    this[_d] = void 0;
     this[kBaseFs] = baseFs;
     this[kFd] = fd;
   }
@@ -14203,9 +14776,11 @@ class FileHandle {
   createWriteStream(options) {
     return this[kBaseFs].createWriteStream(null, { ...options, fd: this.fd });
   }
+  // FIXME: Missing FakeFS version
   datasync() {
     throw new Error(`Method not implemented.`);
   }
+  // FIXME: Missing FakeFS version
   sync() {
     throw new Error(`Method not implemented.`);
   }
@@ -14270,6 +14845,7 @@ class FileHandle {
       this[kUnref]();
     }
   }
+  // FIXME: Missing FakeFS version
   utimes(atime, mtime) {
     throw new Error(`Method not implemented.`);
   }
@@ -14298,6 +14874,7 @@ class FileHandle {
       this[kUnref]();
     }
   }
+  // TODO: Use writev from FakeFS when that is implemented
   async writev(buffers, position) {
     try {
       this[kRef](this.writev);
@@ -14322,14 +14899,13 @@ class FileHandle {
       this[kUnref]();
     }
   }
+  // FIXME: Missing FakeFS version
   readv(buffers, position) {
     throw new Error(`Method not implemented.`);
   }
   close() {
-    if (this[kFd] === -1)
-      return Promise.resolve();
-    if (this[kClosePromise])
-      return this[kClosePromise];
+    if (this[kFd] === -1) return Promise.resolve();
+    if (this[kClosePromise]) return this[kClosePromise];
     this[kRefs]--;
     if (this[kRefs] === 0) {
       const fd = this[kFd];
@@ -14349,7 +14925,7 @@ class FileHandle {
     }
     return this[kClosePromise];
   }
-  [(_a = kRefs, _b = kClosePromise, _c = kCloseResolve, _d = kCloseReject, kRef)](caller) {
+  [kRef](caller) {
     if (this[kFd] === -1) {
       const err = new Error(`file closed`);
       err.code = `EBADF`;
@@ -14609,8 +15185,7 @@ var libzipSync = {exports: {}};
 var frozenFs = Object.assign({}, fs__default.default);
 var createModule = function() {
   var _scriptDir = void 0;
-  if (typeof __filename !== "undefined")
-    _scriptDir = _scriptDir || __filename;
+  if (typeof __filename !== "undefined") _scriptDir = _scriptDir || __filename;
   return function(createModule2) {
     createModule2 = createModule2 || {};
     var Module = typeof createModule2 !== "undefined" ? createModule2 : {};
@@ -14645,10 +15220,8 @@ var createModule = function() {
         if (ret) {
           return binary ? ret : ret.toString();
         }
-        if (!nodeFS)
-          nodeFS = frozenFs;
-        if (!nodePath)
-          nodePath = path__default.default;
+        if (!nodeFS) nodeFS = frozenFs;
+        if (!nodePath) nodePath = path__default.default;
         filename = nodePath["normalize"](filename);
         return nodeFS["readFileSync"](filename, binary ? null : "utf8");
       };
@@ -14676,23 +15249,18 @@ var createModule = function() {
       }
     }
     moduleOverrides = null;
-    if (Module["arguments"])
-      ;
-    if (Module["thisProgram"])
-      ;
-    if (Module["quit"])
-      ;
+    if (Module["arguments"]) ;
+    if (Module["thisProgram"]) ;
+    if (Module["quit"]) ;
     var wasmBinary;
-    if (Module["wasmBinary"])
-      wasmBinary = Module["wasmBinary"];
+    if (Module["wasmBinary"]) wasmBinary = Module["wasmBinary"];
     Module["noExitRuntime"] || true;
     if (typeof WebAssembly !== "object") {
       abort("no native wasm support detected");
     }
     function getValue(ptr, type, noSafe) {
       type = type || "i8";
-      if (type.charAt(type.length - 1) === "*")
-        type = "i32";
+      if (type.charAt(type.length - 1) === "*") type = "i32";
       switch (type) {
         case "i1":
           return HEAP8[ptr >> 0];
@@ -14746,10 +15314,8 @@ var createModule = function() {
         }
       };
       function convertReturnValue(ret2) {
-        if (returnType === "string")
-          return UTF8ToString(ret2);
-        if (returnType === "boolean")
-          return Boolean(ret2);
+        if (returnType === "string") return UTF8ToString(ret2);
+        if (returnType === "boolean") return Boolean(ret2);
         return ret2;
       }
       var func = getCFunc(ident);
@@ -14759,8 +15325,7 @@ var createModule = function() {
         for (var i = 0; i < args.length; i++) {
           var converter = toC[argTypes[i]];
           if (converter) {
-            if (stack === 0)
-              stack = stackSave();
+            if (stack === 0) stack = stackSave();
             cArgs[i] = converter(args[i]);
           } else {
             cArgs[i] = args[i];
@@ -14769,8 +15334,7 @@ var createModule = function() {
       }
       var ret = func.apply(null, cArgs);
       ret = convertReturnValue(ret);
-      if (stack !== 0)
-        stackRestore(stack);
+      if (stack !== 0) stackRestore(stack);
       return ret;
     }
     function cwrap(ident, returnType, argTypes, opts) {
@@ -14788,16 +15352,13 @@ var createModule = function() {
     }
     var UTF8Decoder = new TextDecoder("utf8");
     function UTF8ToString(ptr, maxBytesToRead) {
-      if (!ptr)
-        return "";
+      if (!ptr) return "";
       var maxPtr = ptr + maxBytesToRead;
-      for (var end = ptr; !(end >= maxPtr) && HEAPU8[end]; )
-        ++end;
+      for (var end = ptr; !(end >= maxPtr) && HEAPU8[end]; ) ++end;
       return UTF8Decoder.decode(HEAPU8.subarray(ptr, end));
     }
     function stringToUTF8Array(str, heap, outIdx, maxBytesToWrite) {
-      if (!(maxBytesToWrite > 0))
-        return 0;
+      if (!(maxBytesToWrite > 0)) return 0;
       var startIdx = outIdx;
       var endIdx = outIdx + maxBytesToWrite - 1;
       for (var i = 0; i < str.length; ++i) {
@@ -14807,23 +15368,19 @@ var createModule = function() {
           u = 65536 + ((u & 1023) << 10) | u1 & 1023;
         }
         if (u <= 127) {
-          if (outIdx >= endIdx)
-            break;
+          if (outIdx >= endIdx) break;
           heap[outIdx++] = u;
         } else if (u <= 2047) {
-          if (outIdx + 1 >= endIdx)
-            break;
+          if (outIdx + 1 >= endIdx) break;
           heap[outIdx++] = 192 | u >> 6;
           heap[outIdx++] = 128 | u & 63;
         } else if (u <= 65535) {
-          if (outIdx + 2 >= endIdx)
-            break;
+          if (outIdx + 2 >= endIdx) break;
           heap[outIdx++] = 224 | u >> 12;
           heap[outIdx++] = 128 | u >> 6 & 63;
           heap[outIdx++] = 128 | u & 63;
         } else {
-          if (outIdx + 3 >= endIdx)
-            break;
+          if (outIdx + 3 >= endIdx) break;
           heap[outIdx++] = 240 | u >> 18;
           heap[outIdx++] = 128 | u >> 12 & 63;
           heap[outIdx++] = 128 | u >> 6 & 63;
@@ -14842,22 +15399,17 @@ var createModule = function() {
         var u = str.charCodeAt(i);
         if (u >= 55296 && u <= 57343)
           u = 65536 + ((u & 1023) << 10) | str.charCodeAt(++i) & 1023;
-        if (u <= 127)
-          ++len;
-        else if (u <= 2047)
-          len += 2;
-        else if (u <= 65535)
-          len += 3;
-        else
-          len += 4;
+        if (u <= 127) ++len;
+        else if (u <= 2047) len += 2;
+        else if (u <= 65535) len += 3;
+        else len += 4;
       }
       return len;
     }
     function allocateUTF8(str) {
       var size = lengthBytesUTF8(str) + 1;
       var ret = _malloc(size);
-      if (ret)
-        stringToUTF8Array(str, HEAP8, ret, size);
+      if (ret) stringToUTF8Array(str, HEAP8, ret, size);
       return ret;
     }
     function writeArrayToMemory(array, buffer2) {
@@ -15074,8 +15626,7 @@ var createModule = function() {
       var start = Date.UTC(date.getUTCFullYear(), 0, 1, 0, 0, 0, 0);
       var yday = (date.getTime() - start) / (1e3 * 60 * 60 * 24) | 0;
       LE_HEAP_STORE_I32((tmPtr + 28 >> 2) * 4, yday);
-      if (!_gmtime_r.GMTString)
-        _gmtime_r.GMTString = allocateUTF8("GMT");
+      if (!_gmtime_r.GMTString) _gmtime_r.GMTString = allocateUTF8("GMT");
       LE_HEAP_STORE_I32((tmPtr + 40 >> 2) * 4, _gmtime_r.GMTString);
       return tmPtr;
     }
@@ -15127,10 +15678,9 @@ var createModule = function() {
       return ret;
     }
     function _tzset() {
-      if (_tzset.called)
-        return;
+      if (_tzset.called) return;
       _tzset.called = true;
-      var currentYear = new Date().getFullYear();
+      var currentYear = (/* @__PURE__ */ new Date()).getFullYear();
       var winter = new Date(currentYear, 0, 1);
       var summer = new Date(currentYear, 6, 1);
       var winterOffset = winter.getTimezoneOffset();
@@ -15258,10 +15808,8 @@ var createModule = function() {
     Module["getValue"] = getValue;
     var calledRun;
     dependenciesFulfilled = function runCaller() {
-      if (!calledRun)
-        run();
-      if (!calledRun)
-        dependenciesFulfilled = runCaller;
+      if (!calledRun) run();
+      if (!calledRun) dependenciesFulfilled = runCaller;
     };
     function run(args) {
       if (runDependencies > 0) {
@@ -15272,16 +15820,13 @@ var createModule = function() {
         return;
       }
       function doRun() {
-        if (calledRun)
-          return;
+        if (calledRun) return;
         calledRun = true;
         Module["calledRun"] = true;
-        if (ABORT)
-          return;
+        if (ABORT) return;
         initRuntime();
         readyPromiseResolve(Module);
-        if (Module["onRuntimeInitialized"])
-          Module["onRuntimeInitialized"]();
+        if (Module["onRuntimeInitialized"]) Module["onRuntimeInitialized"]();
         postRun();
       }
       if (Module["setStatus"]) {
@@ -15315,7 +15860,9 @@ const createModule = libzipSync.exports;
 
 const number64 = [
   `number`,
+  // low
   `number`
+  // high
 ];
 var Errors = /* @__PURE__ */ ((Errors2) => {
   Errors2[Errors2["ZIP_ER_OK"] = 0] = "ZIP_ER_OK";
@@ -15353,6 +15900,7 @@ var Errors = /* @__PURE__ */ ((Errors2) => {
   return Errors2;
 })(Errors || {});
 const makeInterface = (emZip) => ({
+  // Those are getters because they can change after memory growth
   get HEAPU8() {
     return emZip.HEAPU8;
   },
@@ -15555,6 +16103,7 @@ function makeEmptyArchive() {
   ]);
 }
 class LibzipError extends Error {
+  code;
   constructor(message, code) {
     super(message);
     this.name = `Libzip Error`;
@@ -15562,15 +16111,28 @@ class LibzipError extends Error {
   }
 }
 class ZipFS extends BasePortableFakeFS {
+  libzip;
+  baseFs;
+  path;
+  stats;
+  zip;
+  lzSource;
+  level;
+  listings = /* @__PURE__ */ new Map();
+  entries = /* @__PURE__ */ new Map();
+  /**
+   * A cache of indices mapped to file sources.
+   * Populated by `setFileSource` calls.
+   * Required for supporting read after write.
+   */
+  fileSources = /* @__PURE__ */ new Map();
+  symlinkCount;
+  fds = /* @__PURE__ */ new Map();
+  nextFd = 0;
+  ready = false;
+  readOnly = false;
   constructor(source, opts = {}) {
     super();
-    this.listings = /* @__PURE__ */ new Map();
-    this.entries = /* @__PURE__ */ new Map();
-    this.fileSources = /* @__PURE__ */ new Map();
-    this.fds = /* @__PURE__ */ new Map();
-    this.nextFd = 0;
-    this.ready = false;
-    this.readOnly = false;
     const pathOptions = opts;
     this.level = typeof pathOptions.level !== `undefined` ? pathOptions.level : DEFAULT_COMPRESSION_LEVEL;
     source ??= makeEmptyArchive();
@@ -15819,6 +16381,7 @@ class ZipFS extends BasePortableFakeFS {
         },
         bytesRead: 0,
         path: p,
+        // "This property is `true` if the underlying file has not been opened yet"
         pending: false
       }
     );
@@ -15865,6 +16428,7 @@ class ZipFS extends BasePortableFakeFS {
         },
         bytesWritten: 0,
         path: p,
+        // "This property is `true` if the underlying file has not been opened yet"
         pending: false
       }
     );
@@ -17004,6 +17568,8 @@ function hydrateRuntimeState(data, { basePath }) {
         packagePeers: new Set(packageInformationData.packagePeers),
         linkType: packageInformationData.linkType,
         discardFromLookup,
+        // we only need this for packages that are used by the currently running script
+        // this is a lazy getter because `ppath.join` has some overhead
         get packageLocation() {
           return resolvedPackageLocation || (resolvedPackageLocation = ppath.join(absolutePortablePath, packageInformationData.packageLocation));
         }
@@ -17265,8 +17831,7 @@ function resolvePackageTargetString(target, subpath, match, packageJSONUrl, base
   const packagePath = new URL(".", packageJSONUrl).pathname;
   if (!StringPrototypeStartsWith(resolvedPath, packagePath))
     throwInvalidPackageTarget(match, target, packageJSONUrl, internal, base);
-  if (subpath === "")
-    return resolved;
+  if (subpath === "") return resolved;
   if (RegExpPrototypeExec(invalidSegmentRegEx, subpath) !== null) {
     const request = pattern ? StringPrototypeReplace(match, "*", () => subpath) : match + subpath;
     throwInvalidSubpath(request, packageJSONUrl, internal, base);
@@ -17280,8 +17845,7 @@ function resolvePackageTargetString(target, subpath, match, packageJSONUrl, base
 }
 function isArrayIndex(key) {
   const keyNum = +key;
-  if (`${keyNum}` !== key)
-    return false;
+  if (`${keyNum}` !== key) return false;
   return keyNum >= 0 && keyNum < 4294967295;
 }
 function resolvePackageTarget(packageJSONUrl, target, subpath, packageSubpath, base, pattern, internal, conditions) {
@@ -17358,8 +17922,7 @@ function resolvePackageTarget(packageJSONUrl, target, subpath, packageSubpath, b
           internal,
           conditions
         );
-        if (resolveResult === void 0)
-          continue;
+        if (resolveResult === void 0) continue;
         return resolveResult;
       }
     }
@@ -17380,25 +17943,17 @@ function patternKeyCompare(a, b) {
   const bPatternIndex = StringPrototypeIndexOf(b, "*");
   const baseLenA = aPatternIndex === -1 ? a.length : aPatternIndex + 1;
   const baseLenB = bPatternIndex === -1 ? b.length : bPatternIndex + 1;
-  if (baseLenA > baseLenB)
-    return -1;
-  if (baseLenB > baseLenA)
-    return 1;
-  if (aPatternIndex === -1)
-    return 1;
-  if (bPatternIndex === -1)
-    return -1;
-  if (a.length > b.length)
-    return -1;
-  if (b.length > a.length)
-    return 1;
+  if (baseLenA > baseLenB) return -1;
+  if (baseLenB > baseLenA) return 1;
+  if (aPatternIndex === -1) return 1;
+  if (bPatternIndex === -1) return -1;
+  if (a.length > b.length) return -1;
+  if (b.length > a.length) return 1;
   return 0;
 }
 function isConditionalExportsMainSugar(exports, packageJSONUrl, base) {
-  if (typeof exports === "string" || ArrayIsArray(exports))
-    return true;
-  if (typeof exports !== "object" || exports === null)
-    return false;
+  if (typeof exports === "string" || ArrayIsArray(exports)) return true;
+  if (typeof exports !== "object" || exports === null) return false;
   const keys = ObjectGetOwnPropertyNames(exports);
   let isConditionalSugar = false;
   let i = 0;
@@ -17427,8 +17982,7 @@ function throwExportsNotFound(subpath, packageJSONUrl, base) {
 const emittedPackageWarnings = /* @__PURE__ */ new Set();
 function emitTrailingSlashPatternDeprecation(match, pjsonUrl, base) {
   const pjsonPath = url.fileURLToPath(pjsonUrl);
-  if (emittedPackageWarnings.has(pjsonPath + "|" + match))
-    return;
+  if (emittedPackageWarnings.has(pjsonPath + "|" + match)) return;
   emittedPackageWarnings.add(pjsonPath + "|" + match);
   process.emitWarning(
     `Use of deprecated trailing slash pattern mapping "${match}" in the "exports" field module resolution of the package at ${pjsonPath}${base ? ` imported from ${url.fileURLToPath(base)}` : ""}. Mapping specifiers ending in "/" is no longer supported.`,
@@ -18697,9 +19251,9 @@ const defaultFsLayer = new VirtualFS({
   })
 });
 class DynamicFS extends ProxiedFS {
+  baseFs = defaultFsLayer;
   constructor() {
     super(ppath);
-    this.baseFs = defaultFsLayer;
   }
   mapToBase(p) {
     return p;
@@ -18714,6 +19268,11 @@ const defaultApi = Object.assign(makeApi(defaultRuntimeState, {
   fakeFs: dynamicFsLayer,
   pnpapiResolution: defaultPnpapiResolution
 }), {
+  /**
+   * Can be used to generate a different API than the default one (for example
+   * to map it on `/` rather than the local directory path, or to use a
+   * different FS layer than the default one).
+   */
   makeApi: ({
     basePath = void 0,
     fakeFs = dynamicFsLayer,
@@ -18727,6 +19286,10 @@ const defaultApi = Object.assign(makeApi(defaultRuntimeState, {
       ...rest
     });
   },
+  /**
+   * Will inject the specified API into the environment, monkey-patching FS. Is
+   * automatically called when the hook is loaded through `--require`.
+   */
   setup: (api) => {
     applyPatch(api || defaultApi, {
       fakeFs: defaultFsLayer,
