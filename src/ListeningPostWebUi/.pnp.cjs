@@ -43,7 +43,7 @@ const RAW_RUNTIME_STATE =
           ["bootstrap", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:5.3.3"],\
           ["bootstrap-vue", "npm:2.23.1"],\
           ["chalk", "npm:5.3.0"],\
-          ["copy-webpack-plugin", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:11.0.0"],\
+          ["copy-webpack-plugin", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:12.0.2"],\
           ["css-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:6.11.0"],\
           ["eslint", "npm:8.57.0"],\
           ["eslint-config-standard", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:17.1.0"],\
@@ -1061,6 +1061,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../../cache/others/berry/cache/@polka-url-npm-1.0.0-next.25-a523d9bd78-10c0.zip/node_modules/@polka/url/",\
         "packageDependencies": [\
           ["@polka/url", "npm:1.0.0-next.25"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@sindresorhus/merge-streams", [\
+      ["npm:2.3.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/@sindresorhus-merge-streams-npm-2.3.0-5d49fcd96d-10c0.zip/node_modules/@sindresorhus/merge-streams/",\
+        "packageDependencies": [\
+          ["@sindresorhus/merge-streams", "npm:2.3.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3672,21 +3681,21 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["copy-webpack-plugin", [\
-      ["npm:11.0.0", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/copy-webpack-plugin-npm-11.0.0-9a07415855-10c0.zip/node_modules/copy-webpack-plugin/",\
+      ["npm:12.0.2", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/copy-webpack-plugin-npm-12.0.2-174fbd55fc-10c0.zip/node_modules/copy-webpack-plugin/",\
         "packageDependencies": [\
-          ["copy-webpack-plugin", "npm:11.0.0"]\
+          ["copy-webpack-plugin", "npm:12.0.2"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:11.0.0", {\
-        "packageLocation": "./.yarn/__virtual__/copy-webpack-plugin-virtual-37acd1c4d6/7/cache/others/berry/cache/copy-webpack-plugin-npm-11.0.0-9a07415855-10c0.zip/node_modules/copy-webpack-plugin/",\
+      ["virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:12.0.2", {\
+        "packageLocation": "./.yarn/__virtual__/copy-webpack-plugin-virtual-7ce529edd7/7/cache/others/berry/cache/copy-webpack-plugin-npm-12.0.2-174fbd55fc-10c0.zip/node_modules/copy-webpack-plugin/",\
         "packageDependencies": [\
-          ["copy-webpack-plugin", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:11.0.0"],\
+          ["copy-webpack-plugin", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:12.0.2"],\
           ["@types/webpack", null],\
           ["fast-glob", "npm:3.3.2"],\
           ["glob-parent", "npm:6.0.2"],\
-          ["globby", "npm:13.2.2"],\
+          ["globby", "npm:14.0.2"],\
           ["normalize-path", "npm:3.0.0"],\
           ["schema-utils", "npm:4.2.0"],\
           ["serialize-javascript", "npm:6.0.2"],\
@@ -4200,16 +4209,6 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../../cache/others/berry/cache/detect-node-npm-2.1.0-e8de0e94f7-10c0.zip/node_modules/detect-node/",\
         "packageDependencies": [\
           ["detect-node", "npm:2.1.0"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["dir-glob", [\
-      ["npm:3.0.1", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/dir-glob-npm-3.0.1-1aea628b1b-10c0.zip/node_modules/dir-glob/",\
-        "packageDependencies": [\
-          ["dir-glob", "npm:3.0.1"],\
-          ["path-type", "npm:4.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5731,15 +5730,16 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["globby", [\
-      ["npm:13.2.2", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/globby-npm-13.2.2-47efcd4a86-10c0.zip/node_modules/globby/",\
+      ["npm:14.0.2", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/globby-npm-14.0.2-28ff4422ff-10c0.zip/node_modules/globby/",\
         "packageDependencies": [\
-          ["globby", "npm:13.2.2"],\
-          ["dir-glob", "npm:3.0.1"],\
+          ["globby", "npm:14.0.2"],\
+          ["@sindresorhus/merge-streams", "npm:2.3.0"],\
           ["fast-glob", "npm:3.3.2"],\
           ["ignore", "npm:5.3.1"],\
-          ["merge2", "npm:1.4.1"],\
-          ["slash", "npm:4.0.0"]\
+          ["path-type", "npm:5.0.0"],\
+          ["slash", "npm:5.1.0"],\
+          ["unicorn-magic", "npm:0.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -6916,7 +6916,7 @@ const RAW_RUNTIME_STATE =
           ["bootstrap", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:5.3.3"],\
           ["bootstrap-vue", "npm:2.23.1"],\
           ["chalk", "npm:5.3.0"],\
-          ["copy-webpack-plugin", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:11.0.0"],\
+          ["copy-webpack-plugin", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:12.0.2"],\
           ["css-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:6.11.0"],\
           ["eslint", "npm:8.57.0"],\
           ["eslint-config-standard", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:17.1.0"],\
@@ -8071,6 +8071,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../../cache/others/berry/cache/path-type-npm-4.0.0-10d47fc86a-10c0.zip/node_modules/path-type/",\
         "packageDependencies": [\
           ["path-type", "npm:4.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:5.0.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/path-type-npm-5.0.0-205dd6bae0-10c0.zip/node_modules/path-type/",\
+        "packageDependencies": [\
+          ["path-type", "npm:5.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -9837,10 +9844,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:4.0.0", {\
-        "packageLocation": "../../../../../../cache/others/berry/cache/slash-npm-4.0.0-ce4bbc4a80-10c0.zip/node_modules/slash/",\
+      ["npm:5.1.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/slash-npm-5.1.0-718a84282e-10c0.zip/node_modules/slash/",\
         "packageDependencies": [\
-          ["slash", "npm:4.0.0"]\
+          ["slash", "npm:5.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -10536,6 +10543,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../../cache/others/berry/cache/undici-types-npm-5.26.5-de4f7c7bb9-10c0.zip/node_modules/undici-types/",\
         "packageDependencies": [\
           ["undici-types", "npm:5.26.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["unicorn-magic", [\
+      ["npm:0.1.0", {\
+        "packageLocation": "../../../../../../cache/others/berry/cache/unicorn-magic-npm-0.1.0-12d4f6ff8b-10c0.zip/node_modules/unicorn-magic/",\
+        "packageDependencies": [\
+          ["unicorn-magic", "npm:0.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
