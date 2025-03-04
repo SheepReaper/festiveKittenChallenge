@@ -5752,7 +5752,7 @@ __metadata:
     node-notifier: "npm:10.0.1"
     optimize-css-assets-webpack-plugin: "npm:6.0.1"
     ora: "npm:8.0.1"
-    portfinder: "npm:1.0.32"
+    portfinder: "npm:1.0.33"
     postcss-import: "npm:16.1.0"
     postcss-loader: "npm:7.3.4"
     postcss-url: "npm:10.1.3"
@@ -6825,14 +6825,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"portfinder@npm:1.0.32":
-  version: 1.0.32
-  resolution: "portfinder@npm:1.0.32"
+"portfinder@npm:1.0.33":
+  version: 1.0.33
+  resolution: "portfinder@npm:1.0.33"
   dependencies:
     async: "npm:^2.6.4"
     debug: "npm:^3.2.7"
     mkdirp: "npm:^0.5.6"
-  checksum: 10c0/cef8b567b78aabccc59fe8e103bac8b394bb45a6a69be626608f099f454124c775aaf47b274c006332c07ab3f501cde55e49aaeb9d49d78d90362d776a565cbf
+  checksum: 10c0/31f26051da3244306b3d3cb60c670d41507bdb53a8f4ff9cc55704f8e2f9789612a327d0f6764e213e8edc24f7bdd7b198d1fa93a8c46dfebd4bcd28ae036b82
   languageName: node
   linkType: hard
 
