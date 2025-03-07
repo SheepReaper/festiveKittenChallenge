@@ -44,7 +44,7 @@ const RAW_RUNTIME_STATE =
           ["bootstrap-vue", "npm:2.23.1"],\
           ["chalk", "npm:5.3.0"],\
           ["copy-webpack-plugin", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:11.0.0"],\
-          ["css-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:6.11.0"],\
+          ["css-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:7.1.2"],\
           ["eslint", "npm:8.57.1"],\
           ["eslint-config-standard", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:17.1.0"],\
           ["eslint-friendly-formatter", "npm:4.0.1"],\
@@ -3778,26 +3778,26 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["css-loader", [\
-      ["npm:6.11.0", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/css-loader-npm-6.11.0-d945f9f4c0-10c0.zip/node_modules/css-loader/",\
+      ["npm:7.1.2", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/css-loader-npm-7.1.2-7540f12884-10c0.zip/node_modules/css-loader/",\
         "packageDependencies": [\
-          ["css-loader", "npm:6.11.0"]\
+          ["css-loader", "npm:7.1.2"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:6.11.0", {\
-        "packageLocation": "./.yarn/__virtual__/css-loader-virtual-14340ba29e/9/runner/cache/others/berry/cache/css-loader-npm-6.11.0-d945f9f4c0-10c0.zip/node_modules/css-loader/",\
+      ["virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:7.1.2", {\
+        "packageLocation": "./.yarn/__virtual__/css-loader-virtual-369a1c6104/9/runner/cache/others/berry/cache/css-loader-npm-7.1.2-7540f12884-10c0.zip/node_modules/css-loader/",\
         "packageDependencies": [\
-          ["css-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:6.11.0"],\
+          ["css-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:7.1.2"],\
           ["@rspack/core", null],\
           ["@types/rspack__core", null],\
           ["@types/webpack", null],\
-          ["icss-utils", "virtual:14340ba29e7855e862816ac7d4e7bc35b8eb854c260bed05dcecf69b32a627b0388746e3d2207120c3fb377d9b0eb18715b97d27b22f2ad42a604042f6e75f30#npm:5.1.0"],\
+          ["icss-utils", "virtual:369a1c6104d85f6bcce0d79fabf9d0b6adf22657654d7beda35205a9520c8ff542801552f7d294279e96a24d1fa1c4228c49aed159e362c3300cdd0b0a52a107#npm:5.1.0"],\
           ["postcss", "npm:8.4.38"],\
-          ["postcss-modules-extract-imports", "virtual:14340ba29e7855e862816ac7d4e7bc35b8eb854c260bed05dcecf69b32a627b0388746e3d2207120c3fb377d9b0eb18715b97d27b22f2ad42a604042f6e75f30#npm:3.1.0"],\
-          ["postcss-modules-local-by-default", "virtual:14340ba29e7855e862816ac7d4e7bc35b8eb854c260bed05dcecf69b32a627b0388746e3d2207120c3fb377d9b0eb18715b97d27b22f2ad42a604042f6e75f30#npm:4.0.5"],\
-          ["postcss-modules-scope", "virtual:14340ba29e7855e862816ac7d4e7bc35b8eb854c260bed05dcecf69b32a627b0388746e3d2207120c3fb377d9b0eb18715b97d27b22f2ad42a604042f6e75f30#npm:3.2.0"],\
-          ["postcss-modules-values", "virtual:14340ba29e7855e862816ac7d4e7bc35b8eb854c260bed05dcecf69b32a627b0388746e3d2207120c3fb377d9b0eb18715b97d27b22f2ad42a604042f6e75f30#npm:4.0.0"],\
+          ["postcss-modules-extract-imports", "virtual:369a1c6104d85f6bcce0d79fabf9d0b6adf22657654d7beda35205a9520c8ff542801552f7d294279e96a24d1fa1c4228c49aed159e362c3300cdd0b0a52a107#npm:3.1.0"],\
+          ["postcss-modules-local-by-default", "virtual:369a1c6104d85f6bcce0d79fabf9d0b6adf22657654d7beda35205a9520c8ff542801552f7d294279e96a24d1fa1c4228c49aed159e362c3300cdd0b0a52a107#npm:4.0.5"],\
+          ["postcss-modules-scope", "virtual:369a1c6104d85f6bcce0d79fabf9d0b6adf22657654d7beda35205a9520c8ff542801552f7d294279e96a24d1fa1c4228c49aed159e362c3300cdd0b0a52a107#npm:3.2.0"],\
+          ["postcss-modules-values", "virtual:369a1c6104d85f6bcce0d79fabf9d0b6adf22657654d7beda35205a9520c8ff542801552f7d294279e96a24d1fa1c4228c49aed159e362c3300cdd0b0a52a107#npm:4.0.0"],\
           ["postcss-value-parser", "npm:4.2.0"],\
           ["semver", "npm:7.6.2"],\
           ["webpack", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:5.94.0"]\
@@ -6156,10 +6156,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:14340ba29e7855e862816ac7d4e7bc35b8eb854c260bed05dcecf69b32a627b0388746e3d2207120c3fb377d9b0eb18715b97d27b22f2ad42a604042f6e75f30#npm:5.1.0", {\
-        "packageLocation": "./.yarn/__virtual__/icss-utils-virtual-b892f698c6/9/runner/cache/others/berry/cache/icss-utils-npm-5.1.0-8d8c062d07-10c0.zip/node_modules/icss-utils/",\
+      ["virtual:369a1c6104d85f6bcce0d79fabf9d0b6adf22657654d7beda35205a9520c8ff542801552f7d294279e96a24d1fa1c4228c49aed159e362c3300cdd0b0a52a107#npm:5.1.0", {\
+        "packageLocation": "./.yarn/__virtual__/icss-utils-virtual-b1d519f885/9/runner/cache/others/berry/cache/icss-utils-npm-5.1.0-8d8c062d07-10c0.zip/node_modules/icss-utils/",\
         "packageDependencies": [\
-          ["icss-utils", "virtual:14340ba29e7855e862816ac7d4e7bc35b8eb854c260bed05dcecf69b32a627b0388746e3d2207120c3fb377d9b0eb18715b97d27b22f2ad42a604042f6e75f30#npm:5.1.0"],\
+          ["icss-utils", "virtual:369a1c6104d85f6bcce0d79fabf9d0b6adf22657654d7beda35205a9520c8ff542801552f7d294279e96a24d1fa1c4228c49aed159e362c3300cdd0b0a52a107#npm:5.1.0"],\
           ["@types/postcss", null],\
           ["postcss", "npm:8.4.38"]\
         ],\
@@ -6917,7 +6917,7 @@ const RAW_RUNTIME_STATE =
           ["bootstrap-vue", "npm:2.23.1"],\
           ["chalk", "npm:5.3.0"],\
           ["copy-webpack-plugin", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:11.0.0"],\
-          ["css-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:6.11.0"],\
+          ["css-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:7.1.2"],\
           ["eslint", "npm:8.57.1"],\
           ["eslint-config-standard", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:17.1.0"],\
           ["eslint-friendly-formatter", "npm:4.0.1"],\
@@ -8563,10 +8563,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:14340ba29e7855e862816ac7d4e7bc35b8eb854c260bed05dcecf69b32a627b0388746e3d2207120c3fb377d9b0eb18715b97d27b22f2ad42a604042f6e75f30#npm:3.1.0", {\
-        "packageLocation": "./.yarn/__virtual__/postcss-modules-extract-imports-virtual-524d2d0bfb/9/runner/cache/others/berry/cache/postcss-modules-extract-imports-npm-3.1.0-501aab09e8-10c0.zip/node_modules/postcss-modules-extract-imports/",\
+      ["virtual:369a1c6104d85f6bcce0d79fabf9d0b6adf22657654d7beda35205a9520c8ff542801552f7d294279e96a24d1fa1c4228c49aed159e362c3300cdd0b0a52a107#npm:3.1.0", {\
+        "packageLocation": "./.yarn/__virtual__/postcss-modules-extract-imports-virtual-003e563a5c/9/runner/cache/others/berry/cache/postcss-modules-extract-imports-npm-3.1.0-501aab09e8-10c0.zip/node_modules/postcss-modules-extract-imports/",\
         "packageDependencies": [\
-          ["postcss-modules-extract-imports", "virtual:14340ba29e7855e862816ac7d4e7bc35b8eb854c260bed05dcecf69b32a627b0388746e3d2207120c3fb377d9b0eb18715b97d27b22f2ad42a604042f6e75f30#npm:3.1.0"],\
+          ["postcss-modules-extract-imports", "virtual:369a1c6104d85f6bcce0d79fabf9d0b6adf22657654d7beda35205a9520c8ff542801552f7d294279e96a24d1fa1c4228c49aed159e362c3300cdd0b0a52a107#npm:3.1.0"],\
           ["@types/postcss", null],\
           ["postcss", "npm:8.4.38"]\
         ],\
@@ -8585,12 +8585,12 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:14340ba29e7855e862816ac7d4e7bc35b8eb854c260bed05dcecf69b32a627b0388746e3d2207120c3fb377d9b0eb18715b97d27b22f2ad42a604042f6e75f30#npm:4.0.5", {\
-        "packageLocation": "./.yarn/__virtual__/postcss-modules-local-by-default-virtual-ce3f296db6/9/runner/cache/others/berry/cache/postcss-modules-local-by-default-npm-4.0.5-1a623b43f9-10c0.zip/node_modules/postcss-modules-local-by-default/",\
+      ["virtual:369a1c6104d85f6bcce0d79fabf9d0b6adf22657654d7beda35205a9520c8ff542801552f7d294279e96a24d1fa1c4228c49aed159e362c3300cdd0b0a52a107#npm:4.0.5", {\
+        "packageLocation": "./.yarn/__virtual__/postcss-modules-local-by-default-virtual-998119bd8c/9/runner/cache/others/berry/cache/postcss-modules-local-by-default-npm-4.0.5-1a623b43f9-10c0.zip/node_modules/postcss-modules-local-by-default/",\
         "packageDependencies": [\
-          ["postcss-modules-local-by-default", "virtual:14340ba29e7855e862816ac7d4e7bc35b8eb854c260bed05dcecf69b32a627b0388746e3d2207120c3fb377d9b0eb18715b97d27b22f2ad42a604042f6e75f30#npm:4.0.5"],\
+          ["postcss-modules-local-by-default", "virtual:369a1c6104d85f6bcce0d79fabf9d0b6adf22657654d7beda35205a9520c8ff542801552f7d294279e96a24d1fa1c4228c49aed159e362c3300cdd0b0a52a107#npm:4.0.5"],\
           ["@types/postcss", null],\
-          ["icss-utils", "virtual:14340ba29e7855e862816ac7d4e7bc35b8eb854c260bed05dcecf69b32a627b0388746e3d2207120c3fb377d9b0eb18715b97d27b22f2ad42a604042f6e75f30#npm:5.1.0"],\
+          ["icss-utils", "virtual:369a1c6104d85f6bcce0d79fabf9d0b6adf22657654d7beda35205a9520c8ff542801552f7d294279e96a24d1fa1c4228c49aed159e362c3300cdd0b0a52a107#npm:5.1.0"],\
           ["postcss", "npm:8.4.38"],\
           ["postcss-selector-parser", "npm:6.1.0"],\
           ["postcss-value-parser", "npm:4.2.0"]\
@@ -8610,10 +8610,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:14340ba29e7855e862816ac7d4e7bc35b8eb854c260bed05dcecf69b32a627b0388746e3d2207120c3fb377d9b0eb18715b97d27b22f2ad42a604042f6e75f30#npm:3.2.0", {\
-        "packageLocation": "./.yarn/__virtual__/postcss-modules-scope-virtual-dc2885011b/9/runner/cache/others/berry/cache/postcss-modules-scope-npm-3.2.0-a03c18262e-10c0.zip/node_modules/postcss-modules-scope/",\
+      ["virtual:369a1c6104d85f6bcce0d79fabf9d0b6adf22657654d7beda35205a9520c8ff542801552f7d294279e96a24d1fa1c4228c49aed159e362c3300cdd0b0a52a107#npm:3.2.0", {\
+        "packageLocation": "./.yarn/__virtual__/postcss-modules-scope-virtual-04766d782f/9/runner/cache/others/berry/cache/postcss-modules-scope-npm-3.2.0-a03c18262e-10c0.zip/node_modules/postcss-modules-scope/",\
         "packageDependencies": [\
-          ["postcss-modules-scope", "virtual:14340ba29e7855e862816ac7d4e7bc35b8eb854c260bed05dcecf69b32a627b0388746e3d2207120c3fb377d9b0eb18715b97d27b22f2ad42a604042f6e75f30#npm:3.2.0"],\
+          ["postcss-modules-scope", "virtual:369a1c6104d85f6bcce0d79fabf9d0b6adf22657654d7beda35205a9520c8ff542801552f7d294279e96a24d1fa1c4228c49aed159e362c3300cdd0b0a52a107#npm:3.2.0"],\
           ["@types/postcss", null],\
           ["postcss", "npm:8.4.38"],\
           ["postcss-selector-parser", "npm:6.1.0"]\
@@ -8633,12 +8633,12 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:14340ba29e7855e862816ac7d4e7bc35b8eb854c260bed05dcecf69b32a627b0388746e3d2207120c3fb377d9b0eb18715b97d27b22f2ad42a604042f6e75f30#npm:4.0.0", {\
-        "packageLocation": "./.yarn/__virtual__/postcss-modules-values-virtual-1048ab242e/9/runner/cache/others/berry/cache/postcss-modules-values-npm-4.0.0-63d7ec543a-10c0.zip/node_modules/postcss-modules-values/",\
+      ["virtual:369a1c6104d85f6bcce0d79fabf9d0b6adf22657654d7beda35205a9520c8ff542801552f7d294279e96a24d1fa1c4228c49aed159e362c3300cdd0b0a52a107#npm:4.0.0", {\
+        "packageLocation": "./.yarn/__virtual__/postcss-modules-values-virtual-789c9d298b/9/runner/cache/others/berry/cache/postcss-modules-values-npm-4.0.0-63d7ec543a-10c0.zip/node_modules/postcss-modules-values/",\
         "packageDependencies": [\
-          ["postcss-modules-values", "virtual:14340ba29e7855e862816ac7d4e7bc35b8eb854c260bed05dcecf69b32a627b0388746e3d2207120c3fb377d9b0eb18715b97d27b22f2ad42a604042f6e75f30#npm:4.0.0"],\
+          ["postcss-modules-values", "virtual:369a1c6104d85f6bcce0d79fabf9d0b6adf22657654d7beda35205a9520c8ff542801552f7d294279e96a24d1fa1c4228c49aed159e362c3300cdd0b0a52a107#npm:4.0.0"],\
           ["@types/postcss", null],\
-          ["icss-utils", "virtual:14340ba29e7855e862816ac7d4e7bc35b8eb854c260bed05dcecf69b32a627b0388746e3d2207120c3fb377d9b0eb18715b97d27b22f2ad42a604042f6e75f30#npm:5.1.0"],\
+          ["icss-utils", "virtual:369a1c6104d85f6bcce0d79fabf9d0b6adf22657654d7beda35205a9520c8ff542801552f7d294279e96a24d1fa1c4228c49aed159e362c3300cdd0b0a52a107#npm:5.1.0"],\
           ["postcss", "npm:8.4.38"]\
         ],\
         "packagePeers": [\
@@ -11751,7 +11751,7 @@ async function copyImpl(prelayout, postlayout, destinationFs, destination, sourc
 async function maybeLStat(baseFs, p) {
   try {
     return await baseFs.lstatPromise(p);
-  } catch (e) {
+  } catch {
     return null;
   }
 }
@@ -12010,7 +12010,7 @@ class CustomStatWatcher extends events.EventEmitter {
   stat() {
     try {
       return this.fakeFs.statSync(this.path, { bigint: this.bigint });
-    } catch (error) {
+    } catch {
       const statInstance = this.bigint ? new BigIntStatsEntry() : new StatEntry();
       return clearStats(statInstance);
     }
@@ -12336,7 +12336,7 @@ class FakeFS {
     let current = Buffer.alloc(0);
     try {
       current = await this.readFilePromise(p);
-    } catch (error) {
+    } catch {
     }
     if (Buffer.compare(current, content) === 0)
       return;
@@ -12346,7 +12346,7 @@ class FakeFS {
     let current = ``;
     try {
       current = await this.readFilePromise(p, `utf8`);
-    } catch (error) {
+    } catch {
     }
     const normalizedContent = automaticNewlines ? normalizeLineEndings(current, content) : content;
     if (current === normalizedContent)
@@ -12364,7 +12364,7 @@ class FakeFS {
     let current = Buffer.alloc(0);
     try {
       current = this.readFileSync(p);
-    } catch (error) {
+    } catch {
     }
     if (Buffer.compare(current, content) === 0)
       return;
@@ -12374,7 +12374,7 @@ class FakeFS {
     let current = ``;
     try {
       current = this.readFileSync(p, `utf8`);
-    } catch (error) {
+    } catch {
     }
     const normalizedContent = automaticNewlines ? normalizeLineEndings(current, content) : content;
     if (current === normalizedContent)
@@ -12414,13 +12414,13 @@ class FakeFS {
       let pid;
       try {
         [pid] = await this.readJsonPromise(lockPath);
-      } catch (error) {
+      } catch {
         return Date.now() - startTime < 500;
       }
       try {
         process.kill(pid, 0);
         return true;
-      } catch (error) {
+      } catch {
         return false;
       }
     };
@@ -12433,7 +12433,7 @@ class FakeFS {
             try {
               await this.unlinkPromise(lockPath);
               continue;
-            } catch (error2) {
+            } catch {
             }
           }
           if (Date.now() - startTime < 60 * 1e3) {
@@ -12453,7 +12453,7 @@ class FakeFS {
       try {
         await this.closePromise(fd);
         await this.unlinkPromise(lockPath);
-      } catch (error) {
+      } catch {
       }
     }
   }
@@ -13603,7 +13603,7 @@ class MountFS extends BasePortableFakeFS {
       let content;
       try {
         content = await sourceFs.readFilePromise(sourceP2);
-      } catch (error) {
+      } catch {
         throw Object.assign(new Error(`EINVAL: invalid argument, copyfile '${sourceP2}' -> '${destP2}'`), { code: `EINVAL` });
       }
       await destFs.writeFilePromise(destP2, content);
@@ -13635,7 +13635,7 @@ class MountFS extends BasePortableFakeFS {
       let content;
       try {
         content = sourceFs.readFileSync(sourceP2);
-      } catch (error) {
+      } catch {
         throw Object.assign(new Error(`EINVAL: invalid argument, copyfile '${sourceP2}' -> '${destP2}'`), { code: `EINVAL` });
       }
       destFs.writeFileSync(destP2, content);
@@ -13948,7 +13948,7 @@ class MountFS extends BasePortableFakeFS {
         if (this.notMount.has(filePath))
           continue;
         try {
-          if (this.typeCheck !== null && (this.baseFs.lstatSync(filePath).mode & fs.constants.S_IFMT) !== this.typeCheck) {
+          if (this.typeCheck !== null && (this.baseFs.statSync(filePath).mode & fs.constants.S_IFMT) !== this.typeCheck) {
             this.notMount.add(filePath);
             continue;
           }
@@ -14550,7 +14550,7 @@ function patchFs(patchedFs, fakeFs) {
     setupFn(patchedFs, `existsSync`, (p) => {
       try {
         return fakeFs.existsSync(p);
-      } catch (error) {
+      } catch {
         return false;
       }
     });
@@ -15911,7 +15911,7 @@ class ZipFS extends BasePortableFakeFS {
     let resolvedP;
     try {
       resolvedP = this.resolveFilename(`stat '${p}'`, p, void 0, false);
-    } catch (error) {
+    } catch {
       return false;
     }
     if (resolvedP === void 0)
@@ -16952,7 +16952,7 @@ Require stack:
         } else {
           resolution = originalFindPath.call(require$$0.Module, request, [path], isMain);
         }
-      } catch (error) {
+      } catch {
         continue;
       }
       if (resolution) {
@@ -16961,18 +16961,20 @@ Require stack:
     }
     return false;
   };
-  const originalExtensionJSFunction = require$$0.Module._extensions[`.js`];
-  require$$0.Module._extensions[`.js`] = function(module, filename) {
-    if (filename.endsWith(`.js`)) {
-      const pkg = readPackageScope(filename);
-      if (pkg && pkg.data?.type === `module`) {
-        const err = ERR_REQUIRE_ESM(filename, module.parent?.filename);
-        Error.captureStackTrace(err);
-        throw err;
+  if (!process.features.require_module) {
+    const originalExtensionJSFunction = require$$0.Module._extensions[`.js`];
+    require$$0.Module._extensions[`.js`] = function(module, filename) {
+      if (filename.endsWith(`.js`)) {
+        const pkg = readPackageScope(filename);
+        if (pkg && pkg.data?.type === `module`) {
+          const err = ERR_REQUIRE_ESM(filename, module.parent?.filename);
+          Error.captureStackTrace(err);
+          throw err;
+        }
       }
-    }
-    originalExtensionJSFunction.call(this, module, filename);
-  };
+      originalExtensionJSFunction.call(this, module, filename);
+    };
+  }
   const originalDlopen = process.dlopen;
   process.dlopen = function(...args) {
     const [module, filename, ...rest] = args;
@@ -18033,7 +18035,7 @@ function makeApi(runtimeState, opts) {
     try {
       candidates.push(unqualifiedPath);
       stat = opts.fakeFs.statSync(unqualifiedPath);
-    } catch (error) {
+    } catch {
     }
     if (stat && !stat.isDirectory())
       return opts.fakeFs.realpathSync(unqualifiedPath);
@@ -18041,7 +18043,7 @@ function makeApi(runtimeState, opts) {
       let pkgJson;
       try {
         pkgJson = JSON.parse(opts.fakeFs.readFileSync(ppath.join(unqualifiedPath, Filename.manifest), `utf8`));
-      } catch (error) {
+      } catch {
       }
       let nextUnqualifiedPath;
       if (pkgJson && pkgJson.main)
