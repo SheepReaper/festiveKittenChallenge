@@ -29,7 +29,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@babel/eslint-parser", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:7.25.1"],\
           ["@ckeditor/ckeditor5-build-classic", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-vue", "npm:5.1.0"],\
+          ["@ckeditor/ckeditor5-vue", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:7.3.0"],\
           ["autoprefixer", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.4.20"],\
           ["axios", "npm:1.7.4"],\
           ["babel-core", "npm:6.26.3"],\
@@ -603,6 +603,28 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@ckeditor/ckeditor5-integrations-common", [\
+      ["npm:2.2.3", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-integrations-common-npm-2.2.3-7ac8d4c3df-10c0.zip/node_modules/@ckeditor/ckeditor5-integrations-common/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-integrations-common", "npm:2.2.3"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:a268a0561c9146ccc63d38549b0198383a89de16dcebc11246caa7ac68ee780098f18600c033e1f58de0172318bacdefb64b60aed569cd94a1b98b448b20abc5#npm:2.2.3", {\
+        "packageLocation": "./.yarn/__virtual__/@ckeditor-ckeditor5-integrations-common-virtual-e582fdaa21/9/runner/cache/others/berry/cache/@ckeditor-ckeditor5-integrations-common-npm-2.2.3-7ac8d4c3df-10c0.zip/node_modules/@ckeditor/ckeditor5-integrations-common/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-integrations-common", "virtual:a268a0561c9146ccc63d38549b0198383a89de16dcebc11246caa7ac68ee780098f18600c033e1f58de0172318bacdefb64b60aed569cd94a1b98b448b20abc5#npm:2.2.3"],\
+          ["@types/ckeditor5", null],\
+          ["ckeditor5", null]\
+        ],\
+        "packagePeers": [\
+          "@types/ckeditor5",\
+          "ckeditor5"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@ckeditor/ckeditor5-link", [\
       ["npm:40.2.0", {\
         "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-link-npm-40.2.0-e222ba7da0-10c0.zip/node_modules/@ckeditor/ckeditor5-link/",\
@@ -744,10 +766,29 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@ckeditor/ckeditor5-vue", [\
-      ["npm:5.1.0", {\
-        "packageLocation": "./.yarn/unplugged/@ckeditor-ckeditor5-vue-npm-5.1.0-30baf5573c/node_modules/@ckeditor/ckeditor5-vue/",\
+      ["npm:7.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-vue-npm-7.3.0-cf4ddaf270-10c0.zip/node_modules/@ckeditor/ckeditor5-vue/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-vue", "npm:5.1.0"]\
+          ["@ckeditor/ckeditor5-vue", "npm:7.3.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:7.3.0", {\
+        "packageLocation": "./.yarn/__virtual__/@ckeditor-ckeditor5-vue-virtual-a268a0561c/9/runner/cache/others/berry/cache/@ckeditor-ckeditor5-vue-npm-7.3.0-cf4ddaf270-10c0.zip/node_modules/@ckeditor/ckeditor5-vue/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-vue", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:7.3.0"],\
+          ["@ckeditor/ckeditor5-integrations-common", "virtual:a268a0561c9146ccc63d38549b0198383a89de16dcebc11246caa7ac68ee780098f18600c033e1f58de0172318bacdefb64b60aed569cd94a1b98b448b20abc5#npm:2.2.3"],\
+          ["@types/ckeditor5", null],\
+          ["@types/vue", null],\
+          ["ckeditor5", null],\
+          ["lodash-es", "npm:4.17.21"],\
+          ["vue", "virtual:7741e250996770f47ea2ec439bbf8460fab3d2cbd6adafeb065b6da7b3c7a46a393fd0367aadb25010fca8f64490e54a303f74ce13a76a6e8d596e2299a04b0a#npm:3.4.38"]\
+        ],\
+        "packagePeers": [\
+          "@types/ckeditor5",\
+          "@types/vue",\
+          "ckeditor5",\
+          "vue"\
         ],\
         "linkType": "HARD"\
       }]\
@@ -6902,7 +6943,7 @@ const RAW_RUNTIME_STATE =
           ["listeningpostwebui", "workspace:."],\
           ["@babel/eslint-parser", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:7.25.1"],\
           ["@ckeditor/ckeditor5-build-classic", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-vue", "npm:5.1.0"],\
+          ["@ckeditor/ckeditor5-vue", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:7.3.0"],\
           ["autoprefixer", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.4.20"],\
           ["axios", "npm:1.7.4"],\
           ["babel-core", "npm:6.26.3"],\
@@ -11751,7 +11792,7 @@ async function copyImpl(prelayout, postlayout, destinationFs, destination, sourc
 async function maybeLStat(baseFs, p) {
   try {
     return await baseFs.lstatPromise(p);
-  } catch (e) {
+  } catch {
     return null;
   }
 }
@@ -12010,7 +12051,7 @@ class CustomStatWatcher extends events.EventEmitter {
   stat() {
     try {
       return this.fakeFs.statSync(this.path, { bigint: this.bigint });
-    } catch (error) {
+    } catch {
       const statInstance = this.bigint ? new BigIntStatsEntry() : new StatEntry();
       return clearStats(statInstance);
     }
@@ -12336,7 +12377,7 @@ class FakeFS {
     let current = Buffer.alloc(0);
     try {
       current = await this.readFilePromise(p);
-    } catch (error) {
+    } catch {
     }
     if (Buffer.compare(current, content) === 0)
       return;
@@ -12346,7 +12387,7 @@ class FakeFS {
     let current = ``;
     try {
       current = await this.readFilePromise(p, `utf8`);
-    } catch (error) {
+    } catch {
     }
     const normalizedContent = automaticNewlines ? normalizeLineEndings(current, content) : content;
     if (current === normalizedContent)
@@ -12364,7 +12405,7 @@ class FakeFS {
     let current = Buffer.alloc(0);
     try {
       current = this.readFileSync(p);
-    } catch (error) {
+    } catch {
     }
     if (Buffer.compare(current, content) === 0)
       return;
@@ -12374,7 +12415,7 @@ class FakeFS {
     let current = ``;
     try {
       current = this.readFileSync(p, `utf8`);
-    } catch (error) {
+    } catch {
     }
     const normalizedContent = automaticNewlines ? normalizeLineEndings(current, content) : content;
     if (current === normalizedContent)
@@ -12414,13 +12455,13 @@ class FakeFS {
       let pid;
       try {
         [pid] = await this.readJsonPromise(lockPath);
-      } catch (error) {
+      } catch {
         return Date.now() - startTime < 500;
       }
       try {
         process.kill(pid, 0);
         return true;
-      } catch (error) {
+      } catch {
         return false;
       }
     };
@@ -12433,7 +12474,7 @@ class FakeFS {
             try {
               await this.unlinkPromise(lockPath);
               continue;
-            } catch (error2) {
+            } catch {
             }
           }
           if (Date.now() - startTime < 60 * 1e3) {
@@ -12453,7 +12494,7 @@ class FakeFS {
       try {
         await this.closePromise(fd);
         await this.unlinkPromise(lockPath);
-      } catch (error) {
+      } catch {
       }
     }
   }
@@ -13603,7 +13644,7 @@ class MountFS extends BasePortableFakeFS {
       let content;
       try {
         content = await sourceFs.readFilePromise(sourceP2);
-      } catch (error) {
+      } catch {
         throw Object.assign(new Error(`EINVAL: invalid argument, copyfile '${sourceP2}' -> '${destP2}'`), { code: `EINVAL` });
       }
       await destFs.writeFilePromise(destP2, content);
@@ -13635,7 +13676,7 @@ class MountFS extends BasePortableFakeFS {
       let content;
       try {
         content = sourceFs.readFileSync(sourceP2);
-      } catch (error) {
+      } catch {
         throw Object.assign(new Error(`EINVAL: invalid argument, copyfile '${sourceP2}' -> '${destP2}'`), { code: `EINVAL` });
       }
       destFs.writeFileSync(destP2, content);
@@ -13948,7 +13989,7 @@ class MountFS extends BasePortableFakeFS {
         if (this.notMount.has(filePath))
           continue;
         try {
-          if (this.typeCheck !== null && (this.baseFs.lstatSync(filePath).mode & fs.constants.S_IFMT) !== this.typeCheck) {
+          if (this.typeCheck !== null && (this.baseFs.statSync(filePath).mode & fs.constants.S_IFMT) !== this.typeCheck) {
             this.notMount.add(filePath);
             continue;
           }
@@ -14550,7 +14591,7 @@ function patchFs(patchedFs, fakeFs) {
     setupFn(patchedFs, `existsSync`, (p) => {
       try {
         return fakeFs.existsSync(p);
-      } catch (error) {
+      } catch {
         return false;
       }
     });
@@ -15911,7 +15952,7 @@ class ZipFS extends BasePortableFakeFS {
     let resolvedP;
     try {
       resolvedP = this.resolveFilename(`stat '${p}'`, p, void 0, false);
-    } catch (error) {
+    } catch {
       return false;
     }
     if (resolvedP === void 0)
@@ -16952,7 +16993,7 @@ Require stack:
         } else {
           resolution = originalFindPath.call(require$$0.Module, request, [path], isMain);
         }
-      } catch (error) {
+      } catch {
         continue;
       }
       if (resolution) {
@@ -16961,18 +17002,20 @@ Require stack:
     }
     return false;
   };
-  const originalExtensionJSFunction = require$$0.Module._extensions[`.js`];
-  require$$0.Module._extensions[`.js`] = function(module, filename) {
-    if (filename.endsWith(`.js`)) {
-      const pkg = readPackageScope(filename);
-      if (pkg && pkg.data?.type === `module`) {
-        const err = ERR_REQUIRE_ESM(filename, module.parent?.filename);
-        Error.captureStackTrace(err);
-        throw err;
+  if (!process.features.require_module) {
+    const originalExtensionJSFunction = require$$0.Module._extensions[`.js`];
+    require$$0.Module._extensions[`.js`] = function(module, filename) {
+      if (filename.endsWith(`.js`)) {
+        const pkg = readPackageScope(filename);
+        if (pkg && pkg.data?.type === `module`) {
+          const err = ERR_REQUIRE_ESM(filename, module.parent?.filename);
+          Error.captureStackTrace(err);
+          throw err;
+        }
       }
-    }
-    originalExtensionJSFunction.call(this, module, filename);
-  };
+      originalExtensionJSFunction.call(this, module, filename);
+    };
+  }
   const originalDlopen = process.dlopen;
   process.dlopen = function(...args) {
     const [module, filename, ...rest] = args;
@@ -18033,7 +18076,7 @@ function makeApi(runtimeState, opts) {
     try {
       candidates.push(unqualifiedPath);
       stat = opts.fakeFs.statSync(unqualifiedPath);
-    } catch (error) {
+    } catch {
     }
     if (stat && !stat.isDirectory())
       return opts.fakeFs.realpathSync(unqualifiedPath);
@@ -18041,7 +18084,7 @@ function makeApi(runtimeState, opts) {
       let pkgJson;
       try {
         pkgJson = JSON.parse(opts.fakeFs.readFileSync(ppath.join(unqualifiedPath, Filename.manifest), `utf8`));
-      } catch (error) {
+      } catch {
       }
       let nextUnqualifiedPath;
       if (pkgJson && pkgJson.main)
