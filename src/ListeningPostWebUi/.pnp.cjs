@@ -31,7 +31,7 @@ const RAW_RUNTIME_STATE =
           ["@ckeditor/ckeditor5-build-classic", "npm:40.2.0"],\
           ["@ckeditor/ckeditor5-vue", "npm:5.1.0"],\
           ["autoprefixer", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.4.21"],\
-          ["axios", "npm:1.8.2"],\
+          ["axios", "npm:1.8.3"],\
           ["babel-core", "npm:6.26.3"],\
           ["babel-helper-vue-jsx-merge-props", "npm:2.0.3"],\
           ["babel-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:9.1.3"],\
@@ -2068,11 +2068,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["axios", [\
-      ["npm:1.8.2", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/axios-npm-1.8.2-55671cda10-10c0.zip/node_modules/axios/",\
+      ["npm:1.8.3", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/axios-npm-1.8.3-b472059d00-10c0.zip/node_modules/axios/",\
         "packageDependencies": [\
-          ["axios", "npm:1.8.2"],\
-          ["follow-redirects", "virtual:55671cda109d40748b7e5f5c4800486b4658ca82dacc9dd48dc401a3e431c6709551633a86acb3d432e80057bc06d36cdbc4aaa7b783386d2c6f6604618b5c22#npm:1.15.6"],\
+          ["axios", "npm:1.8.3"],\
+          ["follow-redirects", "virtual:b472059d000b1cfc7d47298c15d442572f2aadc0025a1121c3f4f6afa1fc6c0e18564cca70f644a3d709ce073667e46fe89df2b8467c6e2a5cd8f9673fc75312#npm:1.15.6"],\
           ["form-data", "npm:4.0.0"],\
           ["proxy-from-env", "npm:1.1.0"]\
         ],\
@@ -5432,10 +5432,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:55671cda109d40748b7e5f5c4800486b4658ca82dacc9dd48dc401a3e431c6709551633a86acb3d432e80057bc06d36cdbc4aaa7b783386d2c6f6604618b5c22#npm:1.15.6", {\
-        "packageLocation": "./.yarn/__virtual__/follow-redirects-virtual-7ef640c58d/9/runner/cache/others/berry/cache/follow-redirects-npm-1.15.6-50635fe51d-10c0.zip/node_modules/follow-redirects/",\
+      ["virtual:b472059d000b1cfc7d47298c15d442572f2aadc0025a1121c3f4f6afa1fc6c0e18564cca70f644a3d709ce073667e46fe89df2b8467c6e2a5cd8f9673fc75312#npm:1.15.6", {\
+        "packageLocation": "./.yarn/__virtual__/follow-redirects-virtual-c2a8cc768f/9/runner/cache/others/berry/cache/follow-redirects-npm-1.15.6-50635fe51d-10c0.zip/node_modules/follow-redirects/",\
         "packageDependencies": [\
-          ["follow-redirects", "virtual:55671cda109d40748b7e5f5c4800486b4658ca82dacc9dd48dc401a3e431c6709551633a86acb3d432e80057bc06d36cdbc4aaa7b783386d2c6f6604618b5c22#npm:1.15.6"],\
+          ["follow-redirects", "virtual:b472059d000b1cfc7d47298c15d442572f2aadc0025a1121c3f4f6afa1fc6c0e18564cca70f644a3d709ce073667e46fe89df2b8467c6e2a5cd8f9673fc75312#npm:1.15.6"],\
           ["@types/debug", null],\
           ["debug", null]\
         ],\
@@ -6075,7 +6075,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["http-proxy", "npm:1.18.1"],\
           ["eventemitter3", "npm:4.0.7"],\
-          ["follow-redirects", "virtual:55671cda109d40748b7e5f5c4800486b4658ca82dacc9dd48dc401a3e431c6709551633a86acb3d432e80057bc06d36cdbc4aaa7b783386d2c6f6604618b5c22#npm:1.15.6"],\
+          ["follow-redirects", "virtual:b472059d000b1cfc7d47298c15d442572f2aadc0025a1121c3f4f6afa1fc6c0e18564cca70f644a3d709ce073667e46fe89df2b8467c6e2a5cd8f9673fc75312#npm:1.15.6"],\
           ["requires-port", "npm:1.0.0"]\
         ],\
         "linkType": "HARD"\
@@ -6911,7 +6911,7 @@ const RAW_RUNTIME_STATE =
           ["@ckeditor/ckeditor5-build-classic", "npm:40.2.0"],\
           ["@ckeditor/ckeditor5-vue", "npm:5.1.0"],\
           ["autoprefixer", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.4.21"],\
-          ["axios", "npm:1.8.2"],\
+          ["axios", "npm:1.8.3"],\
           ["babel-core", "npm:6.26.3"],\
           ["babel-helper-vue-jsx-merge-props", "npm:2.0.3"],\
           ["babel-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:9.1.3"],\
