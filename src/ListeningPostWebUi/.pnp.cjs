@@ -34,7 +34,7 @@ const RAW_RUNTIME_STATE =
           ["axios", "npm:1.8.4"],\
           ["babel-core", "npm:6.26.3"],\
           ["babel-helper-vue-jsx-merge-props", "npm:2.0.3"],\
-          ["babel-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:9.1.3"],\
+          ["babel-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:9.2.1"],\
           ["babel-plugin-syntax-jsx", "npm:6.18.0"],\
           ["babel-plugin-transform-runtime", "npm:6.23.0"],\
           ["babel-plugin-transform-vue-jsx", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:3.7.0"],\
@@ -2319,17 +2319,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["babel-loader", [\
-      ["npm:9.1.3", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/babel-loader-npm-9.1.3-cbf4da21df-10c0.zip/node_modules/babel-loader/",\
+      ["npm:9.2.1", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/babel-loader-npm-9.2.1-6cf3231de6-10c0.zip/node_modules/babel-loader/",\
         "packageDependencies": [\
-          ["babel-loader", "npm:9.1.3"]\
+          ["babel-loader", "npm:9.2.1"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:9.1.3", {\
-        "packageLocation": "./.yarn/__virtual__/babel-loader-virtual-655b7f3e2e/9/runner/cache/others/berry/cache/babel-loader-npm-9.1.3-cbf4da21df-10c0.zip/node_modules/babel-loader/",\
+      ["virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:9.2.1", {\
+        "packageLocation": "./.yarn/__virtual__/babel-loader-virtual-5f4636531d/9/runner/cache/others/berry/cache/babel-loader-npm-9.2.1-6cf3231de6-10c0.zip/node_modules/babel-loader/",\
         "packageDependencies": [\
-          ["babel-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:9.1.3"],\
+          ["babel-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:9.2.1"],\
           ["@babel/core", "npm:7.24.7"],\
           ["@types/babel__core", null],\
           ["@types/webpack", null],\
@@ -6934,7 +6934,7 @@ const RAW_RUNTIME_STATE =
           ["axios", "npm:1.8.4"],\
           ["babel-core", "npm:6.26.3"],\
           ["babel-helper-vue-jsx-merge-props", "npm:2.0.3"],\
-          ["babel-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:9.1.3"],\
+          ["babel-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:9.2.1"],\
           ["babel-plugin-syntax-jsx", "npm:6.18.0"],\
           ["babel-plugin-transform-runtime", "npm:6.23.0"],\
           ["babel-plugin-transform-vue-jsx", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:3.7.0"],\
