@@ -42,7 +42,7 @@ const RAW_RUNTIME_STATE =
           ["babel-preset-stage-2", "npm:6.24.1"],\
           ["bootstrap", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:5.3.3"],\
           ["bootstrap-vue", "npm:2.23.1"],\
-          ["chalk", "npm:5.3.0"],\
+          ["chalk", "npm:5.4.1"],\
           ["copy-webpack-plugin", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:11.0.0"],\
           ["css-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:6.11.0"],\
           ["eslint", "npm:8.57.1"],\
@@ -3331,6 +3331,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/chalk-npm-5.3.0-d181999efb-10c0.zip/node_modules/chalk/",\
         "packageDependencies": [\
           ["chalk", "npm:5.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:5.4.1", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/chalk-npm-5.4.1-2f3fe4660a-10c0.zip/node_modules/chalk/",\
+        "packageDependencies": [\
+          ["chalk", "npm:5.4.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -6942,7 +6949,7 @@ const RAW_RUNTIME_STATE =
           ["babel-preset-stage-2", "npm:6.24.1"],\
           ["bootstrap", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:5.3.3"],\
           ["bootstrap-vue", "npm:2.23.1"],\
-          ["chalk", "npm:5.3.0"],\
+          ["chalk", "npm:5.4.1"],\
           ["copy-webpack-plugin", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:11.0.0"],\
           ["css-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:6.11.0"],\
           ["eslint", "npm:8.57.1"],\
