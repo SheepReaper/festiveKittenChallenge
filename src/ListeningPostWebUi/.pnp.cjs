@@ -59,7 +59,7 @@ const RAW_RUNTIME_STATE =
           ["listeningpostwebui", "workspace:."],\
           ["node-notifier", "npm:10.0.1"],\
           ["optimize-css-assets-webpack-plugin", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:6.0.1"],\
-          ["ora", "npm:8.0.1"],\
+          ["ora", "npm:8.2.0"],\
           ["portfinder", "npm:1.0.35"],\
           ["postcss-import", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:16.1.0"],\
           ["postcss-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:7.3.4"],\
@@ -3495,11 +3495,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["cli-cursor", [\
-      ["npm:4.0.0", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/cli-cursor-npm-4.0.0-08e7cbaf41-10c0.zip/node_modules/cli-cursor/",\
+      ["npm:5.0.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/cli-cursor-npm-5.0.0-444bec1bef-10c0.zip/node_modules/cli-cursor/",\
         "packageDependencies": [\
-          ["cli-cursor", "npm:4.0.0"],\
-          ["restore-cursor", "npm:4.0.0"]\
+          ["cli-cursor", "npm:5.0.0"],\
+          ["restore-cursor", "npm:5.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -7470,7 +7470,7 @@ const RAW_RUNTIME_STATE =
           ["listeningpostwebui", "workspace:."],\
           ["node-notifier", "npm:10.0.1"],\
           ["optimize-css-assets-webpack-plugin", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:6.0.1"],\
-          ["ora", "npm:8.0.1"],\
+          ["ora", "npm:8.2.0"],\
           ["portfinder", "npm:1.0.35"],\
           ["postcss-import", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:16.1.0"],\
           ["postcss-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:7.3.4"],\
@@ -7811,6 +7811,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/mimic-fn-npm-2.1.0-4fbeb3abb4-10c0.zip/node_modules/mimic-fn/",\
         "packageDependencies": [\
           ["mimic-fn", "npm:2.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["mimic-function", [\
+      ["npm:5.0.1", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/mimic-function-npm-5.0.1-5078456e31-10c0.zip/node_modules/mimic-function/",\
+        "packageDependencies": [\
+          ["mimic-function", "npm:5.0.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -8337,6 +8346,14 @@ const RAW_RUNTIME_STATE =
           ["onetime", "npm:5.1.2"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:7.0.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/onetime-npm-7.0.0-cfdd2a579d-10c0.zip/node_modules/onetime/",\
+        "packageDependencies": [\
+          ["mimic-function", "npm:5.0.1"],\
+          ["onetime", "npm:7.0.0"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["open", [\
@@ -8401,18 +8418,18 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["ora", [\
-      ["npm:8.0.1", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/ora-npm-8.0.1-d9010b6b37-10c0.zip/node_modules/ora/",\
+      ["npm:8.2.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/ora-npm-8.2.0-8ba0d3aa76-10c0.zip/node_modules/ora/",\
         "packageDependencies": [\
           ["chalk", "npm:5.3.0"],\
-          ["cli-cursor", "npm:4.0.0"],\
+          ["cli-cursor", "npm:5.0.0"],\
           ["cli-spinners", "npm:2.9.2"],\
           ["is-interactive", "npm:2.0.0"],\
           ["is-unicode-supported", "npm:2.0.0"],\
           ["log-symbols", "npm:6.0.0"],\
-          ["ora", "npm:8.0.1"],\
+          ["ora", "npm:8.2.0"],\
           ["stdin-discarder", "npm:0.2.2"],\
-          ["string-width", "npm:7.1.0"],\
+          ["string-width", "npm:7.2.0"],\
           ["strip-ansi", "npm:7.1.0"]\
         ],\
         "linkType": "HARD"\
@@ -9994,12 +10011,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["restore-cursor", [\
-      ["npm:4.0.0", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/restore-cursor-npm-4.0.0-d42254f39d-10c0.zip/node_modules/restore-cursor/",\
+      ["npm:5.1.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/restore-cursor-npm-5.1.0-b8fd1128bf-10c0.zip/node_modules/restore-cursor/",\
         "packageDependencies": [\
-          ["onetime", "npm:5.1.2"],\
-          ["restore-cursor", "npm:4.0.0"],\
-          ["signal-exit", "npm:3.0.7"]\
+          ["onetime", "npm:7.0.0"],\
+          ["restore-cursor", "npm:5.1.0"],\
+          ["signal-exit", "npm:4.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -10764,12 +10781,12 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:7.1.0", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/string-width-npm-7.1.0-b951372003-10c0.zip/node_modules/string-width/",\
+      ["npm:7.2.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/string-width-npm-7.2.0-93572222c9-10c0.zip/node_modules/string-width/",\
         "packageDependencies": [\
           ["emoji-regex", "npm:10.3.0"],\
           ["get-east-asian-width", "npm:1.2.0"],\
-          ["string-width", "npm:7.1.0"],\
+          ["string-width", "npm:7.2.0"],\
           ["strip-ansi", "npm:7.1.0"]\
         ],\
         "linkType": "HARD"\
