@@ -17,6 +17,7 @@ const RAW_RUNTIME_STATE =
   ],\
   "enableTopLevelFallback": true,\
   "ignorePatternData": "(^(?:\\\\.yarn\\\\/sdks(?:\\\\/(?!\\\\.{1,2}(?:\\\\/|$))(?:(?:(?!(?:^|\\\\/)\\\\.{1,2}(?:\\\\/|$)).)*?)|$))$)",\
+  "pnpZipBackend": "libzip",\
   "fallbackExclusionList": [\
     ["listeningpostwebui", ["workspace:."]]\
   ],\
@@ -28,7 +29,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@babel/eslint-parser", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:7.27.0"],\
-          ["@ckeditor/ckeditor5-build-classic", "npm:40.2.0"],\
+          ["@ckeditor/ckeditor5-build-classic", "npm:44.3.0"],\
           ["@ckeditor/ckeditor5-vue", "npm:5.1.0"],\
           ["autoprefixer", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.4.21"],\
           ["axios", "npm:1.8.4"],\
@@ -391,317 +392,811 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@ckeditor/ckeditor5-adapter-ckfinder", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-adapter-ckfinder-npm-40.2.0-83b0e552a6-10c0.zip/node_modules/@ckeditor/ckeditor5-adapter-ckfinder/",\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-adapter-ckfinder-npm-44.3.0-64146fc356-10c0.zip/node_modules/@ckeditor/ckeditor5-adapter-ckfinder/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-adapter-ckfinder", "npm:40.2.0"],\
-          ["ckeditor5", "npm:40.2.0"]\
+          ["@ckeditor/ckeditor5-adapter-ckfinder", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-upload", "npm:44.3.0"],\
+          ["ckeditor5", "npm:44.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-alignment", [\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-alignment-npm-44.3.0-0b0fcdc9bd-10c0.zip/node_modules/@ckeditor/ckeditor5-alignment/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-alignment", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"],\
+          ["ckeditor5", "npm:44.3.0"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@ckeditor/ckeditor5-autoformat", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-autoformat-npm-40.2.0-a1ea7613c5-10c0.zip/node_modules/@ckeditor/ckeditor5-autoformat/",\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-autoformat-npm-44.3.0-dfe738ae9a-10c0.zip/node_modules/@ckeditor/ckeditor5-autoformat/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-autoformat", "npm:40.2.0"],\
-          ["ckeditor5", "npm:40.2.0"]\
+          ["@ckeditor/ckeditor5-autoformat", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-heading", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-typing", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"],\
+          ["ckeditor5", "npm:44.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-autosave", [\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-autosave-npm-44.3.0-58b2f1c401-10c0.zip/node_modules/@ckeditor/ckeditor5-autosave/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-autosave", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"],\
+          ["ckeditor5", "npm:44.3.0"],\
+          ["lodash-es", "npm:4.17.21"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@ckeditor/ckeditor5-basic-styles", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-basic-styles-npm-40.2.0-bbafc7fbbf-10c0.zip/node_modules/@ckeditor/ckeditor5-basic-styles/",\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-basic-styles-npm-44.3.0-465ea9c4d1-10c0.zip/node_modules/@ckeditor/ckeditor5-basic-styles/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-basic-styles", "npm:40.2.0"],\
-          ["ckeditor5", "npm:40.2.0"]\
+          ["@ckeditor/ckeditor5-basic-styles", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-typing", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"],\
+          ["ckeditor5", "npm:44.3.0"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@ckeditor/ckeditor5-block-quote", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-block-quote-npm-40.2.0-1c6b0a3540-10c0.zip/node_modules/@ckeditor/ckeditor5-block-quote/",\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-block-quote-npm-44.3.0-b249b0aaa5-10c0.zip/node_modules/@ckeditor/ckeditor5-block-quote/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-block-quote", "npm:40.2.0"],\
-          ["ckeditor5", "npm:40.2.0"]\
+          ["@ckeditor/ckeditor5-block-quote", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-enter", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-typing", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"],\
+          ["ckeditor5", "npm:44.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-bookmark", [\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-bookmark-npm-44.3.0-39f7daa04f-10c0.zip/node_modules/@ckeditor/ckeditor5-bookmark/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-bookmark", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-widget", "npm:44.3.0"],\
+          ["ckeditor5", "npm:44.3.0"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@ckeditor/ckeditor5-build-classic", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-build-classic-npm-40.2.0-73c9d1e171-10c0.zip/node_modules/@ckeditor/ckeditor5-build-classic/",\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-build-classic-npm-44.3.0-c918fedb23-10c0.zip/node_modules/@ckeditor/ckeditor5-build-classic/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-adapter-ckfinder", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-autoformat", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-basic-styles", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-block-quote", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-build-classic", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-ckbox", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-ckfinder", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-cloud-services", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-easy-image", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-editor-classic", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-essentials", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-heading", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-image", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-indent", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-link", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-list", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-media-embed", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-paragraph", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-paste-from-office", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-table", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-typing", "npm:40.2.0"]\
+          ["@ckeditor/ckeditor5-adapter-ckfinder", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-autoformat", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-basic-styles", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-block-quote", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-build-classic", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-ckbox", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-ckfinder", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-cloud-services", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-easy-image", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-editor-classic", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-essentials", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-heading", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-image", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-indent", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-link", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-list", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-media-embed", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-paragraph", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-paste-from-office", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-table", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-typing", "npm:44.3.0"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@ckeditor/ckeditor5-ckbox", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-ckbox-npm-40.2.0-17735b71c6-10c0.zip/node_modules/@ckeditor/ckeditor5-ckbox/",\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-ckbox-npm-44.3.0-a057d0e261-10c0.zip/node_modules/@ckeditor/ckeditor5-ckbox/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-ckbox", "npm:40.2.0"],\
+          ["@ckeditor/ckeditor5-ckbox", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-cloud-services", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-image", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-upload", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"],\
           ["blurhash", "npm:2.0.5"],\
-          ["ckeditor5", "npm:40.2.0"],\
+          ["ckeditor5", "npm:44.3.0"],\
           ["lodash-es", "npm:4.17.21"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@ckeditor/ckeditor5-ckfinder", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-ckfinder-npm-40.2.0-e721546673-10c0.zip/node_modules/@ckeditor/ckeditor5-ckfinder/",\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-ckfinder-npm-44.3.0-a49ee5f531-10c0.zip/node_modules/@ckeditor/ckeditor5-ckfinder/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-ckfinder", "npm:40.2.0"],\
-          ["ckeditor5", "npm:40.2.0"]\
+          ["@ckeditor/ckeditor5-ckfinder", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-image", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"],\
+          ["ckeditor5", "npm:44.3.0"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@ckeditor/ckeditor5-clipboard", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-clipboard-npm-40.2.0-79573c64ee-10c0.zip/node_modules/@ckeditor/ckeditor5-clipboard/",\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-clipboard-npm-44.3.0-a563b408d7-10c0.zip/node_modules/@ckeditor/ckeditor5-clipboard/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-clipboard", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-core", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-engine", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-ui", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-utils", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-widget", "npm:40.2.0"],\
+          ["@ckeditor/ckeditor5-clipboard", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-widget", "npm:44.3.0"],\
           ["lodash-es", "npm:4.17.21"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@ckeditor/ckeditor5-cloud-services", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-cloud-services-npm-40.2.0-5ce2a421e1-10c0.zip/node_modules/@ckeditor/ckeditor5-cloud-services/",\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-cloud-services-npm-44.3.0-faaa119988-10c0.zip/node_modules/@ckeditor/ckeditor5-cloud-services/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-cloud-services", "npm:40.2.0"],\
-          ["ckeditor5", "npm:40.2.0"]\
+          ["@ckeditor/ckeditor5-cloud-services", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"],\
+          ["ckeditor5", "npm:44.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-code-block", [\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-code-block-npm-44.3.0-f6c445959b-10c0.zip/node_modules/@ckeditor/ckeditor5-code-block/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-clipboard", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-code-block", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-enter", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"],\
+          ["ckeditor5", "npm:44.3.0"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@ckeditor/ckeditor5-core", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-core-npm-40.2.0-8337750914-10c0.zip/node_modules/@ckeditor/ckeditor5-core/",\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-core-npm-44.3.0-3c6e4fc40b-10c0.zip/node_modules/@ckeditor/ckeditor5-core/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-core", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-engine", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-utils", "npm:40.2.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-watchdog", "npm:44.3.0"],\
           ["lodash-es", "npm:4.17.21"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@ckeditor/ckeditor5-easy-image", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-easy-image-npm-40.2.0-78dbe3305b-10c0.zip/node_modules/@ckeditor/ckeditor5-easy-image/",\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-easy-image-npm-44.3.0-b9b5beccae-10c0.zip/node_modules/@ckeditor/ckeditor5-easy-image/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-easy-image", "npm:40.2.0"],\
-          ["ckeditor5", "npm:40.2.0"]\
+          ["@ckeditor/ckeditor5-cloud-services", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-easy-image", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-upload", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"],\
+          ["ckeditor5", "npm:44.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-editor-balloon", [\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-editor-balloon-npm-44.3.0-e29890fb0b-10c0.zip/node_modules/@ckeditor/ckeditor5-editor-balloon/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-editor-balloon", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"],\
+          ["ckeditor5", "npm:44.3.0"],\
+          ["lodash-es", "npm:4.17.21"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@ckeditor/ckeditor5-editor-classic", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-editor-classic-npm-40.2.0-0330a4b7b0-10c0.zip/node_modules/@ckeditor/ckeditor5-editor-classic/",\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-editor-classic-npm-44.3.0-f30b1bc92f-10c0.zip/node_modules/@ckeditor/ckeditor5-editor-classic/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-editor-classic", "npm:40.2.0"],\
-          ["ckeditor5", "npm:40.2.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-editor-classic", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"],\
+          ["ckeditor5", "npm:44.3.0"],\
+          ["lodash-es", "npm:4.17.21"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-editor-decoupled", [\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-editor-decoupled-npm-44.3.0-94b7727672-10c0.zip/node_modules/@ckeditor/ckeditor5-editor-decoupled/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-editor-decoupled", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"],\
+          ["ckeditor5", "npm:44.3.0"],\
+          ["lodash-es", "npm:4.17.21"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-editor-inline", [\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-editor-inline-npm-44.3.0-32bec575e9-10c0.zip/node_modules/@ckeditor/ckeditor5-editor-inline/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-editor-inline", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"],\
+          ["ckeditor5", "npm:44.3.0"],\
+          ["lodash-es", "npm:4.17.21"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-editor-multi-root", [\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-editor-multi-root-npm-44.3.0-aaeabcaac8-10c0.zip/node_modules/@ckeditor/ckeditor5-editor-multi-root/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-editor-multi-root", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"],\
+          ["ckeditor5", "npm:44.3.0"],\
+          ["lodash-es", "npm:4.17.21"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-emoji", [\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-emoji-npm-44.3.0-99dad6bd2a-10c0.zip/node_modules/@ckeditor/ckeditor5-emoji/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-emoji", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-mention", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-typing", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"],\
+          ["ckeditor5", "npm:44.3.0"],\
+          ["fuzzysort", "npm:3.1.0"],\
           ["lodash-es", "npm:4.17.21"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@ckeditor/ckeditor5-engine", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-engine-npm-40.2.0-090340dc14-10c0.zip/node_modules/@ckeditor/ckeditor5-engine/",\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-engine-npm-44.3.0-b33b8286a9-10c0.zip/node_modules/@ckeditor/ckeditor5-engine/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-engine", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-utils", "npm:40.2.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"],\
           ["lodash-es", "npm:4.17.21"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@ckeditor/ckeditor5-enter", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-enter-npm-40.2.0-ff065ca9d1-10c0.zip/node_modules/@ckeditor/ckeditor5-enter/",\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-enter-npm-44.3.0-d47a93895e-10c0.zip/node_modules/@ckeditor/ckeditor5-enter/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-core", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-engine", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-enter", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-utils", "npm:40.2.0"]\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-enter", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@ckeditor/ckeditor5-essentials", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-essentials-npm-40.2.0-cbb1d2ee5d-10c0.zip/node_modules/@ckeditor/ckeditor5-essentials/",\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-essentials-npm-44.3.0-bb9a48a688-10c0.zip/node_modules/@ckeditor/ckeditor5-essentials/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-essentials", "npm:40.2.0"],\
-          ["ckeditor5", "npm:40.2.0"]\
+          ["@ckeditor/ckeditor5-clipboard", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-enter", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-essentials", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-select-all", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-typing", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-undo", "npm:44.3.0"],\
+          ["ckeditor5", "npm:44.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-find-and-replace", [\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-find-and-replace-npm-44.3.0-ae25275f76-10c0.zip/node_modules/@ckeditor/ckeditor5-find-and-replace/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-find-and-replace", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"],\
+          ["ckeditor5", "npm:44.3.0"],\
+          ["lodash-es", "npm:4.17.21"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-font", [\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-font-npm-44.3.0-7cb86c9921-10c0.zip/node_modules/@ckeditor/ckeditor5-font/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-font", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"],\
+          ["ckeditor5", "npm:44.3.0"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@ckeditor/ckeditor5-heading", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-heading-npm-40.2.0-87f71c5e85-10c0.zip/node_modules/@ckeditor/ckeditor5-heading/",\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-heading-npm-44.3.0-6c6b307ace-10c0.zip/node_modules/@ckeditor/ckeditor5-heading/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-heading", "npm:40.2.0"],\
-          ["ckeditor5", "npm:40.2.0"]\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-heading", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-paragraph", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"],\
+          ["ckeditor5", "npm:44.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-highlight", [\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-highlight-npm-44.3.0-348c238c5a-10c0.zip/node_modules/@ckeditor/ckeditor5-highlight/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-highlight", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"],\
+          ["ckeditor5", "npm:44.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-horizontal-line", [\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-horizontal-line-npm-44.3.0-2f4720b872-10c0.zip/node_modules/@ckeditor/ckeditor5-horizontal-line/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-horizontal-line", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-widget", "npm:44.3.0"],\
+          ["ckeditor5", "npm:44.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-html-embed", [\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-html-embed-npm-44.3.0-4a799170fe-10c0.zip/node_modules/@ckeditor/ckeditor5-html-embed/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-html-embed", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-widget", "npm:44.3.0"],\
+          ["ckeditor5", "npm:44.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-html-support", [\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-html-support-npm-44.3.0-6043fd0b8b-10c0.zip/node_modules/@ckeditor/ckeditor5-html-support/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-enter", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-heading", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-html-support", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-image", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-list", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-table", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-widget", "npm:44.3.0"],\
+          ["ckeditor5", "npm:44.3.0"],\
+          ["lodash-es", "npm:4.17.21"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@ckeditor/ckeditor5-image", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-image-npm-40.2.0-2f5a84dc50-10c0.zip/node_modules/@ckeditor/ckeditor5-image/",\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-image-npm-44.3.0-3370713d22-10c0.zip/node_modules/@ckeditor/ckeditor5-image/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-image", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-ui", "npm:40.2.0"],\
-          ["ckeditor5", "npm:40.2.0"],\
+          ["@ckeditor/ckeditor5-clipboard", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-image", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-typing", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-undo", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-upload", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-widget", "npm:44.3.0"],\
+          ["ckeditor5", "npm:44.3.0"],\
           ["lodash-es", "npm:4.17.21"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@ckeditor/ckeditor5-indent", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-indent-npm-40.2.0-f8c5848c06-10c0.zip/node_modules/@ckeditor/ckeditor5-indent/",\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-indent-npm-44.3.0-ed71150175-10c0.zip/node_modules/@ckeditor/ckeditor5-indent/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-indent", "npm:40.2.0"],\
-          ["ckeditor5", "npm:40.2.0"]\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-heading", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-indent", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-list", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"],\
+          ["ckeditor5", "npm:44.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-language", [\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-language-npm-44.3.0-e40016d274-10c0.zip/node_modules/@ckeditor/ckeditor5-language/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-language", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"],\
+          ["ckeditor5", "npm:44.3.0"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@ckeditor/ckeditor5-link", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-link-npm-40.2.0-e222ba7da0-10c0.zip/node_modules/@ckeditor/ckeditor5-link/",\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-link-npm-44.3.0-65526bddb1-10c0.zip/node_modules/@ckeditor/ckeditor5-link/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-link", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-ui", "npm:40.2.0"],\
-          ["ckeditor5", "npm:40.2.0"],\
+          ["@ckeditor/ckeditor5-bookmark", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-clipboard", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-image", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-link", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-typing", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-widget", "npm:44.3.0"],\
+          ["ckeditor5", "npm:44.3.0"],\
           ["lodash-es", "npm:4.17.21"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@ckeditor/ckeditor5-list", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-list-npm-40.2.0-642e60cac4-10c0.zip/node_modules/@ckeditor/ckeditor5-list/",\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-list-npm-44.3.0-0918fe7b87-10c0.zip/node_modules/@ckeditor/ckeditor5-list/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-list", "npm:40.2.0"],\
-          ["ckeditor5", "npm:40.2.0"]\
+          ["@ckeditor/ckeditor5-clipboard", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-enter", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-list", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-typing", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"],\
+          ["ckeditor5", "npm:44.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-markdown-gfm", [\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-markdown-gfm-npm-44.3.0-7e6e54f27f-10c0.zip/node_modules/@ckeditor/ckeditor5-markdown-gfm/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-clipboard", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-markdown-gfm", "npm:44.3.0"],\
+          ["@types/marked", "npm:4.3.2"],\
+          ["@types/turndown", "npm:5.0.5"],\
+          ["ckeditor5", "npm:44.3.0"],\
+          ["marked", "npm:4.0.12"],\
+          ["turndown", "npm:7.2.0"],\
+          ["turndown-plugin-gfm", "npm:1.0.2"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@ckeditor/ckeditor5-media-embed", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-media-embed-npm-40.2.0-093dc041d1-10c0.zip/node_modules/@ckeditor/ckeditor5-media-embed/",\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-media-embed-npm-44.3.0-276f05ba5e-10c0.zip/node_modules/@ckeditor/ckeditor5-media-embed/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-media-embed", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-ui", "npm:40.2.0"],\
-          ["ckeditor5", "npm:40.2.0"]\
+          ["@ckeditor/ckeditor5-clipboard", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-media-embed", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-typing", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-undo", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-widget", "npm:44.3.0"],\
+          ["ckeditor5", "npm:44.3.0"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
-    ["@ckeditor/ckeditor5-paragraph", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-paragraph-npm-40.2.0-7c8079fda6-10c0.zip/node_modules/@ckeditor/ckeditor5-paragraph/",\
+    ["@ckeditor/ckeditor5-mention", [\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-mention-npm-44.3.0-612666afa8-10c0.zip/node_modules/@ckeditor/ckeditor5-mention/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-core", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-paragraph", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-ui", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-utils", "npm:40.2.0"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@ckeditor/ckeditor5-paste-from-office", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-paste-from-office-npm-40.2.0-3ed9cdd578-10c0.zip/node_modules/@ckeditor/ckeditor5-paste-from-office/",\
-        "packageDependencies": [\
-          ["@ckeditor/ckeditor5-paste-from-office", "npm:40.2.0"],\
-          ["ckeditor5", "npm:40.2.0"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@ckeditor/ckeditor5-select-all", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-select-all-npm-40.2.0-01cf161884-10c0.zip/node_modules/@ckeditor/ckeditor5-select-all/",\
-        "packageDependencies": [\
-          ["@ckeditor/ckeditor5-core", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-select-all", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-ui", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-utils", "npm:40.2.0"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["@ckeditor/ckeditor5-table", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-table-npm-40.2.0-b80eb414cc-10c0.zip/node_modules/@ckeditor/ckeditor5-table/",\
-        "packageDependencies": [\
-          ["@ckeditor/ckeditor5-table", "npm:40.2.0"],\
-          ["ckeditor5", "npm:40.2.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-mention", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-typing", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"],\
+          ["ckeditor5", "npm:44.3.0"],\
           ["lodash-es", "npm:4.17.21"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
-    ["@ckeditor/ckeditor5-typing", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-typing-npm-40.2.0-97abc74176-10c0.zip/node_modules/@ckeditor/ckeditor5-typing/",\
+    ["@ckeditor/ckeditor5-minimap", [\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-minimap-npm-44.3.0-5105a48be2-10c0.zip/node_modules/@ckeditor/ckeditor5-minimap/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-core", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-engine", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-typing", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-utils", "npm:40.2.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-minimap", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"],\
+          ["ckeditor5", "npm:44.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-page-break", [\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-page-break-npm-44.3.0-7d5f32b383-10c0.zip/node_modules/@ckeditor/ckeditor5-page-break/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-page-break", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-widget", "npm:44.3.0"],\
+          ["ckeditor5", "npm:44.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-paragraph", [\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-paragraph-npm-44.3.0-30f2589495-10c0.zip/node_modules/@ckeditor/ckeditor5-paragraph/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-paragraph", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-paste-from-office", [\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-paste-from-office-npm-44.3.0-e6b8a97673-10c0.zip/node_modules/@ckeditor/ckeditor5-paste-from-office/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-clipboard", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-paste-from-office", "npm:44.3.0"],\
+          ["ckeditor5", "npm:44.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-remove-format", [\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-remove-format-npm-44.3.0-17febb2b2c-10c0.zip/node_modules/@ckeditor/ckeditor5-remove-format/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-remove-format", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"],\
+          ["ckeditor5", "npm:44.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-restricted-editing", [\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-restricted-editing-npm-44.3.0-ceb1a8f15a-10c0.zip/node_modules/@ckeditor/ckeditor5-restricted-editing/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-restricted-editing", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"],\
+          ["ckeditor5", "npm:44.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-select-all", [\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-select-all-npm-44.3.0-d6ff32b18f-10c0.zip/node_modules/@ckeditor/ckeditor5-select-all/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-select-all", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-show-blocks", [\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-show-blocks-npm-44.3.0-b418941f2a-10c0.zip/node_modules/@ckeditor/ckeditor5-show-blocks/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-show-blocks", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"],\
+          ["ckeditor5", "npm:44.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-source-editing", [\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-source-editing-npm-44.3.0-cafae7d25a-10c0.zip/node_modules/@ckeditor/ckeditor5-source-editing/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-source-editing", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-theme-lark", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"],\
+          ["ckeditor5", "npm:44.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-special-characters", [\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-special-characters-npm-44.3.0-33ce8994dd-10c0.zip/node_modules/@ckeditor/ckeditor5-special-characters/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-special-characters", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-typing", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"],\
+          ["ckeditor5", "npm:44.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-style", [\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-style-npm-44.3.0-28c7df5edb-10c0.zip/node_modules/@ckeditor/ckeditor5-style/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-html-support", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-list", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-style", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-table", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-typing", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"],\
+          ["ckeditor5", "npm:44.3.0"],\
+          ["lodash-es", "npm:4.17.21"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-table", [\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-table-npm-44.3.0-dd7cc69f43-10c0.zip/node_modules/@ckeditor/ckeditor5-table/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-clipboard", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-table", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-widget", "npm:44.3.0"],\
+          ["ckeditor5", "npm:44.3.0"],\
+          ["lodash-es", "npm:4.17.21"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-theme-lark", [\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-theme-lark-npm-44.3.0-cd22b510d2-10c0.zip/node_modules/@ckeditor/ckeditor5-theme-lark/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-theme-lark", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:44.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-typing", [\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-typing-npm-44.3.0-4ae8986da4-10c0.zip/node_modules/@ckeditor/ckeditor5-typing/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-typing", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"],\
           ["lodash-es", "npm:4.17.21"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@ckeditor/ckeditor5-ui", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-ui-npm-40.2.0-08d3407e42-10c0.zip/node_modules/@ckeditor/ckeditor5-ui/",\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-ui-npm-44.3.0-9d5a6634e9-10c0.zip/node_modules/@ckeditor/ckeditor5-ui/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-core", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-ui", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-utils", "npm:40.2.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-editor-multi-root", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"],\
+          ["@types/color-convert", "npm:2.0.4"],\
           ["color-convert", "npm:2.0.1"],\
           ["color-parse", "npm:1.4.2"],\
           ["lodash-es", "npm:4.17.21"],\
@@ -711,34 +1206,36 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@ckeditor/ckeditor5-undo", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-undo-npm-40.2.0-6dd035749d-10c0.zip/node_modules/@ckeditor/ckeditor5-undo/",\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-undo-npm-44.3.0-1ddc49d5b8-10c0.zip/node_modules/@ckeditor/ckeditor5-undo/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-core", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-engine", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-ui", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-undo", "npm:40.2.0"]\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-undo", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@ckeditor/ckeditor5-upload", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-upload-npm-40.2.0-a8065fd094-10c0.zip/node_modules/@ckeditor/ckeditor5-upload/",\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-upload-npm-44.3.0-fe26c56122-10c0.zip/node_modules/@ckeditor/ckeditor5-upload/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-core", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-ui", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-upload", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-utils", "npm:40.2.0"]\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-upload", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@ckeditor/ckeditor5-utils", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-utils-npm-40.2.0-53d082b4f3-10c0.zip/node_modules/@ckeditor/ckeditor5-utils/",\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-utils-npm-44.3.0-65070d6672-10c0.zip/node_modules/@ckeditor/ckeditor5-utils/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-utils", "npm:40.2.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"],\
+          ["@types/lodash-es", "npm:4.17.12"],\
           ["lodash-es", "npm:4.17.21"]\
         ],\
         "linkType": "HARD"\
@@ -754,26 +1251,44 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@ckeditor/ckeditor5-watchdog", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-watchdog-npm-40.2.0-2679578ddf-10c0.zip/node_modules/@ckeditor/ckeditor5-watchdog/",\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-watchdog-npm-44.3.0-095c611024-10c0.zip/node_modules/@ckeditor/ckeditor5-watchdog/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-watchdog", "npm:40.2.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-editor-multi-root", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-watchdog", "npm:44.3.0"],\
           ["lodash-es", "npm:4.17.21"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@ckeditor/ckeditor5-widget", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-widget-npm-40.2.0-46bafbbf27-10c0.zip/node_modules/@ckeditor/ckeditor5-widget/",\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-widget-npm-44.3.0-cf99ff185f-10c0.zip/node_modules/@ckeditor/ckeditor5-widget/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-core", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-engine", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-enter", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-typing", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-ui", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-utils", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-widget", "npm:40.2.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-enter", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-typing", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-widget", "npm:44.3.0"],\
+          ["lodash-es", "npm:4.17.21"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ckeditor/ckeditor5-word-count", [\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-word-count-npm-44.3.0-db575c0269-10c0.zip/node_modules/@ckeditor/ckeditor5-word-count/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-word-count", "npm:44.3.0"],\
+          ["ckeditor5", "npm:44.3.0"],\
           ["lodash-es", "npm:4.17.21"]\
         ],\
         "linkType": "HARD"\
@@ -967,6 +1482,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@leichtgewicht-ip-codec-npm-2.0.5-23deb9e4c5-10c0.zip/node_modules/@leichtgewicht/ip-codec/",\
         "packageDependencies": [\
           ["@leichtgewicht/ip-codec", "npm:2.0.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@mixmark-io/domino", [\
+      ["npm:2.2.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@mixmark-io-domino-npm-2.2.0-4e1d58551b-10c0.zip/node_modules/@mixmark-io/domino/",\
+        "packageDependencies": [\
+          ["@mixmark-io/domino", "npm:2.2.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1249,6 +1773,25 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@types/color-convert", [\
+      ["npm:2.0.4", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@types-color-convert-npm-2.0.4-50a5c56b9c-10c0.zip/node_modules/@types/color-convert/",\
+        "packageDependencies": [\
+          ["@types/color-convert", "npm:2.0.4"],\
+          ["@types/color-name", "npm:1.1.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/color-name", [\
+      ["npm:1.1.5", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@types-color-name-npm-1.1.5-08876d8ea1-10c0.zip/node_modules/@types/color-name/",\
+        "packageDependencies": [\
+          ["@types/color-name", "npm:1.1.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@types/connect", [\
       ["npm:3.4.38", {\
         "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@types-connect-npm-3.4.38-a8a4c38337-10c0.zip/node_modules/@types/connect/",\
@@ -1351,6 +1894,34 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@types/lodash", [\
+      ["npm:4.17.16", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@types-lodash-npm-4.17.16-edc964ca5b-10c0.zip/node_modules/@types/lodash/",\
+        "packageDependencies": [\
+          ["@types/lodash", "npm:4.17.16"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/lodash-es", [\
+      ["npm:4.17.12", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@types-lodash-es-npm-4.17.12-87dce3f795-10c0.zip/node_modules/@types/lodash-es/",\
+        "packageDependencies": [\
+          ["@types/lodash", "npm:4.17.16"],\
+          ["@types/lodash-es", "npm:4.17.12"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/marked", [\
+      ["npm:4.3.2", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@types-marked-npm-4.3.2-eb576ba405-10c0.zip/node_modules/@types/marked/",\
+        "packageDependencies": [\
+          ["@types/marked", "npm:4.3.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@types/mime", [\
       ["npm:1.3.5", {\
         "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@types-mime-npm-1.3.5-48d28990db-10c0.zip/node_modules/@types/mime/",\
@@ -1446,6 +2017,15 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@types/node", "npm:20.14.2"],\
           ["@types/sockjs", "npm:0.3.36"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@types/turndown", [\
+      ["npm:5.0.5", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@types-turndown-npm-5.0.5-b8056bfecf-10c0.zip/node_modules/@types/turndown/",\
+        "packageDependencies": [\
+          ["@types/turndown", "npm:5.0.5"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3606,23 +4186,69 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["ckeditor5", [\
-      ["npm:40.2.0", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/ckeditor5-npm-40.2.0-5adda6651d-10c0.zip/node_modules/ckeditor5/",\
+      ["npm:44.3.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/ckeditor5-npm-44.3.0-567d4e7eaa-10c0.zip/node_modules/ckeditor5/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-clipboard", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-core", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-engine", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-enter", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-paragraph", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-select-all", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-typing", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-ui", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-undo", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-upload", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-utils", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-watchdog", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-widget", "npm:40.2.0"],\
-          ["ckeditor5", "npm:40.2.0"]\
+          ["@ckeditor/ckeditor5-adapter-ckfinder", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-alignment", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-autoformat", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-autosave", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-basic-styles", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-block-quote", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-bookmark", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-ckbox", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-ckfinder", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-clipboard", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-cloud-services", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-code-block", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-core", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-easy-image", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-editor-balloon", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-editor-classic", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-editor-decoupled", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-editor-inline", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-editor-multi-root", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-emoji", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-engine", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-enter", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-essentials", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-find-and-replace", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-font", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-heading", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-highlight", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-horizontal-line", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-html-embed", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-html-support", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-image", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-indent", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-language", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-link", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-list", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-markdown-gfm", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-media-embed", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-mention", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-minimap", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-page-break", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-paragraph", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-paste-from-office", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-remove-format", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-restricted-editing", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-select-all", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-show-blocks", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-source-editing", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-special-characters", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-style", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-table", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-theme-lark", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-typing", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-ui", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-undo", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-upload", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-utils", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-watchdog", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-widget", "npm:44.3.0"],\
+          ["@ckeditor/ckeditor5-word-count", "npm:44.3.0"],\
+          ["ckeditor5", "npm:44.3.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -6026,6 +6652,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["fuzzysort", [\
+      ["npm:3.1.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/fuzzysort-npm-3.1.0-6364c8568e-10c0.zip/node_modules/fuzzysort/",\
+        "packageDependencies": [\
+          ["fuzzysort", "npm:3.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["gensync", [\
       ["npm:1.0.0-beta.2", {\
         "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/gensync-npm-1.0.0-beta.2-224666d72f-10c0.zip/node_modules/gensync/",\
@@ -7600,7 +8235,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@babel/eslint-parser", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:7.27.0"],\
-          ["@ckeditor/ckeditor5-build-classic", "npm:40.2.0"],\
+          ["@ckeditor/ckeditor5-build-classic", "npm:44.3.0"],\
           ["@ckeditor/ckeditor5-vue", "npm:5.1.0"],\
           ["autoprefixer", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.4.21"],\
           ["axios", "npm:1.8.4"],\
@@ -7844,6 +8479,15 @@ const RAW_RUNTIME_STATE =
           ["proc-log", "npm:4.2.0"],\
           ["promise-retry", "npm:2.0.1"],\
           ["ssri", "npm:10.0.6"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["marked", [\
+      ["npm:4.0.12", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/marked-npm-4.0.12-1fc6e0ed31-10c0.zip/node_modules/marked/",\
+        "packageDependencies": [\
+          ["marked", "npm:4.0.12"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -11377,6 +12021,25 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/tslib-npm-2.6.3-0fd136b3be-10c0.zip/node_modules/tslib/",\
         "packageDependencies": [\
           ["tslib", "npm:2.6.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["turndown", [\
+      ["npm:7.2.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/turndown-npm-7.2.0-35c69df4d5-10c0.zip/node_modules/turndown/",\
+        "packageDependencies": [\
+          ["@mixmark-io/domino", "npm:2.2.0"],\
+          ["turndown", "npm:7.2.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["turndown-plugin-gfm", [\
+      ["npm:1.0.2", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/turndown-plugin-gfm-npm-1.0.2-73465b88af-10c0.zip/node_modules/turndown-plugin-gfm/",\
+        "packageDependencies": [\
+          ["turndown-plugin-gfm", "npm:1.0.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -16559,14 +17222,16 @@ class ZipOpenFS extends MountFS {
       return new ZipFS(p, {
         baseFs,
         readOnly: readOnlyArchives,
-        stats: baseFs.statSync(p)
+        stats: baseFs.statSync(p),
+        customZipImplementation: opts.customZipImplementation
       });
     };
     const factoryPromise = async (baseFs, p) => {
       const zipOptions = {
         baseFs,
         readOnly: readOnlyArchives,
-        stats: await baseFs.statPromise(p)
+        stats: await baseFs.statPromise(p),
+        customZipImplementation: opts.customZipImplementation
       };
       return () => {
         return new ZipFS(p, zipOptions);
@@ -16581,6 +17246,246 @@ class ZipOpenFS extends MountFS {
   }
 }
 
+class LibzipError extends Error {
+  code;
+  constructor(message, code) {
+    super(message);
+    this.name = `Libzip Error`;
+    this.code = code;
+  }
+}
+class LibZipImpl {
+  libzip;
+  lzSource;
+  zip;
+  /**
+   * A cache of indices mapped to file sources.
+   * Populated by `setFileSource` calls.
+   * Required for supporting read after write.
+   */
+  fileSources = /* @__PURE__ */ new Map();
+  listings;
+  symlinkCount;
+  constructor(opts) {
+    const buffer = `buffer` in opts ? opts.buffer : opts.baseFs.readFileSync(opts.path);
+    this.libzip = getInstance();
+    const errPtr = this.libzip.malloc(4);
+    try {
+      let flags = 0;
+      if (opts.readOnly)
+        flags |= this.libzip.ZIP_RDONLY;
+      const lzSource = this.allocateUnattachedSource(buffer);
+      try {
+        this.zip = this.libzip.openFromSource(lzSource, flags, errPtr);
+        this.lzSource = lzSource;
+      } catch (error) {
+        this.libzip.source.free(lzSource);
+        throw error;
+      }
+      if (this.zip === 0) {
+        const error = this.libzip.struct.errorS();
+        this.libzip.error.initWithCode(error, this.libzip.getValue(errPtr, `i32`));
+        throw this.makeLibzipError(error);
+      }
+    } finally {
+      this.libzip.free(errPtr);
+    }
+    const entryCount = this.libzip.getNumEntries(this.zip, 0);
+    const listings = new Array(entryCount);
+    for (let t = 0; t < entryCount; ++t)
+      listings[t] = this.libzip.getName(this.zip, t, 0);
+    this.listings = listings;
+    this.symlinkCount = this.libzip.ext.countSymlinks(this.zip);
+    if (this.symlinkCount === -1) {
+      throw this.makeLibzipError(this.libzip.getError(this.zip));
+    }
+  }
+  getSymlinkCount() {
+    return this.symlinkCount;
+  }
+  getListings() {
+    return this.listings;
+  }
+  stat(entry) {
+    const stat = this.libzip.struct.statS();
+    const rc = this.libzip.statIndex(this.zip, entry, 0, 0, stat);
+    if (rc === -1)
+      throw this.makeLibzipError(this.libzip.getError(this.zip));
+    const size = this.libzip.struct.statSize(stat) >>> 0;
+    const mtime = this.libzip.struct.statMtime(stat) >>> 0;
+    const crc = this.libzip.struct.statCrc(stat) >>> 0;
+    return { size, mtime, crc };
+  }
+  makeLibzipError(error) {
+    const errorCode = this.libzip.struct.errorCodeZip(error);
+    const strerror = this.libzip.error.strerror(error);
+    const libzipError = new LibzipError(strerror, this.libzip.errors[errorCode]);
+    if (errorCode === this.libzip.errors.ZIP_ER_CHANGED)
+      throw new Error(`Assertion failed: Unexpected libzip error: ${libzipError.message}`);
+    return libzipError;
+  }
+  setFileSource(target, compression, buffer) {
+    const lzSource = this.allocateSource(buffer);
+    try {
+      const newIndex = this.libzip.file.add(this.zip, target, lzSource, this.libzip.ZIP_FL_OVERWRITE);
+      if (newIndex === -1)
+        throw this.makeLibzipError(this.libzip.getError(this.zip));
+      if (compression !== null) {
+        const rc = this.libzip.file.setCompression(this.zip, newIndex, 0, compression[0], compression[1]);
+        if (rc === -1) {
+          throw this.makeLibzipError(this.libzip.getError(this.zip));
+        }
+      }
+      this.fileSources.set(newIndex, buffer);
+      return newIndex;
+    } catch (error) {
+      this.libzip.source.free(lzSource);
+      throw error;
+    }
+  }
+  setMtime(entry, mtime) {
+    const rc = this.libzip.file.setMtime(this.zip, entry, 0, mtime, 0);
+    if (rc === -1) {
+      throw this.makeLibzipError(this.libzip.getError(this.zip));
+    }
+  }
+  getExternalAttributes(index) {
+    const attrs = this.libzip.file.getExternalAttributes(this.zip, index, 0, 0, this.libzip.uint08S, this.libzip.uint32S);
+    if (attrs === -1)
+      throw this.makeLibzipError(this.libzip.getError(this.zip));
+    const opsys = this.libzip.getValue(this.libzip.uint08S, `i8`) >>> 0;
+    const attributes = this.libzip.getValue(this.libzip.uint32S, `i32`) >>> 0;
+    return [opsys, attributes];
+  }
+  setExternalAttributes(index, opsys, attributes) {
+    const rc = this.libzip.file.setExternalAttributes(this.zip, index, 0, 0, opsys, attributes);
+    if (rc === -1) {
+      throw this.makeLibzipError(this.libzip.getError(this.zip));
+    }
+  }
+  locate(name) {
+    return this.libzip.name.locate(this.zip, name, 0);
+  }
+  getFileSource(index) {
+    const cachedFileSource = this.fileSources.get(index);
+    if (typeof cachedFileSource !== `undefined`)
+      return { data: cachedFileSource, compressionMethod: 0 };
+    const stat = this.libzip.struct.statS();
+    const rc = this.libzip.statIndex(this.zip, index, 0, 0, stat);
+    if (rc === -1)
+      throw this.makeLibzipError(this.libzip.getError(this.zip));
+    const size = this.libzip.struct.statCompSize(stat);
+    const compressionMethod = this.libzip.struct.statCompMethod(stat);
+    const buffer = this.libzip.malloc(size);
+    try {
+      const file = this.libzip.fopenIndex(this.zip, index, 0, this.libzip.ZIP_FL_COMPRESSED);
+      if (file === 0)
+        throw this.makeLibzipError(this.libzip.getError(this.zip));
+      try {
+        const rc2 = this.libzip.fread(file, buffer, size, 0);
+        if (rc2 === -1)
+          throw this.makeLibzipError(this.libzip.file.getError(file));
+        else if (rc2 < size)
+          throw new Error(`Incomplete read`);
+        else if (rc2 > size)
+          throw new Error(`Overread`);
+        const memory = this.libzip.HEAPU8.subarray(buffer, buffer + size);
+        const data = Buffer.from(memory);
+        return { data, compressionMethod };
+      } finally {
+        this.libzip.fclose(file);
+      }
+    } finally {
+      this.libzip.free(buffer);
+    }
+  }
+  deleteEntry(index) {
+    this.fileSources.delete(index);
+    const rc = this.libzip.delete(this.zip, index);
+    if (rc === -1) {
+      throw this.makeLibzipError(this.libzip.getError(this.zip));
+    }
+  }
+  addDirectory(path) {
+    const index = this.libzip.dir.add(this.zip, path);
+    if (index === -1)
+      throw this.makeLibzipError(this.libzip.getError(this.zip));
+    return index;
+  }
+  getBufferAndClose() {
+    try {
+      this.libzip.source.keep(this.lzSource);
+      if (this.libzip.close(this.zip) === -1)
+        throw this.makeLibzipError(this.libzip.getError(this.zip));
+      if (this.libzip.source.open(this.lzSource) === -1)
+        throw this.makeLibzipError(this.libzip.source.error(this.lzSource));
+      if (this.libzip.source.seek(this.lzSource, 0, 0, this.libzip.SEEK_END) === -1)
+        throw this.makeLibzipError(this.libzip.source.error(this.lzSource));
+      const size = this.libzip.source.tell(this.lzSource);
+      if (size === -1)
+        throw this.makeLibzipError(this.libzip.source.error(this.lzSource));
+      if (this.libzip.source.seek(this.lzSource, 0, 0, this.libzip.SEEK_SET) === -1)
+        throw this.makeLibzipError(this.libzip.source.error(this.lzSource));
+      const buffer = this.libzip.malloc(size);
+      if (!buffer)
+        throw new Error(`Couldn't allocate enough memory`);
+      try {
+        const rc = this.libzip.source.read(this.lzSource, buffer, size);
+        if (rc === -1)
+          throw this.makeLibzipError(this.libzip.source.error(this.lzSource));
+        else if (rc < size)
+          throw new Error(`Incomplete read`);
+        else if (rc > size)
+          throw new Error(`Overread`);
+        let result = Buffer.from(this.libzip.HEAPU8.subarray(buffer, buffer + size));
+        if (process.env.YARN_IS_TEST_ENV && process.env.YARN_ZIP_DATA_EPILOGUE)
+          result = Buffer.concat([result, Buffer.from(process.env.YARN_ZIP_DATA_EPILOGUE)]);
+        return result;
+      } finally {
+        this.libzip.free(buffer);
+      }
+    } finally {
+      this.libzip.source.close(this.lzSource);
+      this.libzip.source.free(this.lzSource);
+    }
+  }
+  allocateBuffer(content) {
+    if (!Buffer.isBuffer(content))
+      content = Buffer.from(content);
+    const buffer = this.libzip.malloc(content.byteLength);
+    if (!buffer)
+      throw new Error(`Couldn't allocate enough memory`);
+    const heap = new Uint8Array(this.libzip.HEAPU8.buffer, buffer, content.byteLength);
+    heap.set(content);
+    return { buffer, byteLength: content.byteLength };
+  }
+  allocateUnattachedSource(content) {
+    const error = this.libzip.struct.errorS();
+    const { buffer, byteLength } = this.allocateBuffer(content);
+    const source = this.libzip.source.fromUnattachedBuffer(buffer, byteLength, 0, 1, error);
+    if (source === 0) {
+      this.libzip.free(error);
+      throw this.makeLibzipError(error);
+    }
+    return source;
+  }
+  allocateSource(content) {
+    const { buffer, byteLength } = this.allocateBuffer(content);
+    const source = this.libzip.source.fromBuffer(this.zip, buffer, byteLength, 0, 1);
+    if (source === 0) {
+      this.libzip.free(buffer);
+      throw this.makeLibzipError(this.libzip.getError(this.zip));
+    }
+    return source;
+  }
+  discard() {
+    this.libzip.discard(this.zip);
+  }
+}
+
+const ZIP_UNIX = 3;
+const STORE = 0;
+const DEFLATE = 8;
 const DEFAULT_COMPRESSION_LEVEL = `mixed`;
 function toUnixTimestamp(time) {
   if (typeof time === `string` && String(+time) === time)
@@ -16622,30 +17527,14 @@ function makeEmptyArchive() {
     0
   ]);
 }
-class LibzipError extends Error {
-  code;
-  constructor(message, code) {
-    super(message);
-    this.name = `Libzip Error`;
-    this.code = code;
-  }
-}
 class ZipFS extends BasePortableFakeFS {
-  libzip;
   baseFs;
   path;
   stats;
-  zip;
-  lzSource;
   level;
+  zipImpl;
   listings = /* @__PURE__ */ new Map();
   entries = /* @__PURE__ */ new Map();
-  /**
-   * A cache of indices mapped to file sources.
-   * Populated by `setFileSource` calls.
-   * Required for supporting read after write.
-   */
-  fileSources = /* @__PURE__ */ new Map();
   symlinkCount;
   fds = /* @__PURE__ */ new Map();
   nextFd = 0;
@@ -16653,9 +17542,11 @@ class ZipFS extends BasePortableFakeFS {
   readOnly = false;
   constructor(source, opts = {}) {
     super();
+    if (opts.readOnly)
+      this.readOnly = true;
     const pathOptions = opts;
     this.level = typeof pathOptions.level !== `undefined` ? pathOptions.level : DEFAULT_COMPRESSION_LEVEL;
-    source ??= makeEmptyArchive();
+    const ZipImplCls = opts.customZipImplementation ?? LibZipImpl;
     if (typeof source === `string`) {
       const { baseFs = new NodeFS() } = pathOptions;
       this.baseFs = baseFs;
@@ -16681,36 +17572,19 @@ class ZipFS extends BasePortableFakeFS {
         this.stats = makeDefaultStats();
       }
     }
-    this.libzip = getInstance();
-    const errPtr = this.libzip.malloc(4);
-    try {
-      let flags = 0;
-      if (opts.readOnly) {
-        flags |= this.libzip.ZIP_RDONLY;
-        this.readOnly = true;
+    if (typeof source === `string`) {
+      if (opts.create) {
+        this.zipImpl = new ZipImplCls({ buffer: makeEmptyArchive(), readOnly: this.readOnly });
+      } else {
+        this.zipImpl = new ZipImplCls({ path: source, baseFs: this.baseFs, readOnly: this.readOnly, size: this.stats.size });
       }
-      if (typeof source === `string`)
-        source = pathOptions.create ? makeEmptyArchive() : this.baseFs.readFileSync(source);
-      const lzSource = this.allocateUnattachedSource(source);
-      try {
-        this.zip = this.libzip.openFromSource(lzSource, flags, errPtr);
-        this.lzSource = lzSource;
-      } catch (error) {
-        this.libzip.source.free(lzSource);
-        throw error;
-      }
-      if (this.zip === 0) {
-        const error = this.libzip.struct.errorS();
-        this.libzip.error.initWithCode(error, this.libzip.getValue(errPtr, `i32`));
-        throw this.makeLibzipError(error);
-      }
-    } finally {
-      this.libzip.free(errPtr);
+    } else {
+      this.zipImpl = new ZipImplCls({ buffer: source ?? makeEmptyArchive(), readOnly: this.readOnly });
     }
     this.listings.set(PortablePath.root, /* @__PURE__ */ new Set());
-    const entryCount = this.libzip.getNumEntries(this.zip, 0);
-    for (let t = 0; t < entryCount; ++t) {
-      const raw = this.libzip.getName(this.zip, t, 0);
+    const listings = this.zipImpl.getListings();
+    for (let t = 0; t < listings.length; t++) {
+      const raw = listings[t];
       if (ppath.isAbsolute(raw))
         continue;
       const p = ppath.resolve(PortablePath.root, raw);
@@ -16719,18 +17593,8 @@ class ZipFS extends BasePortableFakeFS {
         this.registerListing(p);
       }
     }
-    this.symlinkCount = this.libzip.ext.countSymlinks(this.zip);
-    if (this.symlinkCount === -1)
-      throw this.makeLibzipError(this.libzip.getError(this.zip));
+    this.symlinkCount = this.zipImpl.getSymlinkCount();
     this.ready = true;
-  }
-  makeLibzipError(error) {
-    const errorCode = this.libzip.struct.errorCodeZip(error);
-    const strerror = this.libzip.error.strerror(error);
-    const libzipError = new LibzipError(strerror, this.libzip.errors[errorCode]);
-    if (errorCode === this.libzip.errors.ZIP_ER_CHANGED)
-      throw new Error(`Assertion failed: Unexpected libzip error: ${libzipError.message}`);
-    return libzipError;
   }
   getExtractHint(hints) {
     for (const fileName of this.entries.keys()) {
@@ -16761,45 +17625,14 @@ class ZipFS extends BasePortableFakeFS {
       return makeEmptyArchive();
     }
     try {
-      this.libzip.source.keep(this.lzSource);
-      if (this.libzip.close(this.zip) === -1)
-        throw this.makeLibzipError(this.libzip.getError(this.zip));
-      if (this.libzip.source.open(this.lzSource) === -1)
-        throw this.makeLibzipError(this.libzip.source.error(this.lzSource));
-      if (this.libzip.source.seek(this.lzSource, 0, 0, this.libzip.SEEK_END) === -1)
-        throw this.makeLibzipError(this.libzip.source.error(this.lzSource));
-      const size = this.libzip.source.tell(this.lzSource);
-      if (size === -1)
-        throw this.makeLibzipError(this.libzip.source.error(this.lzSource));
-      if (this.libzip.source.seek(this.lzSource, 0, 0, this.libzip.SEEK_SET) === -1)
-        throw this.makeLibzipError(this.libzip.source.error(this.lzSource));
-      const buffer = this.libzip.malloc(size);
-      if (!buffer)
-        throw new Error(`Couldn't allocate enough memory`);
-      try {
-        const rc = this.libzip.source.read(this.lzSource, buffer, size);
-        if (rc === -1)
-          throw this.makeLibzipError(this.libzip.source.error(this.lzSource));
-        else if (rc < size)
-          throw new Error(`Incomplete read`);
-        else if (rc > size)
-          throw new Error(`Overread`);
-        let result = Buffer.from(this.libzip.HEAPU8.subarray(buffer, buffer + size));
-        if (process.env.YARN_IS_TEST_ENV && process.env.YARN_ZIP_DATA_EPILOGUE)
-          result = Buffer.concat([result, Buffer.from(process.env.YARN_ZIP_DATA_EPILOGUE)]);
-        return result;
-      } finally {
-        this.libzip.free(buffer);
-      }
+      return this.zipImpl.getBufferAndClose();
     } finally {
-      this.libzip.source.close(this.lzSource);
-      this.libzip.source.free(this.lzSource);
       this.ready = false;
     }
   }
   discardAndClose() {
     this.prepareClose();
-    this.libzip.discard(this.zip);
+    this.zipImpl.discard();
     this.ready = false;
   }
   saveAndClose() {
@@ -17053,16 +17886,14 @@ class ZipFS extends BasePortableFakeFS {
   statImpl(reason, p, opts = {}) {
     const entry = this.entries.get(p);
     if (typeof entry !== `undefined`) {
-      const stat = this.libzip.struct.statS();
-      const rc = this.libzip.statIndex(this.zip, entry, 0, 0, stat);
-      if (rc === -1)
-        throw this.makeLibzipError(this.libzip.getError(this.zip));
+      const stat = this.zipImpl.stat(entry);
+      const crc = stat.crc;
+      const size = stat.size;
+      const mtimeMs = stat.mtime * 1e3;
       const uid = this.stats.uid;
       const gid = this.stats.gid;
-      const size = this.libzip.struct.statSize(stat) >>> 0;
       const blksize = 512;
-      const blocks = Math.ceil(size / blksize);
-      const mtimeMs = (this.libzip.struct.statMtime(stat) >>> 0) * 1e3;
+      const blocks = Math.ceil(stat.size / blksize);
       const atimeMs = mtimeMs;
       const birthtimeMs = mtimeMs;
       const ctimeMs = mtimeMs;
@@ -17073,7 +17904,6 @@ class ZipFS extends BasePortableFakeFS {
       const type = this.listings.has(p) ? fs.constants.S_IFDIR : this.isSymbolicLink(entry) ? fs.constants.S_IFLNK : fs.constants.S_IFREG;
       const defaultMode = type === fs.constants.S_IFDIR ? 493 : 420;
       const mode = type | this.getUnixMode(entry, defaultMode) & 511;
-      const crc = this.libzip.struct.statCrc(stat);
       const statInstance = Object.assign(new StatEntry(), { uid, gid, size, blksize, blocks, atime, birthtime, ctime, mtime, atimeMs, birthtimeMs, ctimeMs, mtimeMs, mode, crc });
       return opts.bigint === true ? convertToBigIntStats(statInstance) : statInstance;
     }
@@ -17099,13 +17929,10 @@ class ZipFS extends BasePortableFakeFS {
     throw new Error(`Unreachable`);
   }
   getUnixMode(index, defaultMode) {
-    const rc = this.libzip.file.getExternalAttributes(this.zip, index, 0, 0, this.libzip.uint08S, this.libzip.uint32S);
-    if (rc === -1)
-      throw this.makeLibzipError(this.libzip.getError(this.zip));
-    const opsys = this.libzip.getValue(this.libzip.uint08S, `i8`) >>> 0;
-    if (opsys !== this.libzip.ZIP_OPSYS_UNIX)
+    const [opsys, attributes] = this.zipImpl.getExternalAttributes(index);
+    if (opsys !== ZIP_UNIX)
       return defaultMode;
-    return this.libzip.getValue(this.libzip.uint32S, `i32`) >>> 16;
+    return attributes >>> 16;
   }
   registerListing(p) {
     const existingListing = this.listings.get(p);
@@ -17133,17 +17960,13 @@ class ZipFS extends BasePortableFakeFS {
     this.entries.delete(p);
     if (typeof entry === `undefined`)
       return;
-    this.fileSources.delete(entry);
     if (this.isSymbolicLink(entry)) {
       this.symlinkCount--;
     }
   }
   deleteEntry(p, index) {
     this.unregisterEntry(p);
-    const rc = this.libzip.delete(this.zip, index);
-    if (rc === -1) {
-      throw this.makeLibzipError(this.libzip.getError(this.zip));
-    }
+    this.zipImpl.deleteEntry(index);
   }
   resolveFilename(reason, p, resolveLastComponent = true, throwIfNoEntry = true) {
     if (!this.ready)
@@ -17176,7 +17999,7 @@ class ZipFS extends BasePortableFakeFS {
       resolvedP = ppath.resolve(parentP, ppath.basename(resolvedP));
       if (!resolveLastComponent || this.symlinkCount === 0)
         break;
-      const index = this.libzip.name.locate(this.zip, resolvedP.slice(1), 0);
+      const index = this.zipImpl.locate(resolvedP.slice(1));
       if (index === -1)
         break;
       if (this.isSymbolicLink(index)) {
@@ -17188,118 +18011,46 @@ class ZipFS extends BasePortableFakeFS {
     }
     return resolvedP;
   }
-  allocateBuffer(content) {
-    if (!Buffer.isBuffer(content))
-      content = Buffer.from(content);
-    const buffer = this.libzip.malloc(content.byteLength);
-    if (!buffer)
-      throw new Error(`Couldn't allocate enough memory`);
-    const heap = new Uint8Array(this.libzip.HEAPU8.buffer, buffer, content.byteLength);
-    heap.set(content);
-    return { buffer, byteLength: content.byteLength };
-  }
-  allocateUnattachedSource(content) {
-    const error = this.libzip.struct.errorS();
-    const { buffer, byteLength } = this.allocateBuffer(content);
-    const source = this.libzip.source.fromUnattachedBuffer(buffer, byteLength, 0, 1, error);
-    if (source === 0) {
-      this.libzip.free(error);
-      throw this.makeLibzipError(error);
-    }
-    return source;
-  }
-  allocateSource(content) {
-    const { buffer, byteLength } = this.allocateBuffer(content);
-    const source = this.libzip.source.fromBuffer(this.zip, buffer, byteLength, 0, 1);
-    if (source === 0) {
-      this.libzip.free(buffer);
-      throw this.makeLibzipError(this.libzip.getError(this.zip));
-    }
-    return source;
-  }
   setFileSource(p, content) {
     const buffer = Buffer.isBuffer(content) ? content : Buffer.from(content);
     const target = ppath.relative(PortablePath.root, p);
-    const lzSource = this.allocateSource(content);
-    try {
-      const newIndex = this.libzip.file.add(this.zip, target, lzSource, this.libzip.ZIP_FL_OVERWRITE);
-      if (newIndex === -1)
-        throw this.makeLibzipError(this.libzip.getError(this.zip));
-      if (this.level !== `mixed`) {
-        const method = this.level === 0 ? this.libzip.ZIP_CM_STORE : this.libzip.ZIP_CM_DEFLATE;
-        const rc = this.libzip.file.setCompression(this.zip, newIndex, 0, method, this.level);
-        if (rc === -1) {
-          throw this.makeLibzipError(this.libzip.getError(this.zip));
-        }
-      }
-      this.fileSources.set(newIndex, buffer);
-      return newIndex;
-    } catch (error) {
-      this.libzip.source.free(lzSource);
-      throw error;
+    let compression = null;
+    if (this.level !== `mixed`) {
+      const method = this.level === 0 ? STORE : DEFLATE;
+      compression = [method, this.level];
     }
+    const newIndex = this.zipImpl.setFileSource(target, compression, buffer);
+    return newIndex;
   }
   isSymbolicLink(index) {
     if (this.symlinkCount === 0)
       return false;
-    const attrs = this.libzip.file.getExternalAttributes(this.zip, index, 0, 0, this.libzip.uint08S, this.libzip.uint32S);
-    if (attrs === -1)
-      throw this.makeLibzipError(this.libzip.getError(this.zip));
-    const opsys = this.libzip.getValue(this.libzip.uint08S, `i8`) >>> 0;
-    if (opsys !== this.libzip.ZIP_OPSYS_UNIX)
+    const [opsys, attrs] = this.zipImpl.getExternalAttributes(index);
+    if (opsys !== ZIP_UNIX)
       return false;
-    const attributes = this.libzip.getValue(this.libzip.uint32S, `i32`) >>> 16;
+    const attributes = attrs >>> 16;
     return (attributes & fs.constants.S_IFMT) === fs.constants.S_IFLNK;
   }
   getFileSource(index, opts = { asyncDecompress: false }) {
-    const cachedFileSource = this.fileSources.get(index);
-    if (typeof cachedFileSource !== `undefined`)
-      return cachedFileSource;
-    const stat = this.libzip.struct.statS();
-    const rc = this.libzip.statIndex(this.zip, index, 0, 0, stat);
-    if (rc === -1)
-      throw this.makeLibzipError(this.libzip.getError(this.zip));
-    const size = this.libzip.struct.statCompSize(stat);
-    const compressionMethod = this.libzip.struct.statCompMethod(stat);
-    const buffer = this.libzip.malloc(size);
-    try {
-      const file = this.libzip.fopenIndex(this.zip, index, 0, this.libzip.ZIP_FL_COMPRESSED);
-      if (file === 0)
-        throw this.makeLibzipError(this.libzip.getError(this.zip));
-      try {
-        const rc2 = this.libzip.fread(file, buffer, size, 0);
-        if (rc2 === -1)
-          throw this.makeLibzipError(this.libzip.file.getError(file));
-        else if (rc2 < size)
-          throw new Error(`Incomplete read`);
-        else if (rc2 > size)
-          throw new Error(`Overread`);
-        const memory = this.libzip.HEAPU8.subarray(buffer, buffer + size);
-        const data = Buffer.from(memory);
-        if (compressionMethod === 0) {
-          this.fileSources.set(index, data);
-          return data;
-        } else if (opts.asyncDecompress) {
-          return new Promise((resolve, reject) => {
-            zlib__default.default.inflateRaw(data, (error, result) => {
-              if (error) {
-                reject(error);
-              } else {
-                this.fileSources.set(index, result);
-                resolve(result);
-              }
-            });
+    const { data, compressionMethod } = this.zipImpl.getFileSource(index);
+    if (compressionMethod === STORE) {
+      return data;
+    } else if (compressionMethod === DEFLATE) {
+      if (opts.asyncDecompress) {
+        return new Promise((resolve, reject) => {
+          zlib__default.default.inflateRaw(data, (error, result) => {
+            if (error) {
+              reject(error);
+            } else {
+              resolve(result);
+            }
           });
-        } else {
-          const decompressedData = zlib__default.default.inflateRawSync(data);
-          this.fileSources.set(index, decompressedData);
-          return decompressedData;
-        }
-      } finally {
-        this.libzip.fclose(file);
+        });
+      } else {
+        return zlib__default.default.inflateRawSync(data);
       }
-    } finally {
-      this.libzip.free(buffer);
+    } else {
+      throw new Error(`Unsupported compression method: ${compressionMethod}`);
     }
   }
   async fchmodPromise(fd, mask) {
@@ -17321,10 +18072,7 @@ class ZipFS extends BasePortableFakeFS {
       throw new Error(`Assertion failed: The entry should have been registered (${resolvedP})`);
     const oldMod = this.getUnixMode(entry, fs.constants.S_IFREG | 0);
     const newMod = oldMod & ~511 | mask;
-    const rc = this.libzip.file.setExternalAttributes(this.zip, entry, 0, 0, this.libzip.ZIP_OPSYS_UNIX, newMod << 16);
-    if (rc === -1) {
-      throw this.makeLibzipError(this.libzip.getError(this.zip));
-    }
+    this.zipImpl.setExternalAttributes(entry, ZIP_UNIX, newMod << 16);
   }
   async fchownPromise(fd, uid, gid) {
     return this.chownPromise(this.fdToPath(fd, `fchown`), uid, gid);
@@ -17498,10 +18246,7 @@ class ZipFS extends BasePortableFakeFS {
     const entry = this.entries.get(resolvedP);
     if (entry === void 0)
       throw new Error(`Unreachable`);
-    const rc = this.libzip.file.setMtime(this.zip, entry, 0, toUnixTimestamp(mtime), 0);
-    if (rc === -1) {
-      throw this.makeLibzipError(this.libzip.getError(this.zip));
-    }
+    this.zipImpl.setMtime(entry, toUnixTimestamp(mtime));
   }
   async mkdirPromise(p, opts) {
     return this.mkdirSync(p, opts);
@@ -17561,9 +18306,7 @@ class ZipFS extends BasePortableFakeFS {
     this.deleteEntry(p, index);
   }
   hydrateDirectory(resolvedP) {
-    const index = this.libzip.dir.add(this.zip, ppath.relative(PortablePath.root, resolvedP));
-    if (index === -1)
-      throw this.makeLibzipError(this.libzip.getError(this.zip));
+    const index = this.zipImpl.addDirectory(ppath.relative(PortablePath.root, resolvedP));
     this.registerListing(resolvedP);
     this.registerEntry(resolvedP, index);
     return index;
@@ -17587,9 +18330,7 @@ class ZipFS extends BasePortableFakeFS {
       throw EEXIST(`symlink '${target}' -> '${p}'`);
     const index = this.setFileSource(resolvedP, target);
     this.registerEntry(resolvedP, index);
-    const rc = this.libzip.file.setExternalAttributes(this.zip, index, 0, 0, this.libzip.ZIP_OPSYS_UNIX, (fs.constants.S_IFLNK | 511) << 16);
-    if (rc === -1)
-      throw this.makeLibzipError(this.libzip.getError(this.zip));
+    this.zipImpl.setExternalAttributes(index, ZIP_UNIX, (fs.constants.S_IFLNK | 511) << 16);
     this.symlinkCount += 1;
   }
   async readFilePromise(p, encoding) {
@@ -17744,10 +18485,13 @@ class ZipFS extends BasePortableFakeFS {
       } };
     const interval = setInterval(() => {
     }, 24 * 60 * 60 * 1e3);
-    return { on: () => {
-    }, close: () => {
-      clearInterval(interval);
-    } };
+    return {
+      on: () => {
+      },
+      close: () => {
+        clearInterval(interval);
+      }
+    };
   }
   watchFile(p, a, b) {
     const resolvedP = ppath.resolve(PortablePath.root, p);
@@ -17756,6 +18500,188 @@ class ZipFS extends BasePortableFakeFS {
   unwatchFile(p, cb) {
     const resolvedP = ppath.resolve(PortablePath.root, p);
     return unwatchFile(this, resolvedP, cb);
+  }
+}
+
+const SIGNATURE = {
+  CENTRAL_DIRECTORY: 33639248,
+  END_OF_CENTRAL_DIRECTORY: 101010256
+};
+const noCommentCDSize = 22;
+class JsZipImpl {
+  fd;
+  baseFs;
+  entries;
+  constructor(opts) {
+    if (`buffer` in opts)
+      throw new Error(`Buffer based zip archives are not supported`);
+    if (!opts.readOnly)
+      throw new Error(`Writable zip archives are not supported`);
+    this.baseFs = opts.baseFs;
+    this.fd = this.baseFs.openSync(opts.path, `r`);
+    this.entries = JsZipImpl.readZipSync(this.fd, this.baseFs, opts.size);
+  }
+  static readZipSync(fd, baseFs, fileSize) {
+    if (fileSize < noCommentCDSize)
+      throw new Error(`Invalid ZIP file: EOCD not found`);
+    let eocdOffset = -1;
+    let eocdBuffer = Buffer.alloc(noCommentCDSize);
+    baseFs.readSync(
+      fd,
+      eocdBuffer,
+      0,
+      noCommentCDSize,
+      fileSize - noCommentCDSize
+    );
+    if (eocdBuffer.readUInt32LE(0) === SIGNATURE.END_OF_CENTRAL_DIRECTORY) {
+      eocdOffset = 0;
+    } else {
+      const bufferSize = Math.min(65557, fileSize);
+      eocdBuffer = Buffer.alloc(bufferSize);
+      baseFs.readSync(
+        fd,
+        eocdBuffer,
+        0,
+        bufferSize,
+        Math.max(0, fileSize - bufferSize)
+      );
+      for (let i = eocdBuffer.length - 4; i >= 0; i--) {
+        if (eocdBuffer.readUInt32LE(i) === SIGNATURE.END_OF_CENTRAL_DIRECTORY) {
+          eocdOffset = i;
+          break;
+        }
+      }
+      if (eocdOffset === -1) {
+        throw new Error(`Not a zip archive`);
+      }
+    }
+    const totalEntries = eocdBuffer.readUInt16LE(eocdOffset + 10);
+    const centralDirSize = eocdBuffer.readUInt32LE(eocdOffset + 12);
+    const centralDirOffset = eocdBuffer.readUInt32LE(eocdOffset + 16);
+    const commentLength = eocdBuffer.readUInt16LE(eocdOffset + 20);
+    if (eocdOffset + commentLength + noCommentCDSize > eocdBuffer.length)
+      throw new Error(`Zip archive inconsistent`);
+    if (totalEntries == 65535 || centralDirSize == 4294967295 || centralDirOffset == 4294967295)
+      throw new Error(`Zip 64 is not supported`);
+    if (centralDirSize > fileSize)
+      throw new Error(`Zip archive inconsistent`);
+    if (totalEntries > centralDirSize / 46)
+      throw new Error(`Zip archive inconsistent`);
+    const cdBuffer = Buffer.alloc(centralDirSize);
+    if (baseFs.readSync(fd, cdBuffer, 0, cdBuffer.length, centralDirOffset) !== cdBuffer.length)
+      throw new Error(`Zip archive inconsistent`);
+    const entries = [];
+    let offset = 0;
+    let index = 0;
+    let sumCompressedSize = 0;
+    while (index < totalEntries) {
+      if (offset + 46 > cdBuffer.length)
+        throw new Error(`Zip archive inconsistent`);
+      if (cdBuffer.readUInt32LE(offset) !== SIGNATURE.CENTRAL_DIRECTORY)
+        throw new Error(`Zip archive inconsistent`);
+      const versionMadeBy = cdBuffer.readUInt16LE(offset + 4);
+      const os = versionMadeBy >>> 8;
+      const flags = cdBuffer.readUInt16LE(offset + 8);
+      if ((flags & 1) !== 0)
+        throw new Error(`Encrypted zip files are not supported`);
+      const compressionMethod = cdBuffer.readUInt16LE(offset + 10);
+      const crc = cdBuffer.readUInt32LE(offset + 16);
+      const nameLength = cdBuffer.readUInt16LE(offset + 28);
+      const extraLength = cdBuffer.readUInt16LE(offset + 30);
+      const commentLength2 = cdBuffer.readUInt16LE(offset + 32);
+      const localHeaderOffset = cdBuffer.readUInt32LE(offset + 42);
+      const name = cdBuffer.toString(`utf8`, offset + 46, offset + 46 + nameLength).replaceAll(`\0`, ` `);
+      if (name.includes(`\0`))
+        throw new Error(`Invalid ZIP file`);
+      const compressedSize = cdBuffer.readUInt32LE(offset + 20);
+      const externalAttributes = cdBuffer.readUInt32LE(offset + 38);
+      entries.push({
+        name,
+        os,
+        mtime: SAFE_TIME,
+        //we dont care,
+        crc,
+        compressionMethod,
+        isSymbolicLink: os === ZIP_UNIX && (externalAttributes >>> 16 & S_IFMT) === S_IFLNK,
+        size: cdBuffer.readUInt32LE(offset + 24),
+        compressedSize,
+        externalAttributes,
+        localHeaderOffset
+      });
+      sumCompressedSize += compressedSize;
+      index += 1;
+      offset += 46 + nameLength + extraLength + commentLength2;
+    }
+    if (sumCompressedSize > fileSize)
+      throw new Error(`Zip archive inconsistent`);
+    if (offset !== cdBuffer.length)
+      throw new Error(`Zip archive inconsistent`);
+    return entries;
+  }
+  getExternalAttributes(index) {
+    const entry = this.entries[index];
+    return [entry.os, entry.externalAttributes];
+  }
+  getListings() {
+    return this.entries.map((e) => e.name);
+  }
+  getSymlinkCount() {
+    let count = 0;
+    for (const entry of this.entries)
+      if (entry.isSymbolicLink)
+        count += 1;
+    return count;
+  }
+  stat(index) {
+    const entry = this.entries[index];
+    return {
+      crc: entry.crc,
+      mtime: entry.mtime,
+      size: entry.size
+    };
+  }
+  locate(name) {
+    for (let ind = 0; ind < this.entries.length; ind++)
+      if (this.entries[ind].name === name)
+        return ind;
+    return -1;
+  }
+  getFileSource(index) {
+    const entry = this.entries[index];
+    const localHeaderBuf = Buffer.alloc(30);
+    this.baseFs.readSync(
+      this.fd,
+      localHeaderBuf,
+      0,
+      localHeaderBuf.length,
+      entry.localHeaderOffset
+    );
+    const nameLength = localHeaderBuf.readUInt16LE(26);
+    const extraLength = localHeaderBuf.readUInt16LE(28);
+    const buffer = Buffer.alloc(entry.compressedSize);
+    if (this.baseFs.readSync(this.fd, buffer, 0, entry.compressedSize, entry.localHeaderOffset + 30 + nameLength + extraLength) !== entry.compressedSize)
+      throw new Error(`Invalid ZIP file`);
+    return { data: buffer, compressionMethod: entry.compressionMethod };
+  }
+  discard() {
+  }
+  addDirectory(path) {
+    throw new Error(`Not implemented`);
+  }
+  deleteEntry(index) {
+    throw new Error(`Not implemented`);
+  }
+  setMtime(index, mtime) {
+    throw new Error(`Not implemented`);
+  }
+  getBufferAndClose() {
+    throw new Error(`Not implemented`);
+  }
+  setFileSource(target, compression, buffer) {
+    throw new Error(`Not implemented`);
+  }
+  setExternalAttributes(index, opsys, attributes) {
+    throw new Error(`Not implemented`);
   }
 }
 
@@ -18109,6 +19035,7 @@ function hydrateRuntimeState(data, { basePath }) {
     dependencyTreeRoots,
     enableTopLevelFallback,
     fallbackExclusionList,
+    pnpZipBackend: data.pnpZipBackend,
     fallbackPool,
     ignorePattern,
     packageLocatorsByLocations,
@@ -19765,8 +20692,10 @@ const localFs = { ...fs__default.default };
 const nodeFs = new NodeFS(localFs);
 const defaultRuntimeState = $$SETUP_STATE(hydrateRuntimeState);
 const defaultPnpapiResolution = __filename;
+const customZipImplementation = defaultRuntimeState.pnpZipBackend === `js` ? JsZipImpl : void 0;
 const defaultFsLayer = new VirtualFS({
   baseFs: new ZipOpenFS({
+    customZipImplementation,
     baseFs: nodeFs,
     maxOpenFiles: 80,
     readOnlyArchives: true
