@@ -73,7 +73,7 @@ const RAW_RUNTIME_STATE =
           ["url-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:4.1.1"],\
           ["vue", "virtual:7741e250996770f47ea2ec439bbf8460fab3d2cbd6adafeb065b6da7b3c7a46a393fd0367aadb25010fca8f64490e54a303f74ce13a76a6e8d596e2299a04b0a#npm:3.5.13"],\
           ["vue-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:17.4.2"],\
-          ["vue-router", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:4.5.0"],\
+          ["vue-router", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:4.5.1"],\
           ["vue-style-loader", "npm:4.1.3"],\
           ["vue-template-compiler", "npm:2.7.16"],\
           ["vue2-dropzone", "npm:3.6.0"],\
@@ -7760,7 +7760,7 @@ const RAW_RUNTIME_STATE =
           ["url-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:4.1.1"],\
           ["vue", "virtual:7741e250996770f47ea2ec439bbf8460fab3d2cbd6adafeb065b6da7b3c7a46a393fd0367aadb25010fca8f64490e54a303f74ce13a76a6e8d596e2299a04b0a#npm:3.5.13"],\
           ["vue-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:17.4.2"],\
-          ["vue-router", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:4.5.0"],\
+          ["vue-router", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:4.5.1"],\
           ["vue-style-loader", "npm:4.1.3"],\
           ["vue-template-compiler", "npm:2.7.16"],\
           ["vue2-dropzone", "npm:3.6.0"],\
@@ -12039,20 +12039,20 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["vue-router", [\
-      ["npm:4.5.0", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/vue-router-npm-4.5.0-eade46eba9-10c0.zip/node_modules/vue-router/",\
+      ["npm:4.5.1", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/vue-router-npm-4.5.1-e1e2c95bb4-10c0.zip/node_modules/vue-router/",\
         "packageDependencies": [\
-          ["vue-router", "npm:4.5.0"]\
+          ["vue-router", "npm:4.5.1"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:4.5.0", {\
-        "packageLocation": "./.yarn/__virtual__/vue-router-virtual-051f51d221/9/runner/cache/others/berry/cache/vue-router-npm-4.5.0-eade46eba9-10c0.zip/node_modules/vue-router/",\
+      ["virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:4.5.1", {\
+        "packageLocation": "./.yarn/__virtual__/vue-router-virtual-6ddfff9880/9/runner/cache/others/berry/cache/vue-router-npm-4.5.1-e1e2c95bb4-10c0.zip/node_modules/vue-router/",\
         "packageDependencies": [\
           ["@types/vue", null],\
           ["@vue/devtools-api", "npm:6.6.4"],\
           ["vue", "virtual:7741e250996770f47ea2ec439bbf8460fab3d2cbd6adafeb065b6da7b3c7a46a393fd0367aadb25010fca8f64490e54a303f74ce13a76a6e8d596e2299a04b0a#npm:3.5.13"],\
-          ["vue-router", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:4.5.0"]\
+          ["vue-router", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:4.5.1"]\
         ],\
         "packagePeers": [\
           "@types/vue",\
