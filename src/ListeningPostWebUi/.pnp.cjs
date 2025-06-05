@@ -35,7 +35,7 @@ const RAW_RUNTIME_STATE =
           ["axios", "npm:1.9.0"],\
           ["babel-core", "npm:6.26.3"],\
           ["babel-helper-vue-jsx-merge-props", "npm:2.0.3"],\
-          ["babel-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:9.2.1"],\
+          ["babel-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.0.0"],\
           ["babel-plugin-syntax-jsx", "npm:6.18.0"],\
           ["babel-plugin-transform-runtime", "npm:6.23.0"],\
           ["babel-plugin-transform-vue-jsx", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:3.7.0"],\
@@ -2651,22 +2651,21 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["babel-loader", [\
-      ["npm:9.2.1", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/babel-loader-npm-9.2.1-6cf3231de6-10c0.zip/node_modules/babel-loader/",\
+      ["npm:10.0.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/babel-loader-npm-10.0.0-0ac52159c5-10c0.zip/node_modules/babel-loader/",\
         "packageDependencies": [\
-          ["babel-loader", "npm:9.2.1"]\
+          ["babel-loader", "npm:10.0.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:9.2.1", {\
-        "packageLocation": "./.yarn/__virtual__/babel-loader-virtual-5f4636531d/9/runner/cache/others/berry/cache/babel-loader-npm-9.2.1-6cf3231de6-10c0.zip/node_modules/babel-loader/",\
+      ["virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.0.0", {\
+        "packageLocation": "./.yarn/__virtual__/babel-loader-virtual-0c8901f3c8/9/runner/cache/others/berry/cache/babel-loader-npm-10.0.0-0ac52159c5-10c0.zip/node_modules/babel-loader/",\
         "packageDependencies": [\
           ["@babel/core", "npm:7.24.7"],\
           ["@types/babel__core", null],\
           ["@types/webpack", null],\
-          ["babel-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:9.2.1"],\
-          ["find-cache-dir", "npm:4.0.0"],\
-          ["schema-utils", "npm:4.2.0"],\
+          ["babel-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.0.0"],\
+          ["find-up", "npm:5.0.0"],\
           ["webpack", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:5.99.8"]\
         ],\
         "packagePeers": [\
@@ -3932,15 +3931,6 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/commander-npm-8.3.0-c0d18c66d5-10c0.zip/node_modules/commander/",\
         "packageDependencies": [\
           ["commander", "npm:8.3.0"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["common-path-prefix", [\
-      ["npm:3.0.0", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/common-path-prefix-npm-3.0.0-68b78785c1-10c0.zip/node_modules/common-path-prefix/",\
-        "packageDependencies": [\
-          ["common-path-prefix", "npm:3.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -5948,15 +5938,6 @@ const RAW_RUNTIME_STATE =
           ["pkg-dir", "npm:4.2.0"]\
         ],\
         "linkType": "HARD"\
-      }],\
-      ["npm:4.0.0", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/find-cache-dir-npm-4.0.0-ad2504e37e-10c0.zip/node_modules/find-cache-dir/",\
-        "packageDependencies": [\
-          ["common-path-prefix", "npm:3.0.0"],\
-          ["find-cache-dir", "npm:4.0.0"],\
-          ["pkg-dir", "npm:7.0.0"]\
-        ],\
-        "linkType": "HARD"\
       }]\
     ]],\
     ["find-up", [\
@@ -5975,15 +5956,6 @@ const RAW_RUNTIME_STATE =
           ["find-up", "npm:5.0.0"],\
           ["locate-path", "npm:6.0.0"],\
           ["path-exists", "npm:4.0.0"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
-      ["npm:6.3.0", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/find-up-npm-6.3.0-e5056fc655-10c0.zip/node_modules/find-up/",\
-        "packageDependencies": [\
-          ["find-up", "npm:6.3.0"],\
-          ["locate-path", "npm:7.2.0"],\
-          ["path-exists", "npm:5.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -7806,7 +7778,7 @@ const RAW_RUNTIME_STATE =
           ["axios", "npm:1.9.0"],\
           ["babel-core", "npm:6.26.3"],\
           ["babel-helper-vue-jsx-merge-props", "npm:2.0.3"],\
-          ["babel-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:9.2.1"],\
+          ["babel-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.0.0"],\
           ["babel-plugin-syntax-jsx", "npm:6.18.0"],\
           ["babel-plugin-transform-runtime", "npm:6.23.0"],\
           ["babel-plugin-transform-vue-jsx", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:3.7.0"],\
@@ -7902,14 +7874,6 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["locate-path", "npm:6.0.0"],\
           ["p-locate", "npm:5.0.0"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
-      ["npm:7.2.0", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/locate-path-npm-7.2.0-0e1169e19b-10c0.zip/node_modules/locate-path/",\
-        "packageDependencies": [\
-          ["locate-path", "npm:7.2.0"],\
-          ["p-locate", "npm:6.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -8872,14 +8836,6 @@ const RAW_RUNTIME_STATE =
           ["yocto-queue", "npm:0.1.0"]\
         ],\
         "linkType": "HARD"\
-      }],\
-      ["npm:4.0.0", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/p-limit-npm-4.0.0-5dccf29b67-10c0.zip/node_modules/p-limit/",\
-        "packageDependencies": [\
-          ["p-limit", "npm:4.0.0"],\
-          ["yocto-queue", "npm:1.0.0"]\
-        ],\
-        "linkType": "HARD"\
       }]\
     ]],\
     ["p-locate", [\
@@ -8896,14 +8852,6 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["p-limit", "npm:3.1.0"],\
           ["p-locate", "npm:5.0.0"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
-      ["npm:6.0.0", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/p-locate-npm-6.0.0-b6cfb720dc-10c0.zip/node_modules/p-locate/",\
-        "packageDependencies": [\
-          ["p-limit", "npm:4.0.0"],\
-          ["p-locate", "npm:6.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -8998,13 +8946,6 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/path-exists-npm-4.0.0-e9e4f63eb0-10c0.zip/node_modules/path-exists/",\
         "packageDependencies": [\
           ["path-exists", "npm:4.0.0"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
-      ["npm:5.0.0", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/path-exists-npm-5.0.0-0bf403c56c-10c0.zip/node_modules/path-exists/",\
-        "packageDependencies": [\
-          ["path-exists", "npm:5.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -9105,14 +9046,6 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["find-up", "npm:4.1.0"],\
           ["pkg-dir", "npm:4.2.0"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
-      ["npm:7.0.0", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/pkg-dir-npm-7.0.0-02ff099b31-10c0.zip/node_modules/pkg-dir/",\
-        "packageDependencies": [\
-          ["find-up", "npm:6.3.0"],\
-          ["pkg-dir", "npm:7.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -12688,13 +12621,6 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/yocto-queue-npm-0.1.0-c6c9a7db29-10c0.zip/node_modules/yocto-queue/",\
         "packageDependencies": [\
           ["yocto-queue", "npm:0.1.0"]\
-        ],\
-        "linkType": "HARD"\
-      }],\
-      ["npm:1.0.0", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/yocto-queue-npm-1.0.0-7b502f1987-10c0.zip/node_modules/yocto-queue/",\
-        "packageDependencies": [\
-          ["yocto-queue", "npm:1.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
