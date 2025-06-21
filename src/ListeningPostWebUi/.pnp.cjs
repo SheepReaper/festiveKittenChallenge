@@ -62,7 +62,7 @@ const RAW_RUNTIME_STATE =
           ["optimize-css-assets-webpack-plugin", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:6.0.1"],\
           ["ora", "npm:8.2.0"],\
           ["portfinder", "npm:1.0.37"],\
-          ["postcss-import", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:16.1.0"],\
+          ["postcss-import", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:16.1.1"],\
           ["postcss-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:7.3.4"],\
           ["postcss-url", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.1.3"],\
           ["rimraf", "npm:5.0.10"],\
@@ -7833,7 +7833,7 @@ const RAW_RUNTIME_STATE =
           ["optimize-css-assets-webpack-plugin", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:6.0.1"],\
           ["ora", "npm:8.2.0"],\
           ["portfinder", "npm:1.0.37"],\
-          ["postcss-import", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:16.1.0"],\
+          ["postcss-import", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:16.1.1"],\
           ["postcss-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:7.3.4"],\
           ["postcss-url", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.1.3"],\
           ["rimraf", "npm:5.0.10"],\
@@ -9352,19 +9352,19 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["postcss-import", [\
-      ["npm:16.1.0", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/postcss-import-npm-16.1.0-97f2f09176-10c0.zip/node_modules/postcss-import/",\
+      ["npm:16.1.1", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/postcss-import-npm-16.1.1-b441cbcc73-10c0.zip/node_modules/postcss-import/",\
         "packageDependencies": [\
-          ["postcss-import", "npm:16.1.0"]\
+          ["postcss-import", "npm:16.1.1"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:16.1.0", {\
-        "packageLocation": "./.yarn/__virtual__/postcss-import-virtual-a27d6b79a5/9/runner/cache/others/berry/cache/postcss-import-npm-16.1.0-97f2f09176-10c0.zip/node_modules/postcss-import/",\
+      ["virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:16.1.1", {\
+        "packageLocation": "./.yarn/__virtual__/postcss-import-virtual-8c7ede2acf/9/runner/cache/others/berry/cache/postcss-import-npm-16.1.1-b441cbcc73-10c0.zip/node_modules/postcss-import/",\
         "packageDependencies": [\
           ["@types/postcss", null],\
           ["postcss", null],\
-          ["postcss-import", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:16.1.0"],\
+          ["postcss-import", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:16.1.1"],\
           ["postcss-value-parser", "npm:4.2.0"],\
           ["read-cache", "npm:1.0.0"],\
           ["resolve", "patch:resolve@npm%3A1.22.8#optional!builtin<compat/resolve>::version=1.22.8&hash=c3c19d"]\
