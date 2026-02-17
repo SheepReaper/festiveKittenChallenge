@@ -30,7 +30,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@babel/eslint-parser", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:7.28.0"],\
           ["@ckeditor/ckeditor5-build-classic", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-vue", "npm:5.1.0"],\
+          ["@ckeditor/ckeditor5-vue", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:7.3.1"],\
           ["autoprefixer", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.4.21"],\
           ["axios", "npm:1.13.5"],\
           ["babel-core", "npm:6.26.3"],\
@@ -636,6 +636,28 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@ckeditor/ckeditor5-integrations-common", [\
+      ["npm:2.2.3", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-integrations-common-npm-2.2.3-7ac8d4c3df-10c0.zip/node_modules/@ckeditor/ckeditor5-integrations-common/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-integrations-common", "npm:2.2.3"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:6f75d5804b2b9e07301462801add05144b373c68efd6e3bdf7be979783c3210f6cc72c94840ec0c25e66e973f4bb55ac1a37a97e027bee37814868c2b878fb2d#npm:2.2.3", {\
+        "packageLocation": "./.yarn/__virtual__/@ckeditor-ckeditor5-integrations-common-virtual-c39e3872eb/9/runner/cache/others/berry/cache/@ckeditor-ckeditor5-integrations-common-npm-2.2.3-7ac8d4c3df-10c0.zip/node_modules/@ckeditor/ckeditor5-integrations-common/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-integrations-common", "virtual:6f75d5804b2b9e07301462801add05144b373c68efd6e3bdf7be979783c3210f6cc72c94840ec0c25e66e973f4bb55ac1a37a97e027bee37814868c2b878fb2d#npm:2.2.3"],\
+          ["@types/ckeditor5", null],\
+          ["ckeditor5", null]\
+        ],\
+        "packagePeers": [\
+          "@types/ckeditor5",\
+          "ckeditor5"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@ckeditor/ckeditor5-link", [\
       ["npm:40.2.0", {\
         "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-link-npm-40.2.0-e222ba7da0-10c0.zip/node_modules/@ckeditor/ckeditor5-link/",\
@@ -777,10 +799,29 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@ckeditor/ckeditor5-vue", [\
-      ["npm:5.1.0", {\
-        "packageLocation": "./.yarn/unplugged/@ckeditor-ckeditor5-vue-npm-5.1.0-30baf5573c/node_modules/@ckeditor/ckeditor5-vue/",\
+      ["npm:7.3.1", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/@ckeditor-ckeditor5-vue-npm-7.3.1-acdf7e91ce-10c0.zip/node_modules/@ckeditor/ckeditor5-vue/",\
         "packageDependencies": [\
-          ["@ckeditor/ckeditor5-vue", "npm:5.1.0"]\
+          ["@ckeditor/ckeditor5-vue", "npm:7.3.1"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:7.3.1", {\
+        "packageLocation": "./.yarn/__virtual__/@ckeditor-ckeditor5-vue-virtual-6f75d5804b/9/runner/cache/others/berry/cache/@ckeditor-ckeditor5-vue-npm-7.3.1-acdf7e91ce-10c0.zip/node_modules/@ckeditor/ckeditor5-vue/",\
+        "packageDependencies": [\
+          ["@ckeditor/ckeditor5-integrations-common", "virtual:6f75d5804b2b9e07301462801add05144b373c68efd6e3bdf7be979783c3210f6cc72c94840ec0c25e66e973f4bb55ac1a37a97e027bee37814868c2b878fb2d#npm:2.2.3"],\
+          ["@ckeditor/ckeditor5-vue", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:7.3.1"],\
+          ["@types/ckeditor5", null],\
+          ["@types/vue", null],\
+          ["ckeditor5", null],\
+          ["lodash-es", "npm:4.17.23"],\
+          ["vue", "virtual:7741e250996770f47ea2ec439bbf8460fab3d2cbd6adafeb065b6da7b3c7a46a393fd0367aadb25010fca8f64490e54a303f74ce13a76a6e8d596e2299a04b0a#npm:3.5.18"]\
+        ],\
+        "packagePeers": [\
+          "@types/ckeditor5",\
+          "@types/vue",\
+          "ckeditor5",\
+          "vue"\
         ],\
         "linkType": "HARD"\
       }]\
@@ -7942,7 +7983,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@babel/eslint-parser", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:7.28.0"],\
           ["@ckeditor/ckeditor5-build-classic", "npm:40.2.0"],\
-          ["@ckeditor/ckeditor5-vue", "npm:5.1.0"],\
+          ["@ckeditor/ckeditor5-vue", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:7.3.1"],\
           ["autoprefixer", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.4.21"],\
           ["axios", "npm:1.13.5"],\
           ["babel-core", "npm:6.26.3"],\
@@ -8069,6 +8110,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/lodash-es-npm-4.17.21-b45832dfce-10c0.zip/node_modules/lodash-es/",\
         "packageDependencies": [\
           ["lodash-es", "npm:4.17.21"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:4.17.23", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/lodash-es-npm-4.17.23-b4279789e6-10c0.zip/node_modules/lodash-es/",\
+        "packageDependencies": [\
+          ["lodash-es", "npm:4.17.23"]\
         ],\
         "linkType": "HARD"\
       }]\
