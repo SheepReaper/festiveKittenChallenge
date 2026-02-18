@@ -63,7 +63,7 @@ const RAW_RUNTIME_STATE =
           ["ora", "npm:8.2.0"],\
           ["portfinder", "npm:1.0.37"],\
           ["postcss-import", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:16.1.1"],\
-          ["postcss-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:7.3.4"],\
+          ["postcss-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:8.2.1"],\
           ["postcss-url", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.1.3"],\
           ["rimraf", "npm:5.0.10"],\
           ["sass", "npm:1.89.2"],\
@@ -4166,22 +4166,22 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["cosmiconfig", [\
-      ["npm:8.3.6", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/cosmiconfig-npm-8.3.6-a5566e2779-10c0.zip/node_modules/cosmiconfig/",\
+      ["npm:9.0.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/cosmiconfig-npm-9.0.0-47d78cf275-10c0.zip/node_modules/cosmiconfig/",\
         "packageDependencies": [\
-          ["cosmiconfig", "npm:8.3.6"]\
+          ["cosmiconfig", "npm:9.0.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:b22ddcbb070a55a83f838411883b2d30019418841e6a89a867206ebdcd622ad3fe9fd611dd27d540176b7d718f6d87e651eff31b7fa036599419321e82f3ab19#npm:8.3.6", {\
-        "packageLocation": "./.yarn/__virtual__/cosmiconfig-virtual-b5c74c8fbd/9/runner/cache/others/berry/cache/cosmiconfig-npm-8.3.6-a5566e2779-10c0.zip/node_modules/cosmiconfig/",\
+      ["virtual:2e9da36eb1b0b71101cb21a8221029ded1effb2b516f40c9bdd187b2370b7806166de0fd7040b9e324744391ca075fe902061ea3f195640f9e26135b79034913#npm:9.0.0", {\
+        "packageLocation": "./.yarn/__virtual__/cosmiconfig-virtual-436cf34c86/9/runner/cache/others/berry/cache/cosmiconfig-npm-9.0.0-47d78cf275-10c0.zip/node_modules/cosmiconfig/",\
         "packageDependencies": [\
           ["@types/typescript", null],\
-          ["cosmiconfig", "virtual:b22ddcbb070a55a83f838411883b2d30019418841e6a89a867206ebdcd622ad3fe9fd611dd27d540176b7d718f6d87e651eff31b7fa036599419321e82f3ab19#npm:8.3.6"],\
+          ["cosmiconfig", "virtual:2e9da36eb1b0b71101cb21a8221029ded1effb2b516f40c9bdd187b2370b7806166de0fd7040b9e324744391ca075fe902061ea3f195640f9e26135b79034913#npm:9.0.0"],\
+          ["env-paths", "npm:2.2.1"],\
           ["import-fresh", "npm:3.3.0"],\
           ["js-yaml", "npm:4.1.0"],\
           ["parse-json", "npm:5.2.0"],\
-          ["path-type", "npm:4.0.0"],\
           ["typescript", null]\
         ],\
         "packagePeers": [\
@@ -7714,10 +7714,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["jiti", [\
-      ["npm:1.21.3", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/jiti-npm-1.21.3-d7ae287a4d-10c0.zip/node_modules/jiti/",\
+      ["npm:2.6.1", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/jiti-npm-2.6.1-597ab7fb84-10c0.zip/node_modules/jiti/",\
         "packageDependencies": [\
-          ["jiti", "npm:1.21.3"]\
+          ["jiti", "npm:2.6.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -7975,7 +7975,7 @@ const RAW_RUNTIME_STATE =
           ["ora", "npm:8.2.0"],\
           ["portfinder", "npm:1.0.37"],\
           ["postcss-import", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:16.1.1"],\
-          ["postcss-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:7.3.4"],\
+          ["postcss-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:8.2.1"],\
           ["postcss-url", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.1.3"],\
           ["rimraf", "npm:5.0.10"],\
           ["sass", "npm:1.89.2"],\
@@ -9525,27 +9525,31 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["postcss-loader", [\
-      ["npm:7.3.4", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/postcss-loader-npm-7.3.4-c196834792-10c0.zip/node_modules/postcss-loader/",\
+      ["npm:8.2.1", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/postcss-loader-npm-8.2.1-c201e127e3-10c0.zip/node_modules/postcss-loader/",\
         "packageDependencies": [\
-          ["postcss-loader", "npm:7.3.4"]\
+          ["postcss-loader", "npm:8.2.1"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:7.3.4", {\
-        "packageLocation": "./.yarn/__virtual__/postcss-loader-virtual-b22ddcbb07/9/runner/cache/others/berry/cache/postcss-loader-npm-7.3.4-c196834792-10c0.zip/node_modules/postcss-loader/",\
+      ["virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:8.2.1", {\
+        "packageLocation": "./.yarn/__virtual__/postcss-loader-virtual-2e9da36eb1/9/runner/cache/others/berry/cache/postcss-loader-npm-8.2.1-c201e127e3-10c0.zip/node_modules/postcss-loader/",\
         "packageDependencies": [\
+          ["@rspack/core", null],\
           ["@types/postcss", null],\
+          ["@types/rspack__core", null],\
           ["@types/webpack", null],\
-          ["cosmiconfig", "virtual:b22ddcbb070a55a83f838411883b2d30019418841e6a89a867206ebdcd622ad3fe9fd611dd27d540176b7d718f6d87e651eff31b7fa036599419321e82f3ab19#npm:8.3.6"],\
-          ["jiti", "npm:1.21.3"],\
+          ["cosmiconfig", "virtual:2e9da36eb1b0b71101cb21a8221029ded1effb2b516f40c9bdd187b2370b7806166de0fd7040b9e324744391ca075fe902061ea3f195640f9e26135b79034913#npm:9.0.0"],\
+          ["jiti", "npm:2.6.1"],\
           ["postcss", null],\
-          ["postcss-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:7.3.4"],\
-          ["semver", "npm:7.6.2"],\
+          ["postcss-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:8.2.1"],\
+          ["semver", "npm:7.7.4"],\
           ["webpack", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:5.104.1"]\
         ],\
         "packagePeers": [\
+          "@rspack/core",\
           "@types/postcss",\
+          "@types/rspack__core",\
           "@types/webpack",\
           "postcss",\
           "webpack"\
@@ -10863,6 +10867,13 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/semver-npm-7.7.2-dfc3bc5ec9-10c0.zip/node_modules/semver/",\
         "packageDependencies": [\
           ["semver", "npm:7.7.2"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:7.7.4", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/semver-npm-7.7.4-746e538da5-10c0.zip/node_modules/semver/",\
+        "packageDependencies": [\
+          ["semver", "npm:7.7.4"]\
         ],\
         "linkType": "HARD"\
       }]\
