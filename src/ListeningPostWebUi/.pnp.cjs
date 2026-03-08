@@ -32,7 +32,7 @@ const RAW_RUNTIME_STATE =
           ["@ckeditor/ckeditor5-build-classic", "npm:40.2.0"],\
           ["@ckeditor/ckeditor5-vue", "npm:5.1.0"],\
           ["autoprefixer", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.4.27"],\
-          ["axios", "npm:1.13.5"],\
+          ["axios", "npm:1.13.6"],\
           ["babel-core", "npm:6.26.3"],\
           ["babel-helper-vue-jsx-merge-props", "npm:2.0.3"],\
           ["babel-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:9.2.1"],\
@@ -2429,11 +2429,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["axios", [\
-      ["npm:1.13.5", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/axios-npm-1.13.5-ed8865f696-10c0.zip/node_modules/axios/",\
+      ["npm:1.13.6", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/axios-npm-1.13.6-d50d919f38-10c0.zip/node_modules/axios/",\
         "packageDependencies": [\
-          ["axios", "npm:1.13.5"],\
-          ["follow-redirects", "virtual:ed8865f696cebfbc109886bcd430c823f73cb3daaa6597dac1f006748e0fc10ed81734823f049aec03fadda2608be9aa560f98b843c8321891f307f4a175db89#npm:1.15.11"],\
+          ["axios", "npm:1.13.6"],\
+          ["follow-redirects", "virtual:d50d919f386f79799dbf08310718a8c9d013b7f3b397074380009da46d244077279bb24d4805528d90f5d6fcb9c4461336f26e9e65c9ce8e9362a24682e57206#npm:1.15.11"],\
           ["form-data", "npm:4.0.5"],\
           ["proxy-from-env", "npm:1.1.0"]\
         ],\
@@ -6146,12 +6146,12 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["virtual:ed8865f696cebfbc109886bcd430c823f73cb3daaa6597dac1f006748e0fc10ed81734823f049aec03fadda2608be9aa560f98b843c8321891f307f4a175db89#npm:1.15.11", {\
-        "packageLocation": "./.yarn/__virtual__/follow-redirects-virtual-eba31d82f7/9/runner/cache/others/berry/cache/follow-redirects-npm-1.15.11-ae7b2db266-10c0.zip/node_modules/follow-redirects/",\
+      ["virtual:d50d919f386f79799dbf08310718a8c9d013b7f3b397074380009da46d244077279bb24d4805528d90f5d6fcb9c4461336f26e9e65c9ce8e9362a24682e57206#npm:1.15.11", {\
+        "packageLocation": "./.yarn/__virtual__/follow-redirects-virtual-6127a471c1/9/runner/cache/others/berry/cache/follow-redirects-npm-1.15.11-ae7b2db266-10c0.zip/node_modules/follow-redirects/",\
         "packageDependencies": [\
           ["@types/debug", null],\
           ["debug", null],\
-          ["follow-redirects", "virtual:ed8865f696cebfbc109886bcd430c823f73cb3daaa6597dac1f006748e0fc10ed81734823f049aec03fadda2608be9aa560f98b843c8321891f307f4a175db89#npm:1.15.11"]\
+          ["follow-redirects", "virtual:d50d919f386f79799dbf08310718a8c9d013b7f3b397074380009da46d244077279bb24d4805528d90f5d6fcb9c4461336f26e9e65c9ce8e9362a24682e57206#npm:1.15.11"]\
         ],\
         "packagePeers": [\
           "@types/debug",\
@@ -7925,7 +7925,7 @@ const RAW_RUNTIME_STATE =
           ["@ckeditor/ckeditor5-build-classic", "npm:40.2.0"],\
           ["@ckeditor/ckeditor5-vue", "npm:5.1.0"],\
           ["autoprefixer", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.4.27"],\
-          ["axios", "npm:1.13.5"],\
+          ["axios", "npm:1.13.6"],\
           ["babel-core", "npm:6.26.3"],\
           ["babel-helper-vue-jsx-merge-props", "npm:2.0.3"],\
           ["babel-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:9.2.1"],\
