@@ -61,7 +61,7 @@ const RAW_RUNTIME_STATE =
           ["node-notifier", "npm:10.0.1"],\
           ["optimize-css-assets-webpack-plugin", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:6.0.1"],\
           ["ora", "npm:8.2.0"],\
-          ["portfinder", "npm:1.0.37"],\
+          ["portfinder", "npm:1.0.38"],\
           ["postcss-import", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:16.1.1"],\
           ["postcss-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:7.3.4"],\
           ["postcss-url", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.1.3"],\
@@ -4557,11 +4557,11 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["virtual:e003f0e83063783f6f5b447856b1fe0b4c880b3b76946cb348f271b4f7584df4c6a31310ab0b4817724db2f2ae5f3f7669c0e0ad57cec0237b0958a81d81f75c#npm:4.4.0", {\
-        "packageLocation": "./.yarn/__virtual__/debug-virtual-3d82dc8617/9/runner/cache/others/berry/cache/debug-npm-4.4.0-f6efe76023-10c0.zip/node_modules/debug/",\
+      ["virtual:d6e0c97a97c14a0fcf68aa7ea7f20b2c9e6dfd01fc09d8d2eee8ece5dcd69ae6572a3a13e16eb007e68abf2dfb43a452b9c68f10eef657254c49d6faa5b6aae1#npm:4.4.0", {\
+        "packageLocation": "./.yarn/__virtual__/debug-virtual-e369e871f9/9/runner/cache/others/berry/cache/debug-npm-4.4.0-f6efe76023-10c0.zip/node_modules/debug/",\
         "packageDependencies": [\
           ["@types/supports-color", null],\
-          ["debug", "virtual:e003f0e83063783f6f5b447856b1fe0b4c880b3b76946cb348f271b4f7584df4c6a31310ab0b4817724db2f2ae5f3f7669c0e0ad57cec0237b0958a81d81f75c#npm:4.4.0"],\
+          ["debug", "virtual:d6e0c97a97c14a0fcf68aa7ea7f20b2c9e6dfd01fc09d8d2eee8ece5dcd69ae6572a3a13e16eb007e68abf2dfb43a452b9c68f10eef657254c49d6faa5b6aae1#npm:4.4.0"],\
           ["ms", "npm:2.1.3"],\
           ["supports-color", null]\
         ],\
@@ -7954,7 +7954,7 @@ const RAW_RUNTIME_STATE =
           ["node-notifier", "npm:10.0.1"],\
           ["optimize-css-assets-webpack-plugin", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:6.0.1"],\
           ["ora", "npm:8.2.0"],\
-          ["portfinder", "npm:1.0.37"],\
+          ["portfinder", "npm:1.0.38"],\
           ["postcss-import", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:16.1.1"],\
           ["postcss-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:7.3.4"],\
           ["postcss-url", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.1.3"],\
@@ -9261,12 +9261,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["portfinder", [\
-      ["npm:1.0.37", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/portfinder-npm-1.0.37-e003f0e830-10c0.zip/node_modules/portfinder/",\
+      ["npm:1.0.38", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/portfinder-npm-1.0.38-d6e0c97a97-10c0.zip/node_modules/portfinder/",\
         "packageDependencies": [\
           ["async", "npm:3.2.6"],\
-          ["debug", "virtual:e003f0e83063783f6f5b447856b1fe0b4c880b3b76946cb348f271b4f7584df4c6a31310ab0b4817724db2f2ae5f3f7669c0e0ad57cec0237b0958a81d81f75c#npm:4.4.0"],\
-          ["portfinder", "npm:1.0.37"]\
+          ["debug", "virtual:d6e0c97a97c14a0fcf68aa7ea7f20b2c9e6dfd01fc09d8d2eee8ece5dcd69ae6572a3a13e16eb007e68abf2dfb43a452b9c68f10eef657254c49d6faa5b6aae1#npm:4.4.0"],\
+          ["portfinder", "npm:1.0.38"]\
         ],\
         "linkType": "HARD"\
       }]\
