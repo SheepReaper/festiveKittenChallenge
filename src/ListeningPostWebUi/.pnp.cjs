@@ -66,7 +66,7 @@ const RAW_RUNTIME_STATE =
           ["postcss-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:7.3.4"],\
           ["postcss-url", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.1.4"],\
           ["rimraf", "npm:5.0.10"],\
-          ["sass", "npm:1.99.0"],\
+          ["sass", "npm:1.106.1"],\
           ["sass-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:13.3.3"],\
           ["semver", "npm:7.8.5"],\
           ["shelljs", "npm:0.10.0"],\
@@ -3984,11 +3984,11 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:4.0.3", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/chokidar-npm-4.0.3-962354fbb4-10c0.zip/node_modules/chokidar/",\
+      ["npm:5.0.0", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/chokidar-npm-5.0.0-2f70d31c86-10c0.zip/node_modules/chokidar/",\
         "packageDependencies": [\
-          ["chokidar", "npm:4.0.3"],\
-          ["readdirp", "npm:4.1.2"]\
+          ["chokidar", "npm:5.0.0"],\
+          ["readdirp", "npm:5.1.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -8180,7 +8180,7 @@ const RAW_RUNTIME_STATE =
           ["postcss-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:7.3.4"],\
           ["postcss-url", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.1.4"],\
           ["rimraf", "npm:5.0.10"],\
-          ["sass", "npm:1.99.0"],\
+          ["sass", "npm:1.106.1"],\
           ["sass-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:13.3.3"],\
           ["semver", "npm:7.8.5"],\
           ["shelljs", "npm:0.10.0"],\
@@ -10586,10 +10586,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:4.1.2", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/readdirp-npm-4.1.2-3440472afe-10c0.zip/node_modules/readdirp/",\
+      ["npm:5.1.1", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/readdirp-npm-5.1.1-b7e741d672-10c0.zip/node_modules/readdirp/",\
         "packageDependencies": [\
-          ["readdirp", "npm:4.1.2"]\
+          ["readdirp", "npm:5.1.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -10945,13 +10945,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["sass", [\
-      ["npm:1.99.0", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/sass-npm-1.99.0-9ed8fe8584-10c0.zip/node_modules/sass/",\
+      ["npm:1.106.1", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/sass-npm-1.106.1-848071638a-10c0.zip/node_modules/sass/",\
         "packageDependencies": [\
           ["@parcel/watcher", "npm:2.5.1"],\
-          ["chokidar", "npm:4.0.3"],\
+          ["chokidar", "npm:5.0.0"],\
           ["immutable", "npm:5.1.5"],\
-          ["sass", "npm:1.99.0"],\
+          ["sass", "npm:1.106.1"],\
           ["source-map-js", "npm:1.2.0"]\
         ],\
         "linkType": "HARD"\
@@ -10976,7 +10976,7 @@ const RAW_RUNTIME_STATE =
           ["fibers", null],\
           ["neo-async", "npm:2.6.2"],\
           ["node-sass", null],\
-          ["sass", "npm:1.99.0"],\
+          ["sass", "npm:1.106.1"],\
           ["sass-embedded", null],\
           ["sass-loader", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:13.3.3"],\
           ["webpack", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:5.106.2"]\
