@@ -31,7 +31,7 @@ const RAW_RUNTIME_STATE =
           ["@babel/eslint-parser", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:7.29.9"],\
           ["@ckeditor/ckeditor5-build-classic", "npm:40.2.0"],\
           ["@ckeditor/ckeditor5-vue", "npm:5.1.0"],\
-          ["autoprefixer", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.6.1"],\
+          ["autoprefixer", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.6.2"],\
           ["axios", "npm:1.20.0"],\
           ["babel-core", "npm:6.26.3"],\
           ["babel-helper-vue-jsx-merge-props", "npm:2.0.3"],\
@@ -2574,18 +2574,18 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["autoprefixer", [\
-      ["npm:10.6.1", {\
-        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/autoprefixer-npm-10.6.1-c6f95a4206-10c0.zip/node_modules/autoprefixer/",\
+      ["npm:10.6.2", {\
+        "packageLocation": "../../../../../../../../runner/cache/others/berry/cache/autoprefixer-npm-10.6.2-82b18e6672-10c0.zip/node_modules/autoprefixer/",\
         "packageDependencies": [\
-          ["autoprefixer", "npm:10.6.1"]\
+          ["autoprefixer", "npm:10.6.2"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.6.1", {\
-        "packageLocation": "./.yarn/__virtual__/autoprefixer-virtual-09d5d655d0/9/runner/cache/others/berry/cache/autoprefixer-npm-10.6.1-c6f95a4206-10c0.zip/node_modules/autoprefixer/",\
+      ["virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.6.2", {\
+        "packageLocation": "./.yarn/__virtual__/autoprefixer-virtual-c19fab0ab7/9/runner/cache/others/berry/cache/autoprefixer-npm-10.6.2-82b18e6672-10c0.zip/node_modules/autoprefixer/",\
         "packageDependencies": [\
           ["@types/postcss", null],\
-          ["autoprefixer", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.6.1"],\
+          ["autoprefixer", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.6.2"],\
           ["browserslist", "npm:4.29.4"],\
           ["caniuse-lite", "npm:1.0.30001819"],\
           ["fraction.js", "npm:5.3.4"],\
@@ -8145,7 +8145,7 @@ const RAW_RUNTIME_STATE =
           ["@babel/eslint-parser", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:7.29.9"],\
           ["@ckeditor/ckeditor5-build-classic", "npm:40.2.0"],\
           ["@ckeditor/ckeditor5-vue", "npm:5.1.0"],\
-          ["autoprefixer", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.6.1"],\
+          ["autoprefixer", "virtual:01d4b7e5a3c74926c62fa662c25f49913edd425511bb7078c56946506ce062bf785a3eb39cda70f04cbb5098b9df56208d734497a229424fec518115c69d8601#npm:10.6.2"],\
           ["axios", "npm:1.20.0"],\
           ["babel-core", "npm:6.26.3"],\
           ["babel-helper-vue-jsx-merge-props", "npm:2.0.3"],\
